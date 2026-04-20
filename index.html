@@ -970,6 +970,133 @@
         }
         .why-card-full .why-card-number { opacity: 0.35; }
 
+        /* ===== NOTE FROM ORGANIZER ===== */
+        .organizer-note {
+            padding: 120px 60px;
+            background: var(--navy-deepest);
+            position: relative;
+            overflow: hidden;
+        }
+        .organizer-note::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+            opacity: 0.35;
+        }
+        .organizer-note::after {
+            content: '';
+            position: absolute;
+            bottom: 0; left: 0; right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+            opacity: 0.35;
+        }
+        .organizer-note-inner {
+            max-width: 780px;
+            margin: 0 auto;
+        }
+        .organizer-note-label {
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        .organizer-proud {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: var(--white);
+            text-align: center;
+            margin-bottom: 60px;
+            line-height: 1.2;
+        }
+        .proud-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+        }
+        .proud-item {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.05rem;
+            font-weight: 300;
+            color: rgba(255, 255, 255, 0.75);
+            line-height: 1.7;
+            padding-left: 32px;
+            position: relative;
+        }
+        .proud-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 11px;
+            width: 16px;
+            height: 1px;
+            background: var(--gold);
+        }
+        .proud-item strong {
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.95);
+        }
+        .proud-welcome {
+            text-align: center;
+            margin-top: 70px;
+        }
+        .proud-welcome-line {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--gold);
+            line-height: 1.8;
+        }
+        .proud-welcome-conf {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--white);
+            letter-spacing: 1px;
+            margin-top: 4px;
+        }
+        .organizer-signature {
+            margin-top: 70px;
+            padding-top: 40px;
+            border-top: 1px solid rgba(201, 168, 76, 0.15);
+            text-align: center;
+        }
+        .organizer-sig-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--white);
+            margin-bottom: 8px;
+        }
+        .organizer-sig-title {
+            font-size: 0.82rem;
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 300;
+            line-height: 1.7;
+        }
+        .organizer-sig-behalf {
+            font-size: 0.75rem;
+            color: var(--gold-muted);
+            font-weight: 500;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-top: 16px;
+        }
+        @media (max-width: 900px) {
+            .organizer-note { padding: 80px 30px; }
+            .organizer-proud { font-size: 2rem; margin-bottom: 40px; }
+            .proud-welcome-line { font-size: 1.3rem; }
+            .proud-welcome-conf { font-size: 1.4rem; }
+        }
+
         /* ===== CTA ===== */
         .cta {
             padding: 140px 60px;
@@ -1454,6 +1581,35 @@
         </div>
     </section>
 
+    <section class="organizer-note">
+        <div class="organizer-note-inner">
+            <div class="organizer-note-label">Note from the Organizer</div>
+            <div class="organizer-proud">I am proud and grateful.</div>
+            <ul class="proud-list">
+                <li class="proud-item">Not of pulling together <strong>60 speakers</strong> in Chicago &mdash; though that&rsquo;s no small feat.</li>
+                <li class="proud-item">Proud of the <strong>Northwestern University community</strong> rallying behind this vision.</li>
+                <li class="proud-item">Proud of <strong>10+ graduate students</strong> volunteering over <strong>500 hours</strong> &mdash; unpaid, unasked, unstoppable.</li>
+                <li class="proud-item">Proud of speakers and sponsors who gave generously because they <strong>believe in the mission</strong>.</li>
+                <li class="proud-item">Proud that we built a space where <strong>every side gets a voice</strong> and high-quality debate is the standard, not the exception.</li>
+                <li class="proud-item">Proud that this is <strong>not a pay-to-speak conference</strong> &mdash; and never will be.</li>
+                <li class="proud-item">Proud to welcome the <strong>scholars and judges</strong> working at the frontier of legal development.</li>
+                <li class="proud-item">Proud of everything we are about to <strong>make happen on May 1st</strong>.</li>
+            </ul>
+            <div class="proud-welcome">
+                <div class="proud-welcome-line">Welcome to the Magic City.</div>
+                <div class="proud-welcome-conf">Welcome to the Chicago Litigation Finance Conference.<sup class="fn">****</sup></div>
+            </div>
+            <div class="organizer-signature">
+                <div class="organizer-sig-name">Charles Zuo</div>
+                <div class="organizer-sig-title">
+                    JD/MBA Candidate, Class of 2026<br>
+                    Northwestern University
+                </div>
+                <div class="organizer-sig-behalf">On behalf of the Conference Prep Team</div>
+            </div>
+        </div>
+    </section>
+
     <section class="cta" id="register">
         <div class="cta-inner">
             <div class="section-label" style="color: var(--gold-muted); margin-bottom: 25px;">Join Us</div>
@@ -1493,6 +1649,7 @@
             <div class="footnote-item"><sup>*</sup>CLE credit approval is currently in progress. The conference anticipates offering CLE credits upon approval.</div>
             <div class="footnote-item"><sup>**</sup>Panels are listed alphabetically. The sequence and framing of panels may be subject to change.</div>
             <div class="footnote-item"><sup>***</sup>Co-hosting arrangements with select bar associations are currently under discussion. A finalized list of co-hosting organizations will be announced in due course.</div>
+            <div class="footnote-item"><sup>****</sup>Given the participation of 60 panelists, the organizer decides to name the event as a conference.</div>
         </div>
     </section>
 
