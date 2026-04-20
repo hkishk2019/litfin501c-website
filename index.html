@@ -48,6 +48,12 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            background: transparent;
+            backdrop-filter: none;
+            border-bottom: 1px solid transparent;
+            transition: background 0.4s ease, backdrop-filter 0.4s ease, border-bottom 0.4s ease;
+        }
+        nav.nav-scrolled {
             background: rgba(248, 247, 244, 0.95);
             backdrop-filter: blur(20px);
             border-bottom: 1px solid rgba(201, 168, 76, 0.2);
@@ -55,24 +61,28 @@
 
         .nav-brand {
             font-family: 'Playfair Display', serif;
-            color: var(--text-heading);
+            color: rgba(255,255,255,0.9);
             font-size: 1.05rem;
             font-weight: 500;
             letter-spacing: 0.5px;
+            transition: color 0.4s ease;
         }
         .nav-brand span { color: var(--gold); }
+        nav.nav-scrolled .nav-brand { color: var(--text-heading); }
 
         .nav-links { display: flex; gap: 36px; list-style: none; }
         .nav-links a {
-            color: var(--gray-dark);
+            color: rgba(255,255,255,0.7);
             text-decoration: none;
             font-size: 0.82rem;
             font-weight: 500;
             letter-spacing: 1.5px;
             text-transform: uppercase;
-            transition: color 0.3s ease;
+            transition: color 0.4s ease;
         }
         .nav-links a:hover { color: var(--gold); }
+        nav.nav-scrolled .nav-links a { color: var(--gray-dark); }
+        nav.nav-scrolled .nav-links a:hover { color: var(--gold); }
 
         .nav-cta {
             padding: 10px 28px;
@@ -457,6 +467,143 @@
         .panel-featured .panel-name { font-size: 1.25rem; color: var(--text-heading); }
         .panel-featured:hover { box-shadow: 0 12px 40px rgba(201, 168, 76, 0.1); }
         .panel-featured:hover .panel-name { color: var(--gold-muted); }
+
+        /* ===== FEATURED EVENT (VIDEO BG) ===== */
+        .feat-video-section {
+            min-height: 80vh;
+            background: #0a1628;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            padding: 100px 60px;
+        }
+        .feat-video-bg {
+            position: absolute;
+            top: 50%; left: 50%;
+            min-width: 100%; min-height: 100%;
+            width: auto; height: auto;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+            z-index: 0;
+            opacity: 0.35;
+        }
+        .feat-video-section::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(165deg, rgba(10,22,40,0.7) 0%, rgba(15,29,50,0.5) 50%, rgba(10,22,40,0.7) 100%);
+            z-index: 1;
+        }
+        .feat-video-content {
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+            text-align: left;
+        }
+        .feat-tag {
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 24px;
+        }
+        .feat-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.4rem;
+            font-weight: 600;
+            color: var(--white);
+            line-height: 1.25;
+            margin-bottom: 28px;
+        }
+        .feat-desc {
+            font-size: 1.05rem;
+            line-height: 1.9;
+            color: rgba(255,255,255,0.7);
+            font-weight: 300;
+        }
+        .feat-desc strong {
+            font-weight: 500;
+            color: var(--white);
+        }
+        .feat-divider {
+            width: 50px;
+            height: 2px;
+            background: var(--gold);
+            margin-bottom: 20px;
+            opacity: 0.6;
+        }
+        .feat-person {
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.85);
+            margin-bottom: 4px;
+        }
+        .feat-person-role {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.45);
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        /* ===== FEATURED EVENT (PHOTO BG - SCHWARZMAN STYLE) ===== */
+        .feat-photo-section {
+            min-height: 80vh;
+            background: #0a1628;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            padding: 100px 60px;
+        }
+        .feat-photo-bg {
+            position: absolute;
+            top: 0; right: -15%;
+            width: 55%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 0% 15%;
+            z-index: 0;
+        }
+        .feat-photo-section::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(90deg, #0a1628 38%, rgba(10,22,40,0.95) 48%, rgba(10,22,40,0.6) 62%, rgba(10,22,40,0.3) 100%);
+            z-index: 1;
+        }
+        .feat-photo-section::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(to bottom, rgba(10,22,40,0.3) 0%, transparent 30%, transparent 70%, rgba(10,22,40,0.4) 100%);
+            z-index: 1;
+        }
+        .feat-photo-content {
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+        }
+        .feat-quote-mark {
+            font-family: 'Playfair Display', serif;
+            font-size: 6rem;
+            color: rgba(255,255,255,0.15);
+            line-height: 0.5;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 900px) {
+            .feat-video-section, .feat-photo-section { padding: 80px 30px; min-height: 70vh; }
+            .feat-title { font-size: 1.8rem; }
+            .feat-photo-bg { width: 100%; opacity: 0.3; }
+            .feat-photo-section::before {
+                background: linear-gradient(180deg, rgba(10,22,40,0.8) 0%, rgba(10,22,40,0.6) 100%);
+            }
+            .feat-photo-content { padding-left: 0; }
+        }
 
         /* ===== SPEAKERS SECTION ===== */
         .speakers {
@@ -1153,6 +1300,37 @@
         </div>
     </section>
 
+    <section class="feat-video-section">
+        <video class="feat-video-bg" autoplay muted loop playsinline>
+            <source src="zachary-bg.mp4" type="video/mp4">
+        </video>
+        <div class="feat-video-content">
+            <div class="feat-tag">Remark &amp; Dialogue</div>
+            <div class="feat-title">Dean of Northwestern<br>Pritzker School of Law</div>
+            <p class="feat-desc">
+                Come and meet with <strong>Zachary Clopton</strong>, Dean of Northwestern Pritzker School of Law, who will give his warmest welcome to nationwide guests to visit Chicago at its finest time.
+            </p>
+            <div class="feat-divider" style="margin-top: 30px;"></div>
+            <div class="feat-person">Zachary Clopton</div>
+            <div class="feat-person-role">Dean, Northwestern Pritzker School of Law</div>
+        </div>
+    </section>
+
+    <section class="feat-photo-section">
+        <img class="feat-photo-bg" src="craig-bg.jpg" alt="Craig C. Martin">
+        <div class="feat-photo-content">
+            <div class="feat-quote-mark">&ldquo;</div>
+            <div class="feat-tag">Fireside Chat</div>
+            <div class="feat-title">Chairman, Americas of<br>Willkie Farr &amp; Gallagher LLP</div>
+            <p class="feat-desc">
+                Curious about what the next moves of a leading Am Law firm are? Come and meet with <strong>Craig C. Martin</strong>, Chairman, Americas of Willkie Farr &amp; Gallagher LLP, and hear his journey of practicing law, opening the firm's Chicago office, leading a giant and prestigious global law firm, and his views on the impact of AI to the legal industry.
+            </p>
+            <div class="feat-divider" style="margin-top: 30px;"></div>
+            <div class="feat-person">Craig C. Martin</div>
+            <div class="feat-person-role">Chairman, Americas &mdash; Willkie Farr &amp; Gallagher LLP</div>
+        </div>
+    </section>
+
     <section class="speakers" id="speakers-section">
         <div class="speakers-inner">
             <div class="about-label">Our Speakers</div>
@@ -1315,6 +1493,17 @@
 
     <script>
     (function() {
+        var nav = document.querySelector('nav');
+        var splash = document.querySelector('.splash');
+        var threshold = splash ? splash.offsetHeight - 72 : 300;
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > threshold) {
+                nav.classList.add('nav-scrolled');
+            } else {
+                nav.classList.remove('nav-scrolled');
+            }
+        });
+
         var PHOTO_BASE = 'panelist_photos/';
 
         fetch('panelist_bios.json')
