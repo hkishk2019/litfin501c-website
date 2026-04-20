@@ -68,7 +68,18 @@
             transition: color 0.4s ease;
         }
         .nav-brand span { color: var(--gold); }
+        .nav-byline {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.55rem;
+            font-weight: 500;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.4);
+            margin-top: 2px;
+            transition: color 0.4s ease;
+        }
         nav.nav-scrolled .nav-brand { color: var(--text-heading); }
+        nav.nav-scrolled .nav-byline { color: var(--gray-mid); }
 
         .nav-links { display: flex; gap: 36px; list-style: none; }
         .nav-links a {
@@ -100,6 +111,7 @@
             min-height: 100vh;
             background: #000;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             position: relative;
@@ -116,11 +128,17 @@
             text-align: center;
             line-height: 1.35;
             max-width: 900px;
+            margin-top: 38px;
         }
         .splash-text em {
             font-style: normal;
             font-weight: 600;
             letter-spacing: 0.18em;
+        }
+        .splash-logo {
+            margin-top: 50px;
+            width: clamp(100px, 15vw, 180px);
+            opacity: 0.55;
         }
         .splash-scroll {
             position: absolute;
@@ -190,6 +208,15 @@
             color: var(--white);
             line-height: 1.12;
             margin-bottom: 20px;
+        }
+        .hero-byline {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 400;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.55);
+            margin-bottom: 16px;
         }
         .hero-subtitle {
             font-family: 'Playfair Display', serif;
@@ -1026,6 +1053,7 @@
         }
         .hosts-logos {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             gap: 60px;
@@ -1139,7 +1167,7 @@
 <body>
 
     <nav>
-        <div class="nav-brand">Chicago Litigation Finance <span>Summit</span></div>
+        <div class="nav-brand">Chicago Litigation Finance <span>Summit</span><div class="nav-byline">By LITFIN501C Foundation</div></div>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#panels">Panels</a></li>
@@ -1151,6 +1179,7 @@
 
     <section class="splash">
         <div class="splash-text">WHERE THE <em>SCIENCE</em> OF LAW &amp; FINANCE MEETS <em>ART</em></div>
+        <img class="splash-logo" src="litfin501c-logo.png" alt="LitFin501c Foundation">
         <div class="splash-scroll"></div>
     </section>
 
@@ -1161,6 +1190,7 @@
         <div class="hero-content">
             <div class="hero-eyebrow">May 1, 2026 &mdash; Chicago, Illinois</div>
             <h1 class="hero-title">Chicago Litigation<br>Finance Summit 2026</h1>
+            <div class="hero-byline">BY LITFIN501C FOUNDATION</div>
             <p class="hero-subtitle">Shaping the Future of Litigation Finance</p>
             <div class="hero-meta">
                 <div class="hero-meta-item">
@@ -1443,7 +1473,8 @@
         <div class="hosts-inner">
             <div class="hosts-label">Organized &amp; Co-Hosted By<sup class="fn">***</sup></div>
             <div class="hosts-logos">
-                <div class="host-logo-primary">Northwestern University<br><span class="host-logo-sub">Kellogg School of Management<br>Investment Management Club</span></div>
+                <img src="litfin501c-logo-dark.png" alt="LitFin501c Foundation" style="width: 120px; margin-bottom: 28px; opacity: 0.7;">
+                <div class="host-logo-primary">Northwestern University<br><span class="host-logo-sub">Kellogg School of Management<br>Investment Management Club (E&amp;W)</span></div>
             </div>
         </div>
     </section>
