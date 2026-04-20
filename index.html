@@ -562,11 +562,11 @@
         }
         .feat-photo-bg {
             position: absolute;
-            top: 0; right: -15%;
-            width: 55%;
-            height: 100%;
-            object-fit: cover;
-            object-position: 0% 15%;
+            bottom: 0; right: 5%;
+            height: 95%;
+            width: auto;
+            object-fit: contain;
+            object-position: right bottom;
             z-index: 0;
         }
         .feat-photo-section::before {
@@ -598,7 +598,7 @@
         @media (max-width: 900px) {
             .feat-video-section, .feat-photo-section { padding: 80px 30px; min-height: 70vh; }
             .feat-title { font-size: 1.8rem; }
-            .feat-photo-bg { width: 100%; opacity: 0.3; }
+            .feat-photo-bg { height: 60%; width: auto; right: 0; opacity: 0.25; }
             .feat-photo-section::before {
                 background: linear-gradient(180deg, rgba(10,22,40,0.8) 0%, rgba(10,22,40,0.6) 100%);
             }
@@ -1317,7 +1317,7 @@
     </section>
 
     <section class="feat-photo-section">
-        <img class="feat-photo-bg" src="craig-bg.jpg" alt="Craig C. Martin">
+        <img class="feat-photo-bg" src="craig-bg.png" alt="Craig C. Martin">
         <div class="feat-photo-content">
             <div class="feat-quote-mark">&ldquo;</div>
             <div class="feat-tag">Fireside Chat</div>
