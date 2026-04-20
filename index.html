@@ -661,6 +661,7 @@
         }
         .speaker-card:hover { transform: translateY(-4px); }
         .speaker-card:hover .speaker-photo {
+            filter: saturate(0.85) contrast(0.95) brightness(1.03) sepia(0.06) hue-rotate(-5deg);
             box-shadow: 0 8px 25px rgba(201, 168, 76, 0.2);
             border-color: var(--gold);
         }
@@ -671,12 +672,11 @@
             object-fit: cover;
             object-position: top;
             border-radius: 4px;
-            filter: grayscale(15%);
+            filter: saturate(0.75) contrast(0.92) brightness(1.05) sepia(0.1) hue-rotate(-5deg);
             transition: all 0.4s ease;
             border: 2px solid transparent;
             background: var(--bg-warm-alt);
         }
-        .speaker-card:hover .speaker-photo { filter: grayscale(0%); }
 
         .speaker-name {
             font-family: 'Playfair Display', serif;
@@ -789,6 +789,7 @@
             object-fit: cover;
             object-position: top;
             border-radius: 4px;
+            filter: saturate(0.75) contrast(0.92) brightness(1.05) sepia(0.1) hue-rotate(-5deg);
         }
         .modal-bio-wrap { flex: 1; }
         .modal-bio {
