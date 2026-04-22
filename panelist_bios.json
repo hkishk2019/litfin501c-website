@@ -82,6 +82,58 @@
     ]
   },
   {
+    "name": "Heather K. McShain",
+    "current_title": "U.S. Magistrate Judge",
+    "current_employer": "U.S. District Court, Northern District of Illinois",
+    "panel": "5",
+    "role_on_panel": "Panelist",
+    "email": "",
+    "photo": "panelist_photos/heather_mcshain.jpg",
+    "bio": "Hon. Heather K. McShain has served as a U.S. Magistrate Judge for the Northern District of Illinois since 2020. Previously, she served for ten years as an Assistant United States Attorney in the Northern District of Illinois, rising to Deputy Chief of the Financial Crimes Section and supervising the Health Care Fraud Unit. She also served as Deputy Chief of General Crimes and as a line AUSA in the General Crimes, Financial Crimes, and Public Corruption and Organized Crime Sections. From 2002 to 2010, McShain was an AUSA in the Civil Division of the U.S. Attorney's Office for the Southern District of New York. Earlier in her career, she was an associate at Jones Day in Washington, D.C., and clerked for Judge Robert Cowen of the U.S. Court of Appeals for the Third Circuit and Judge William Lee of the U.S. District Court for the Northern District of Indiana. McShain currently serves as Adjunct Professor of Law at Notre Dame Law School and presides over the Veterans Treatment Court. She received a JD from Notre Dame Law School and a BS in Mathematics from the University of Notre Dame.\n",
+    "career": [
+      {
+        "role": "U.S. Magistrate Judge",
+        "employer": "U.S. District Court, Northern District of Illinois",
+        "years": "2020–Present"
+      },
+      {
+        "role": "Assistant U.S. Attorney (Deputy Chief, Financial Crimes)",
+        "employer": "U.S. Attorney's Office, Northern District of Illinois",
+        "years": "2010–2020"
+      },
+      {
+        "role": "Assistant U.S. Attorney, Civil Division",
+        "employer": "U.S. Attorney's Office, Southern District of New York",
+        "years": "2002–2010"
+      },
+      {
+        "role": "Associate",
+        "employer": "Jones Day",
+        "years": "Prior"
+      },
+      {
+        "role": "Law Clerk, Judge Robert Cowen",
+        "employer": "U.S. Court of Appeals for the Third Circuit",
+        "years": "Prior"
+      },
+      {
+        "role": "Law Clerk, Judge William Lee",
+        "employer": "U.S. District Court, Northern District of Indiana",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "Notre Dame Law School"
+      },
+      {
+        "degree": "BS in Mathematics",
+        "school": "University of Notre Dame"
+      }
+    ]
+  },
+  {
     "name": "Jesse G. Reyes",
     "current_title": "Justice",
     "current_employer": "Illinois Appellate Court, First District",
@@ -284,6 +336,43 @@
         "degree": "BSBA in Finance, summa cum laude",
         "school": "Washington University in St. Louis (Olin Business School)",
         "year": "2009"
+      }
+    ]
+  },
+  {
+    "name": "Michele Gambera",
+    "current_title": "Head of Strategic Asset Allocation Modeling",
+    "current_employer": "UBS Asset Management",
+    "panel": "1",
+    "role_on_panel": "Panelist",
+    "email": "",
+    "photo": "panelist_photos/michele_gambera.jpg",
+    "bio": "Michele Gambera has over 25 years of top-down investment management experience, focusing on asset allocation, risk management, and portfolio construction. After two years at the Chicago Fed as economist, he was at Morningstar for ten years in several capacities including chief economist of Ibbotson Associates, and among other things, he is one of the two authors of the Morningstar Star Ratings methodology for mutual funds. He then was at UBS Asset Management for 15 years, leading the development of models for strategic and tactical asset allocation, as well as envisioning portfolio solutions for large complex institutional clients such as sovereign wealth funds. A graduate of the University of Trento in Italy, Michele holds a PhD from the Pennsylvania State University. A CFA charterholder and co-author of two chapters in the CFA curriculum, Michele has published his research in several peer-reviewed journals, including the Journal of Finance. He has taught economics and finance at the Illinois Institute of Technology, Loyola University Chicago, University of Illinois at Chicago, University of Illinois at Urbana-Champaign, and University of West Virginia.\n",
+    "career": [
+      {
+        "role": "Head of Strategic Asset Allocation Modeling",
+        "employer": "UBS Asset Management",
+        "years": "2010–Present"
+      },
+      {
+        "role": "Chief Economist, Ibbotson Associates",
+        "employer": "Morningstar",
+        "years": "2000–2010"
+      },
+      {
+        "role": "Economist",
+        "employer": "Federal Reserve Bank of Chicago",
+        "years": "1998–2000"
+      }
+    ],
+    "education": [
+      {
+        "degree": "PhD in Economics",
+        "school": "Pennsylvania State University"
+      },
+      {
+        "degree": "BA/MA in Economics, with honors",
+        "school": "University of Trento, Italy"
       }
     ]
   },
@@ -541,6 +630,59 @@
       {
         "degree": "BA in History",
         "school": "University of Michigan"
+      }
+    ]
+  },
+  {
+    "name": "Kacey Wolmer",
+    "current_title": "Chief Operating Officer",
+    "current_employer": "Contingency Capital LLC",
+    "panel": "TBD",
+    "role_on_panel": "Panelist (added 4/18)",
+    "email": "",
+    "photo": "panelist_photos/kacey_wolmer.jpg",
+    "bio": "Kacey Wolmer is Chief Operating Officer at Contingency Capital LLC, a litigation finance firm, where she has served since January 2021. With approximately 18 years of experience spanning finance and law, she previously served as Senior Vice President and Counsel at FirstKey Mortgage, a portfolio company of Cerberus Capital Management. Earlier in her career, Wolmer practiced as an associate at Hunton & Williams LLP specializing in structured finance and securitization, at Fortress Investment Group, at Morgan Lewis & Bockius LLP in private funds, and at Thacher Proffitt & Wood in structured finance. Wolmer received a JD from the University of Michigan Law School and a BA from Emory University.\n",
+    "career": [
+      {
+        "role": "Chief Operating Officer",
+        "employer": "Contingency Capital LLC",
+        "years": "2021–Present"
+      },
+      {
+        "role": "Senior Vice President and Counsel",
+        "employer": "FirstKey Mortgage (Cerberus Capital Management)",
+        "years": "2017–2021"
+      },
+      {
+        "role": "Associate",
+        "employer": "Hunton & Williams LLP",
+        "years": "2012–2017"
+      },
+      {
+        "role": "Associate & Counsel",
+        "employer": "Fortress Investment Group",
+        "years": "2010–2012"
+      },
+      {
+        "role": "Associate",
+        "employer": "Morgan, Lewis & Bockius LLP",
+        "years": "2008–2009"
+      },
+      {
+        "role": "Associate",
+        "employer": "Thacher Proffitt & Wood",
+        "years": "2007–2008"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "University of Michigan Law School",
+        "year": "2006"
+      },
+      {
+        "degree": "BA",
+        "school": "Emory University"
       }
     ]
   },
@@ -1974,18 +2116,23 @@
   },
   {
     "name": "Kelly Daley",
-    "current_title": "Managing Director",
-    "current_employer": "Gerchen Capital",
+    "current_title": "Founder",
+    "current_employer": "Celsia Capital",
     "panel": "13",
     "role_on_panel": "Panelist",
     "email": "KMD@gerchen.com",
     "photo": "panelist_photos/kelly_daley.jpg",
-    "bio": "Kelly Daley is a Managing Director at Gerchen Capital Partners since 2024, responsible for sourcing, executing, and monitoring investments. With over 18 years of experience, she previously spent seven years at Burford Capital from 2017 to 2024, rising from VP to MD and leading U.S. commercial underwriting for corporate finance secured by contingent legal assets. Daley's earlier career included roles as senior litigator at Orrick Herrington & Sutcliffe and associate at MoloLamken and McDermott Will & Emery. She clerked for Hon. D. Michael Fisher on the Third Circuit. Daley received a JD from Georgetown University and a BA in Literature and History from Georgetown University.\n",
+    "bio": "Kelly Daley is Founder of Celsia Capital, a litigation finance platform. With over 18 years of experience, she previously served as Managing Director at Gerchen Capital Partners from 2024 to 2025, leading corporate monetization transactions, and spent seven years at Burford Capital from 2017 to 2024, rising from VP to MD and leading U.S. commercial underwriting for corporate finance secured by contingent legal assets. Daley's earlier career included roles as senior litigator at Orrick Herrington & Sutcliffe and associate at MoloLamken and McDermott Will & Emery. She clerked for Hon. D. Michael Fisher on the Third Circuit. Daley received a JD from Georgetown University and a BA in Literature and History from Georgetown University.\n",
     "career": [
+      {
+        "role": "Founder",
+        "employer": "Celsia Capital",
+        "years": "2025–Present"
+      },
       {
         "role": "Managing Director",
         "employer": "Gerchen Capital Partners",
-        "years": "2024–Present"
+        "years": "2024–2025"
       },
       {
         "role": "Managing Director",
@@ -2258,59 +2405,6 @@
       {
         "degree": "BA",
         "school": "University of Michigan"
-      }
-    ]
-  },
-  {
-    "name": "Kacey Wolmer",
-    "current_title": "Chief Operating Officer",
-    "current_employer": "Contingency Capital LLC",
-    "panel": "TBD",
-    "role_on_panel": "Panelist (added 4/18)",
-    "email": "",
-    "photo": "panelist_photos/kacey_wolmer.jpg",
-    "bio": "Kacey Wolmer is Chief Operating Officer at Contingency Capital LLC, a litigation finance firm, where she has served since January 2021. With approximately 18 years of experience spanning finance and law, she previously served as Senior Vice President and Counsel at FirstKey Mortgage, a portfolio company of Cerberus Capital Management. Earlier in her career, Wolmer practiced as an associate at Hunton & Williams LLP specializing in structured finance and securitization, at Fortress Investment Group, at Morgan Lewis & Bockius LLP in private funds, and at Thacher Proffitt & Wood in structured finance. Wolmer received a JD from the University of Michigan Law School and a BA from Emory University.\n",
-    "career": [
-      {
-        "role": "Chief Operating Officer",
-        "employer": "Contingency Capital LLC",
-        "years": "2021–Present"
-      },
-      {
-        "role": "Senior Vice President and Counsel",
-        "employer": "FirstKey Mortgage (Cerberus Capital Management)",
-        "years": "2017–2021"
-      },
-      {
-        "role": "Associate",
-        "employer": "Hunton & Williams LLP",
-        "years": "2012–2017"
-      },
-      {
-        "role": "Associate & Counsel",
-        "employer": "Fortress Investment Group",
-        "years": "2010–2012"
-      },
-      {
-        "role": "Associate",
-        "employer": "Morgan, Lewis & Bockius LLP",
-        "years": "2008–2009"
-      },
-      {
-        "role": "Associate",
-        "employer": "Thacher Proffitt & Wood",
-        "years": "2007–2008"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "University of Michigan Law School",
-        "year": "2006"
-      },
-      {
-        "degree": "BA",
-        "school": "Emory University"
       }
     ]
   }
