@@ -1444,6 +1444,138 @@
             .announce-body { font-size: 0.95rem; }
         }
 
+        /* ===== SPONSOR FLASH REEL (red-carpet step-and-repeat) ===== */
+        .sponsor-reel {
+            position: fixed;
+            inset: 0;
+            z-index: 99998;
+            background: radial-gradient(ellipse at center, #0f1f35 0%, #070d18 70%, #030710 100%);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+        .sponsor-reel.active {
+            display: flex;
+            opacity: 1;
+        }
+        .sponsor-reel.fading { opacity: 0; }
+        .sponsor-reel-backdrop {
+            position: absolute;
+            inset: -20%;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            align-content: center;
+            justify-items: center;
+            gap: 46px 60px;
+            padding: 40px;
+            opacity: 0.07;
+            color: var(--gold, #c8a756);
+            font-family: 'Playfair Display', serif;
+            font-weight: 500;
+            pointer-events: none;
+            user-select: none;
+            transform: rotate(-9deg) scale(1.4);
+            filter: blur(0.3px);
+        }
+        .sponsor-reel-backdrop-item {
+            font-size: 1.05rem;
+            text-align: center;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+        .sponsor-reel-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            padding: 40px 24px;
+            max-width: 92vw;
+        }
+        .sponsor-reel-eyebrow {
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 7px;
+            text-transform: uppercase;
+            color: var(--gold, #c8a756);
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        .sponsor-reel-divider-top,
+        .sponsor-reel-divider-bot {
+            width: 60px;
+            height: 1px;
+            background: var(--gold, #c8a756);
+            margin: 0 auto 26px;
+            opacity: 0.7;
+        }
+        .sponsor-reel-divider-bot {
+            margin: 32px auto 0;
+        }
+        .sponsor-reel-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 4.6rem;
+            font-weight: 600;
+            color: #fff;
+            line-height: 1.12;
+            margin: 0;
+            letter-spacing: 1px;
+            animation: sponsor-flash 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+        }
+        .sponsor-reel-tag {
+            font-size: 0.7rem;
+            font-weight: 500;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.5);
+            margin-top: 14px;
+        }
+        @keyframes sponsor-flash {
+            0%   { opacity: 0; transform: translateY(18px) scale(0.96); filter: blur(6px); }
+            30%  { opacity: 1; filter: blur(0); }
+            80%  { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+            100% { opacity: 1; }
+        }
+        /* Progress ticker at bottom */
+        .sponsor-reel-progress {
+            position: absolute;
+            bottom: 36px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 8px;
+            z-index: 3;
+        }
+        .sponsor-reel-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.18);
+            transition: background 0.25s ease, transform 0.25s ease;
+        }
+        .sponsor-reel-dot.active {
+            background: var(--gold, #c8a756);
+            transform: scale(1.4);
+        }
+        body.sponsor-lock {
+            overflow: hidden;
+        }
+        @media (max-width: 900px) {
+            .sponsor-reel-name { font-size: 3.2rem; }
+            .sponsor-reel-backdrop { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 36px 40px; }
+            .sponsor-reel-backdrop-item { font-size: 0.85rem; letter-spacing: 2px; }
+        }
+        @media (max-width: 600px) {
+            .sponsor-reel-name { font-size: 2.2rem; letter-spacing: 0.5px; }
+            .sponsor-reel-eyebrow { letter-spacing: 5px; margin-bottom: 22px; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .sponsor-reel-name { animation: none; }
+            .sponsor-reel { transition: none; }
+        }
+
         /* ===== STICKY-PIN SCROLL SECTIONS ===== */
         /* Two-phase scroll: phase 1 = media pinned alone, phase 2 = text layer slides up over it */
         .sticky-pin {
@@ -1579,6 +1711,18 @@
             </div>
             <div class="announce-progress"><span class="announce-progress-bar" id="announce-progress-bar"></span></div>
         </div>
+    </div>
+
+    <div class="sponsor-reel" id="sponsor-reel" role="dialog" aria-modal="true" aria-label="Sponsor reel">
+        <div class="sponsor-reel-backdrop" id="sponsor-reel-backdrop" aria-hidden="true"></div>
+        <div class="sponsor-reel-content">
+            <div class="sponsor-reel-divider-top"></div>
+            <div class="sponsor-reel-eyebrow">Proudly Supported By</div>
+            <div class="sponsor-reel-name" id="sponsor-reel-name">&nbsp;</div>
+            <div class="sponsor-reel-divider-bot"></div>
+            <div class="sponsor-reel-tag">Chicago Litigation Finance Conference 2026</div>
+        </div>
+        <div class="sponsor-reel-progress" id="sponsor-reel-progress" aria-hidden="true"></div>
     </div>
 
     <nav>
@@ -2074,7 +2218,7 @@
             if (e.key === 'Escape' && overlay.classList.contains('active')) closeModal();
         });
 
-        // ===== Announcement modal =====
+        // ===== Announcement modal + Sponsor Reel =====
         (function() {
             var announce = document.getElementById('announce-overlay');
             if (!announce) return;
@@ -2085,6 +2229,81 @@
             var dismissed = false;
             var autoTimer = null;
 
+            // --- Sponsor Reel ---
+            var SPONSORS = [
+                'Omni Bridgeway',
+                'McDonald Hopkins',
+                'Bartlit Beck',
+                'Willkie Farr &amp; Gallagher LLP',
+                'Samson Partners Group',
+                'Invenio',
+                'Backlit Capital',
+                'CAC Group'
+            ];
+            var FLASH_MS = 500;
+
+            function startSponsorReel() {
+                var reel = document.getElementById('sponsor-reel');
+                var nameEl = document.getElementById('sponsor-reel-name');
+                var backdrop = document.getElementById('sponsor-reel-backdrop');
+                var progressWrap = document.getElementById('sponsor-reel-progress');
+                if (!reel || !nameEl) return;
+
+                // Build step-and-repeat backdrop: many tiled faded sponsor names
+                var tileCount = 80;
+                var tileHtml = '';
+                for (var i = 0; i < tileCount; i++) {
+                    tileHtml += '<div class="sponsor-reel-backdrop-item">' + SPONSORS[i % SPONSORS.length] + '</div>';
+                }
+                backdrop.innerHTML = tileHtml;
+
+                // Build progress dots
+                var dotsHtml = '';
+                for (var j = 0; j < SPONSORS.length; j++) {
+                    dotsHtml += '<span class="sponsor-reel-dot" data-i="' + j + '"></span>';
+                }
+                progressWrap.innerHTML = dotsHtml;
+                var dots = progressWrap.querySelectorAll('.sponsor-reel-dot');
+
+                document.body.classList.add('sponsor-lock');
+                reel.classList.add('active');
+
+                var idx = 0;
+                function showNext() {
+                    if (idx >= SPONSORS.length) {
+                        closeSponsorReel(reel);
+                        return;
+                    }
+                    // Replace the name element to retrigger CSS animation
+                    var parent = nameEl.parentNode;
+                    var fresh = document.createElement('div');
+                    fresh.className = 'sponsor-reel-name';
+                    fresh.id = 'sponsor-reel-name';
+                    fresh.innerHTML = SPONSORS[idx];
+                    parent.replaceChild(fresh, nameEl);
+                    nameEl = fresh;
+
+                    dots.forEach(function(d, k) {
+                        d.classList.toggle('active', k === idx);
+                    });
+
+                    idx++;
+                    setTimeout(showNext, FLASH_MS);
+                }
+                showNext();
+            }
+
+            function closeSponsorReel(reel) {
+                reel.classList.add('fading');
+                setTimeout(function() {
+                    reel.classList.remove('active');
+                    reel.classList.remove('fading');
+                    reel.style.display = 'none';
+                    document.body.classList.remove('sponsor-lock');
+                }, 500);
+            }
+
+            // --- Announcement ---
             function openAnnounce() {
                 announce.classList.add('active');
                 document.body.classList.add('announce-lock');
@@ -2107,6 +2326,8 @@
                     announce.classList.remove('fading');
                     announce.style.display = 'none';
                     document.body.classList.remove('announce-lock');
+                    // Chain into sponsor reel right after the announcement fades out
+                    startSponsorReel();
                 }, 500);
             }
 
