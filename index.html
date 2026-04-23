@@ -1483,13 +1483,19 @@
         }
         /* Hero needs padding since its flex-container styling lived on .hero */
         .sticky-pin .hero-content {
-            padding: 120px 60px 80px;
+            padding: 70px 60px 80px;
             max-width: 1200px;
             margin: 0 auto;
         }
+        /* Tighten hero internal spacing so full content (incl. CTA) fits in 100vh */
+        .sticky-pin .hero-eyebrow { margin-bottom: 22px; }
+        .sticky-pin .hero-title { margin-bottom: 14px; }
+        .sticky-pin .hero-byline { margin-bottom: 12px; }
+        .sticky-pin .hero-subtitle { margin-bottom: 28px; }
+        .sticky-pin .hero-meta { gap: 12px; margin-bottom: 32px; }
         .sticky-pin .feat-video-content,
         .sticky-pin .feat-photo-content {
-            padding: 100px 60px;
+            padding: 80px 60px 90px;
             max-width: 1200px;
             margin: 0 auto;
             align-items: flex-start;
@@ -1523,6 +1529,21 @@
         }
         @media (max-width: 600px) {
             .sticky-pin { height: 160vh; }
+        }
+        /* Short viewports (landscape phones, compact laptops): shrink hero text so the CTA never clips */
+        @media (max-height: 760px) {
+            .sticky-pin .hero-content { padding: 40px 60px 50px; }
+            .sticky-pin .hero-title { font-size: 3rem; }
+            .sticky-pin .hero-subtitle { font-size: 1.3rem; margin-bottom: 22px; }
+            .sticky-pin .hero-eyebrow { margin-bottom: 16px; }
+            .sticky-pin .hero-meta { gap: 8px; margin-bottom: 22px; }
+        }
+        @media (max-height: 640px) {
+            .sticky-pin .hero-title { font-size: 2.4rem; }
+            .sticky-pin .hero-subtitle { font-size: 1.1rem; margin-bottom: 16px; }
+            .sticky-pin .hero-meta { gap: 6px; margin-bottom: 16px; }
+            .sticky-pin .hero-meta-value { font-size: 0.92rem; }
+            .sticky-pin .hero-cta { padding: 14px 44px; }
         }
         /* Reduced motion fallback */
         @media (prefers-reduced-motion: reduce) {
