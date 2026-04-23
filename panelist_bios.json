@@ -1361,39 +1361,6 @@
     ]
   },
   {
-    "name": "Mark York",
-    "current_title": "Editor in Chief",
-    "current_employer": "LegalCast",
-    "panel": "7",
-    "role_on_panel": "Panelist",
-    "email": "mark@ipsecuretech.com",
-    "photo": "panelist_photos/mark_york.jpg",
-    "bio": "Mark York is Editor in Chief of LegalCast and Mass Tort News, providing real-time reporting on mass torts, complex litigation, regulatory oversight, and JPML/MDL coverage. He co-hosts the Mass Tort News LegalCast podcast and also serves as Consultant for Business Development at IP SecureTech LLC. With over 26 years of experience in legal services, York previously worked as a Litigation Analyst at Schiff Hardin and Wildman Harrold, focusing on intellectual property, antitrust, and complex insurance matters. He also hosts the GW Law Bench-Bar Conference.\n",
-    "career": [
-      {
-        "role": "Editor in Chief",
-        "employer": "LegalCast / Mass Tort News",
-        "years": "2019–Present"
-      },
-      {
-        "role": "Consultant, Business Development",
-        "employer": "IP SecureTech LLC",
-        "years": "2007–Present"
-      },
-      {
-        "role": "Litigation Analyst",
-        "employer": "Schiff Hardin",
-        "years": "2002–2005"
-      },
-      {
-        "role": "Litigation Analyst",
-        "employer": "Wildman Harrold",
-        "years": "2000–2002"
-      }
-    ],
-    "education": []
-  },
-  {
     "name": "Josh Gammon",
     "current_title": "Founder / Instructor",
     "current_employer": "WealthDocket / Northwestern Pritzker School of Law",
@@ -2407,5 +2374,38 @@
         "school": "University of Michigan"
       }
     ]
+  },
+  {
+    "name": "Mark York",
+    "current_title": "Editor in Chief",
+    "current_employer": "LegalCast",
+    "panel": "7",
+    "role_on_panel": "Panelist",
+    "email": "mark@ipsecuretech.com",
+    "photo": "panelist_photos/mark_york.jpg",
+    "bio": "Mark York is Editor in Chief of LegalCast and Mass Tort News, providing real-time reporting on mass torts, complex litigation, regulatory oversight, and JPML/MDL coverage. He co-hosts the Mass Tort News LegalCast podcast and also serves as Consultant for Business Development at IP SecureTech LLC. With over 26 years of experience in legal services, York previously worked as a Litigation Analyst at Schiff Hardin and Wildman Harrold, focusing on intellectual property, antitrust, and complex insurance matters. He also hosts the GW Law Bench-Bar Conference.\n",
+    "career": [
+      {
+        "role": "Editor in Chief",
+        "employer": "LegalCast / Mass Tort News",
+        "years": "2019–Present"
+      },
+      {
+        "role": "Consultant, Business Development",
+        "employer": "IP SecureTech LLC",
+        "years": "2007–Present"
+      },
+      {
+        "role": "Litigation Analyst",
+        "employer": "Schiff Hardin",
+        "years": "2002–2005"
+      },
+      {
+        "role": "Litigation Analyst",
+        "employer": "Wildman Harrold",
+        "years": "2000–2002"
+      }
+    ],
+    "education": []
   }
 ]
