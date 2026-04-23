@@ -1445,9 +1445,12 @@
         }
 
         /* ===== STICKY-PIN SCROLL SECTIONS ===== */
+        /* Two-phase scroll: phase 1 = media pinned alone, phase 2 = text layer slides up over it */
         .sticky-pin {
             position: relative;
-            height: 200vh;
+            height: 220vh;
+            --text-y: 100%;
+            --overlay-op: 0;
         }
         .sticky-pin-inner {
             position: sticky;
@@ -1461,42 +1464,83 @@
             height: 100vh;
             min-height: 100vh;
         }
+        /* Make the text content a sliding layer covering the full viewport */
         .sticky-pin .hero-content,
         .sticky-pin .feat-video-content,
         .sticky-pin .feat-photo-content {
-            opacity: 0;
-            transform: translateY(24px);
-            transition: opacity 0.5s ease-out, transform 0.6s ease-out;
-            will-change: opacity, transform;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 3;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            transform: translateY(var(--text-y));
+            transition: transform 0.08s linear;
+            will-change: transform;
         }
-        .sticky-pin.text-in .hero-content,
-        .sticky-pin.text-in .feat-video-content,
-        .sticky-pin.text-in .feat-photo-content {
-            opacity: 1;
-            transform: translateY(0);
+        /* Hero needs padding since its flex-container styling lived on .hero */
+        .sticky-pin .hero-content {
+            padding: 120px 60px 80px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .sticky-pin .feat-video-content,
+        .sticky-pin .feat-photo-content {
+            padding: 100px 60px;
+            max-width: 1200px;
+            margin: 0 auto;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        /* Dim overlay that fades in with the text so it stays readable once text arrives */
+        .sticky-pin .hero::before,
+        .sticky-pin .feat-video-section::before,
+        .sticky-pin .feat-photo-section::before,
+        .sticky-pin .feat-photo-section::after {
+            opacity: var(--overlay-op);
+            transition: opacity 0.15s linear;
+        }
+        /* Keep the pin children on their own layers */
+        .sticky-pin .hero-video,
+        .sticky-pin .feat-video-bg,
+        .sticky-pin .feat-photo-bg {
+            z-index: 0;
+        }
+        .sticky-pin .hero-scroll,
+        .sticky-pin .hero-cohost {
+            z-index: 4;
         }
         /* Mobile fallback: disable pinning, show text always */
         @media (max-width: 900px) {
-            .sticky-pin { height: auto; }
+            .sticky-pin { height: auto; --text-y: 0%; --overlay-op: 1; }
             .sticky-pin-inner { position: relative; height: auto; overflow: visible; }
             .sticky-pin .hero-content,
             .sticky-pin .feat-video-content,
             .sticky-pin .feat-photo-content {
-                opacity: 1;
+                position: relative;
                 transform: none;
                 transition: none;
+                padding: initial;
+                display: block;
             }
+            .sticky-pin .hero-content { padding: 100px 30px 60px; }
+            .sticky-pin .feat-video-content,
+            .sticky-pin .feat-photo-content { padding: 80px 30px; }
         }
         /* Reduced motion fallback */
         @media (prefers-reduced-motion: reduce) {
-            .sticky-pin { height: auto; }
+            .sticky-pin { height: auto; --text-y: 0%; --overlay-op: 1; }
             .sticky-pin-inner { position: relative; height: auto; overflow: visible; }
             .sticky-pin .hero-content,
             .sticky-pin .feat-video-content,
             .sticky-pin .feat-photo-content {
-                opacity: 1;
+                position: relative;
                 transform: none;
                 transition: none;
+                display: block;
             }
             .announce-card, .announce-overlay { transition: none; }
         }
@@ -2066,32 +2110,42 @@
         })();
 
         // ===== Sticky-pin scroll sections =====
+        // Two phases mapped to the scroll range of each .sticky-pin container:
+        //   progress 0.00 .. 0.40  -> media only (text is translated below viewport)
+        //   progress 0.40 .. 0.85  -> text slides up from below and dim overlay fades in
+        //   progress 0.85 .. 1.00  -> text fully in place; container then unpins
         (function() {
             var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-            var isMobile = window.matchMedia('(max-width: 900px)').matches;
-            if (reduceMotion || isMobile) return;
+            var mqMobile = window.matchMedia('(max-width: 900px)');
+            if (reduceMotion) return;
 
             var sections = document.querySelectorAll('.sticky-pin');
             if (!sections.length) return;
 
-            var FADE_START = 0.45;
-            var FADE_END = 0.75;
+            var SLIDE_START = 0.40;
+            var SLIDE_END = 0.85;
             var ticking = false;
 
+            function clamp01(v) { return Math.min(Math.max(v, 0), 1); }
+
             function update() {
+                if (mqMobile.matches) {
+                    sections.forEach(function(sec) {
+                        sec.style.removeProperty('--text-y');
+                        sec.style.removeProperty('--overlay-op');
+                    });
+                    ticking = false;
+                    return;
+                }
                 var vh = window.innerHeight;
                 sections.forEach(function(sec) {
                     var rect = sec.getBoundingClientRect();
                     var total = sec.offsetHeight - vh;
                     var scrolled = -rect.top;
-                    var progress = total > 0 ? Math.min(Math.max(scrolled / total, 0), 1) : 0;
-                    if (progress >= FADE_START && progress <= FADE_END + 0.001) {
-                        sec.classList.add('text-in');
-                    } else if (progress > FADE_END) {
-                        sec.classList.add('text-in');
-                    } else {
-                        sec.classList.remove('text-in');
-                    }
+                    var progress = total > 0 ? clamp01(scrolled / total) : 0;
+                    var slide = clamp01((progress - SLIDE_START) / (SLIDE_END - SLIDE_START));
+                    sec.style.setProperty('--text-y', (1 - slide) * 100 + '%');
+                    sec.style.setProperty('--overlay-op', slide.toFixed(3));
                 });
                 ticking = false;
             }
