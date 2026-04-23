@@ -1522,6 +1522,13 @@
             line-height: 1.12;
             margin: 0;
             letter-spacing: 1px;
+            /* Reserve a fixed 2-line-tall box so short names don't shrink the frame
+               and long names (e.g. "Willkie Farr & Gallagher LLP") don't push it. */
+            min-height: 2.24em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
             animation: sponsor-flash 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) both;
         }
         .sponsor-reel-tag {
