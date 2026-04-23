@@ -1513,22 +1513,16 @@
         .sticky-pin .hero-cohost {
             z-index: 4;
         }
-        /* Mobile fallback: disable pinning, show text always */
+        /* Mobile: keep the same sticky-pin behavior; just shorten pin distance
+           (mobile scrolls faster) and tighten paddings so text fits smaller screens */
         @media (max-width: 900px) {
-            .sticky-pin { height: auto; --text-y: 0%; --overlay-op: 1; }
-            .sticky-pin-inner { position: relative; height: auto; overflow: visible; }
-            .sticky-pin .hero-content,
-            .sticky-pin .feat-video-content,
-            .sticky-pin .feat-photo-content {
-                position: relative;
-                transform: none;
-                transition: none;
-                padding: initial;
-                display: block;
-            }
+            .sticky-pin { height: 180vh; }
             .sticky-pin .hero-content { padding: 100px 30px 60px; }
             .sticky-pin .feat-video-content,
             .sticky-pin .feat-photo-content { padding: 80px 30px; }
+        }
+        @media (max-width: 600px) {
+            .sticky-pin { height: 160vh; }
         }
         /* Reduced motion fallback */
         @media (prefers-reduced-motion: reduce) {
@@ -2114,9 +2108,9 @@
         //   progress 0.00 .. 0.40  -> media only (text is translated below viewport)
         //   progress 0.40 .. 0.85  -> text slides up from below and dim overlay fades in
         //   progress 0.85 .. 1.00  -> text fully in place; container then unpins
+        // Runs on desktop AND mobile. Only disabled by prefers-reduced-motion.
         (function() {
             var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-            var mqMobile = window.matchMedia('(max-width: 900px)');
             if (reduceMotion) return;
 
             var sections = document.querySelectorAll('.sticky-pin');
@@ -2129,14 +2123,6 @@
             function clamp01(v) { return Math.min(Math.max(v, 0), 1); }
 
             function update() {
-                if (mqMobile.matches) {
-                    sections.forEach(function(sec) {
-                        sec.style.removeProperty('--text-y');
-                        sec.style.removeProperty('--overlay-op');
-                    });
-                    ticking = false;
-                    return;
-                }
                 var vh = window.innerHeight;
                 sections.forEach(function(sec) {
                     var rect = sec.getBoundingClientRect();
