@@ -1289,9 +1289,238 @@
             .hero-cohost { display: none; }
             .modal-overlay.active { padding: 20px 12px; }
         }
+
+        /* ===== ANNOUNCEMENT MODAL ===== */
+        .announce-overlay {
+            position: fixed;
+            inset: 0;
+            z-index: 99999;
+            background: rgba(8, 16, 30, 0.72);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+        .announce-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        .announce-overlay.fading {
+            opacity: 0;
+        }
+        .announce-card {
+            position: relative;
+            background: var(--bg-warm, #f8f7f4);
+            color: var(--navy, #0a1628);
+            max-width: 560px;
+            width: 100%;
+            padding: 56px 56px 44px;
+            border-top: 3px solid var(--gold, #c8a756);
+            box-shadow: 0 30px 80px rgba(0,0,0,0.35);
+            transform: translateY(20px) scale(0.98);
+            opacity: 0;
+            transition: transform 0.6s cubic-bezier(0.2,0.8,0.2,1) 0.1s, opacity 0.6s ease 0.1s;
+            overflow: hidden;
+        }
+        .announce-overlay.active .announce-card {
+            transform: translateY(0) scale(1);
+            opacity: 1;
+        }
+        .announce-eyebrow {
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--gold, #c8a756);
+            margin-bottom: 18px;
+        }
+        .announce-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 600;
+            line-height: 1.2;
+            margin-bottom: 22px;
+            color: var(--navy, #0a1628);
+        }
+        .announce-body {
+            font-size: 1rem;
+            line-height: 1.75;
+            color: rgba(10,22,40,0.78);
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+        .announce-body strong {
+            font-weight: 600;
+            color: var(--navy, #0a1628);
+        }
+        .announce-body .announce-old {
+            text-decoration: line-through;
+            text-decoration-thickness: 1px;
+            opacity: 0.7;
+        }
+        .announce-footer {
+            margin-top: 26px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+        }
+        .announce-continue {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--navy, #0a1628);
+            padding: 12px 0;
+            position: relative;
+        }
+        .announce-continue::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 6px;
+            width: 100%;
+            height: 1px;
+            background: var(--gold, #c8a756);
+            transform-origin: left;
+            transition: transform 0.3s ease;
+        }
+        .announce-continue:hover::after { transform: scaleX(0.6); }
+        .announce-close {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            width: 36px;
+            height: 36px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            color: rgba(10,22,40,0.55);
+            font-size: 1.3rem;
+            line-height: 1;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.2s ease, background 0.2s ease;
+        }
+        .announce-close:hover {
+            color: var(--navy, #0a1628);
+            background: rgba(10,22,40,0.06);
+        }
+        .announce-progress {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 2px;
+            width: 100%;
+            background: rgba(10,22,40,0.08);
+            overflow: hidden;
+        }
+        .announce-progress-bar {
+            display: block;
+            height: 100%;
+            width: 100%;
+            background: var(--gold, #c8a756);
+            transform-origin: left;
+            transform: scaleX(1);
+            transition: transform linear;
+        }
+        body.announce-lock {
+            overflow: hidden;
+        }
+        @media (max-width: 600px) {
+            .announce-card { padding: 44px 26px 36px; }
+            .announce-title { font-size: 1.55rem; }
+            .announce-body { font-size: 0.95rem; }
+        }
+
+        /* ===== STICKY-PIN SCROLL SECTIONS ===== */
+        .sticky-pin {
+            position: relative;
+            height: 200vh;
+        }
+        .sticky-pin-inner {
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .sticky-pin .hero,
+        .sticky-pin .feat-video-section,
+        .sticky-pin .feat-photo-section {
+            height: 100vh;
+            min-height: 100vh;
+        }
+        .sticky-pin .hero-content,
+        .sticky-pin .feat-video-content,
+        .sticky-pin .feat-photo-content {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.5s ease-out, transform 0.6s ease-out;
+            will-change: opacity, transform;
+        }
+        .sticky-pin.text-in .hero-content,
+        .sticky-pin.text-in .feat-video-content,
+        .sticky-pin.text-in .feat-photo-content {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        /* Mobile fallback: disable pinning, show text always */
+        @media (max-width: 900px) {
+            .sticky-pin { height: auto; }
+            .sticky-pin-inner { position: relative; height: auto; overflow: visible; }
+            .sticky-pin .hero-content,
+            .sticky-pin .feat-video-content,
+            .sticky-pin .feat-photo-content {
+                opacity: 1;
+                transform: none;
+                transition: none;
+            }
+        }
+        /* Reduced motion fallback */
+        @media (prefers-reduced-motion: reduce) {
+            .sticky-pin { height: auto; }
+            .sticky-pin-inner { position: relative; height: auto; overflow: visible; }
+            .sticky-pin .hero-content,
+            .sticky-pin .feat-video-content,
+            .sticky-pin .feat-photo-content {
+                opacity: 1;
+                transform: none;
+                transition: none;
+            }
+            .announce-card, .announce-overlay { transition: none; }
+        }
     </style>
 </head>
 <body>
+
+    <div class="announce-overlay" id="announce-overlay" role="dialog" aria-modal="true" aria-labelledby="announce-title">
+        <div class="announce-card">
+            <button class="announce-close" id="announce-close" type="button" aria-label="Close announcement">&times;</button>
+            <div class="announce-eyebrow">An Important Update</div>
+            <h2 class="announce-title" id="announce-title">A New Name for a New Era</h2>
+            <p class="announce-body">
+                The event formerly known as <span class="announce-old">Chicago Litigation Finance Summit</span> is now officially the <strong>Chicago Litigation Finance Conference</strong>.
+            </p>
+            <p class="announce-body">
+                Same mission. Same day. New name.
+            </p>
+            <div class="announce-footer">
+                <button class="announce-continue" id="announce-continue" type="button">Continue</button>
+            </div>
+            <div class="announce-progress"><span class="announce-progress-bar" id="announce-progress-bar"></span></div>
+        </div>
+    </div>
 
     <nav>
         <div class="nav-brand">Chicago Litigation Finance <span>Conference</span><div class="nav-byline">By LITFIN501C Foundation</div></div>
@@ -1310,7 +1539,9 @@
         <div class="splash-scroll"></div>
     </section>
 
-    <section class="hero">
+    <div class="sticky-pin hero-pin">
+        <div class="sticky-pin-inner">
+        <section class="hero">
         <video class="hero-video" autoplay muted loop playsinline>
             <source src="hero-bg.mp4" type="video/mp4">
         </video>
@@ -1342,6 +1573,8 @@
             <div class="hero-cohost-sub">Northwestern University &middot; Kellogg School of Management</div>
         </div>
     </section>
+        </div>
+    </div>
 
     <section class="about" id="about">
         <div class="about-inner">
@@ -1458,6 +1691,8 @@
         </div>
     </section>
 
+    <div class="sticky-pin clopton-pin">
+        <div class="sticky-pin-inner">
     <section class="feat-video-section">
         <video class="feat-video-bg" autoplay muted loop playsinline>
             <source src="zachary-bg.mp4" type="video/mp4">
@@ -1473,7 +1708,11 @@
             <div class="feat-person-role">Dean, Northwestern Pritzker School of Law</div>
         </div>
     </section>
+        </div>
+    </div>
 
+    <div class="sticky-pin martin-pin">
+        <div class="sticky-pin-inner">
     <section class="feat-photo-section">
         <img class="feat-photo-bg" src="craig-bg.png" alt="Craig C. Martin">
         <div class="feat-photo-content">
@@ -1488,6 +1727,8 @@
             <div class="feat-person-role">Chairman, Americas &mdash; Willkie Farr &amp; Gallagher LLP</div>
         </div>
     </section>
+        </div>
+    </div>
 
     <section class="speakers" id="speakers-section">
         <div class="speakers-inner">
@@ -1773,6 +2014,99 @@
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape' && overlay.classList.contains('active')) closeModal();
         });
+
+        // ===== Announcement modal =====
+        (function() {
+            var announce = document.getElementById('announce-overlay');
+            if (!announce) return;
+            var closeBtn = document.getElementById('announce-close');
+            var continueBtn = document.getElementById('announce-continue');
+            var progressBar = document.getElementById('announce-progress-bar');
+            var AUTO_DISMISS_MS = 4000;
+            var dismissed = false;
+            var autoTimer = null;
+
+            function openAnnounce() {
+                announce.classList.add('active');
+                document.body.classList.add('announce-lock');
+                if (progressBar) {
+                    requestAnimationFrame(function() {
+                        progressBar.style.transitionDuration = AUTO_DISMISS_MS + 'ms';
+                        progressBar.style.transform = 'scaleX(0)';
+                    });
+                }
+                autoTimer = setTimeout(closeAnnounce, AUTO_DISMISS_MS);
+            }
+
+            function closeAnnounce() {
+                if (dismissed) return;
+                dismissed = true;
+                if (autoTimer) { clearTimeout(autoTimer); autoTimer = null; }
+                announce.classList.add('fading');
+                setTimeout(function() {
+                    announce.classList.remove('active');
+                    announce.classList.remove('fading');
+                    announce.style.display = 'none';
+                    document.body.classList.remove('announce-lock');
+                }, 500);
+            }
+
+            closeBtn.addEventListener('click', closeAnnounce);
+            continueBtn.addEventListener('click', closeAnnounce);
+            announce.addEventListener('click', function(e) {
+                if (e.target === announce) closeAnnounce();
+            });
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && announce.classList.contains('active')) closeAnnounce();
+            });
+
+            requestAnimationFrame(function() {
+                requestAnimationFrame(openAnnounce);
+            });
+        })();
+
+        // ===== Sticky-pin scroll sections =====
+        (function() {
+            var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            var isMobile = window.matchMedia('(max-width: 900px)').matches;
+            if (reduceMotion || isMobile) return;
+
+            var sections = document.querySelectorAll('.sticky-pin');
+            if (!sections.length) return;
+
+            var FADE_START = 0.45;
+            var FADE_END = 0.75;
+            var ticking = false;
+
+            function update() {
+                var vh = window.innerHeight;
+                sections.forEach(function(sec) {
+                    var rect = sec.getBoundingClientRect();
+                    var total = sec.offsetHeight - vh;
+                    var scrolled = -rect.top;
+                    var progress = total > 0 ? Math.min(Math.max(scrolled / total, 0), 1) : 0;
+                    if (progress >= FADE_START && progress <= FADE_END + 0.001) {
+                        sec.classList.add('text-in');
+                    } else if (progress > FADE_END) {
+                        sec.classList.add('text-in');
+                    } else {
+                        sec.classList.remove('text-in');
+                    }
+                });
+                ticking = false;
+            }
+
+            function onScroll() {
+                if (!ticking) {
+                    window.requestAnimationFrame(update);
+                    ticking = true;
+                }
+            }
+
+            window.addEventListener('scroll', onScroll, { passive: true });
+            window.addEventListener('resize', onScroll, { passive: true });
+            update();
+        })();
     })();
     </script>
 
