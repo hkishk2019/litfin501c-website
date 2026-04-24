@@ -966,7 +966,7 @@
     "role_on_panel": "Panelist",
     "email": "jason.levine@foley.com",
     "photo": "panelist_photos/jason_levine.jpg",
-    "bio": "Jason Levine is a Partner at Foley & Lardner with 30 years of combined experience as a first-chair trial lawyer and litigation finance executive. He previously launched and led the D.C. office of Omni Bridgeway, managing billion-dollar antitrust investments. Levine has first-chaired over a dozen trials and secured over $3 billion in relief for plaintiff-side corporate clients. He clerked for Judge Randall Rader of the U.S. Court of Appeals for the Federal Circuit and is a published authority on price-gouging and competition. Levine received a JD, cum laude, from Harvard Law School and a BA, summa cum laude (Phi Beta Kappa), from Brandeis University.\n",
+    "bio": "Jason Levine is a Partner at Foley & Lardner with 30 years of combined experience as a first-chair trial lawyer, antitrust litigator, and litigation finance executive. He previously launched and led the D.C. office of Omni Bridgeway, managing antitrust and commercial investments involving billion-dollar claims. Levine has first-chaired over a dozen trials and secured over $3 billion in relief for plaintiff-side corporate clients, in addition to saving defense-side clients from over $17 billion in potential liability exposure. He clerked for Judge Randall Rader of the U.S. Court of Appeals for the Federal Circuit and was formerly a partner at McDermott Will & Emery, Vinson & Elkins, and Alston & Bird. Levine received a JD, cum laude, from Harvard Law School and a BA, summa cum laude (Phi Beta Kappa), from Brandeis University.",
     "career": [
       {
         "role": "Partner",
@@ -974,18 +974,28 @@
         "years": "Current"
       },
       {
-        "role": "Director",
-        "employer": "Omni Bridgeway (D.C. office)",
+        "role": "Director, D.C. Office",
+        "employer": "Omni Bridgeway",
+        "years": "Prior"
+      },
+      {
+        "role": "Partner",
+        "employer": "McDermott Will & Emery",
+        "years": "Prior"
+      },
+      {
+        "role": "Partner",
+        "employer": "Vinson & Elkins",
+        "years": "Prior"
+      },
+      {
+        "role": "Partner",
+        "employer": "Alston & Bird",
         "years": "Prior"
       },
       {
         "role": "Law Clerk, Judge Randall Rader",
         "employer": "U.S. Court of Appeals for the Federal Circuit",
-        "years": "Prior"
-      },
-      {
-        "role": "Partner",
-        "employer": "Multinational law firms",
         "years": "Prior"
       }
     ],
