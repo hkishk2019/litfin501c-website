@@ -1698,6 +1698,80 @@
             }
             .announce-card, .announce-overlay { transition: none; }
         }
+
+        /* ===== WECHAT FALLBACK ===== */
+        body.is-wechat .feat-video-section::before,
+        body.is-wechat .hero::before {
+            opacity: 0.55;
+        }
+        body.is-wechat .hero-video,
+        body.is-wechat .feat-video-bg {
+            display: none !important;
+        }
+
+        /* ===== INLINE AGENDA ===== */
+        .inline-agenda {
+            padding: 120px 60px;
+            background: var(--bg-warm-alt);
+        }
+        .inline-agenda-inner { max-width: 900px; margin: 0 auto; }
+        .inline-agenda-header { text-align: center; margin-bottom: 50px; }
+        .ia-legend {
+            display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;
+            font-size: 12px; color: var(--gray-mid); margin-bottom: 24px;
+            padding-bottom: 20px; border-bottom: 1px solid var(--gray-light);
+        }
+        .ia-dot {
+            display: inline-block; width: 9px; height: 9px;
+            border-radius: 2px; margin-right: 5px; vertical-align: middle;
+        }
+        .ia-schedule {
+            background: #fff; border: 1px solid var(--gray-light);
+            border-radius: 4px; overflow: hidden;
+        }
+        .ia-block { display: grid; grid-template-columns: 96px 1fr; border-bottom: 1px solid #eee; }
+        .ia-block:last-child { border-bottom: none; }
+        .ia-block.ia-dual { grid-template-columns: 96px 1fr; grid-template-rows: auto auto; }
+        .ia-block.ia-dual .ia-time { grid-row: 1 / 3; align-items: flex-start; }
+        .ia-block.ia-dual .ia-session:nth-child(3) { border-top: 1px solid #eee; }
+        .ia-time {
+            padding: 12px 10px 12px 14px; font-size: 11px; font-weight: 600;
+            color: #888; white-space: nowrap; border-right: 2px solid #e8e8e4;
+            display: flex; align-items: flex-start; padding-top: 14px;
+        }
+        .ia-session {
+            padding: 12px 14px; border-left: 3px solid transparent;
+            display: flex; flex-direction: column; justify-content: center;
+        }
+        .ia-panel    { border-left-color: #1a1a2e; }
+        .ia-crown    { border-left-color: #c9a84c; }
+        .ia-meal     { border-left-color: #4a7c59; background: #f8faf8; }
+        .ia-ceremony { border-left-color: #1a1a2e; background: #f5f5fa; }
+        .ia-reception{ border-left-color: #c9a84c; background: linear-gradient(135deg,#fdf8ed,#faf5e6); }
+        .ia-label { font-size: 8.5px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; color: #1a1a2e; margin-bottom: 3px; }
+        .ia-title { font-size: 12.5px; font-weight: 600; color: #2c2c2c; line-height: 1.4; }
+        .ia-sub { font-size: 11px; color: #666; margin-top: 4px; font-weight: 400; }
+        .ia-pnum { font-family: 'Playfair Display', serif; font-weight: 700; color: #1a1a2e; }
+        .ia-pnum-crown { color: #a08530; }
+        .ia-adjusted { font-size: 10.5px; font-weight: 600; color: #888; margin-top: 4px; }
+        .ia-cta-row {
+            display: flex; align-items: center; justify-content: space-between;
+            margin-top: 20px; flex-wrap: wrap; gap: 10px;
+        }
+        .ia-cta-link {
+            font-size: 0.82rem; font-weight: 600; letter-spacing: 1px;
+            color: var(--gold-muted); text-decoration: none; text-transform: uppercase;
+            border-bottom: 1px solid rgba(201,168,76,0.35); padding-bottom: 2px;
+            transition: color 0.2s, border-color 0.2s;
+        }
+        .ia-cta-link:hover { color: var(--gold); border-color: var(--gold); }
+        .ia-note { font-size: 11px; color: var(--gray-mid); }
+        @media (max-width: 700px) {
+            .inline-agenda { padding: 80px 20px; }
+            .ia-block, .ia-block.ia-dual { grid-template-columns: 70px 1fr; }
+            .ia-time { font-size: 10px; padding: 10px 8px 10px 10px; }
+            .ia-title { font-size: 11.5px; }
+        }
     </style>
 </head>
 <body>
@@ -1739,6 +1813,7 @@
             <li><a href="#panels">Panels</a></li>
             <li><a href="#speakers-section">Speakers</a></li>
             <li><a href="#venue">Venue</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
             <li><a href="https://www.eventbrite.com/e/1984716483429?aff=oddtdtcreator" target="_blank" class="nav-cta">Register</a></li>
         </ul>
     </nav>
@@ -1752,7 +1827,7 @@
     <div class="sticky-pin hero-pin">
         <div class="sticky-pin-inner">
         <section class="hero">
-        <video class="hero-video" autoplay muted loop playsinline>
+        <video class="hero-video" autoplay muted loop playsinline poster="hero-poster.jpg">
             <source src="hero-bg.mp4" type="video/mp4">
         </video>
         <div class="hero-content">
@@ -1904,7 +1979,7 @@
     <div class="sticky-pin clopton-pin">
         <div class="sticky-pin-inner">
     <section class="feat-video-section">
-        <video class="feat-video-bg" autoplay muted loop playsinline>
+        <video class="feat-video-bg" autoplay muted loop playsinline poster="zachary-poster.jpg">
             <source src="zachary-bg.mp4" type="video/mp4">
         </video>
         <div class="feat-video-content">
@@ -1943,7 +2018,7 @@
     <div class="sticky-pin cornelli-pin">
         <div class="sticky-pin-inner">
     <section class="feat-video-section">
-        <video class="feat-video-bg" autoplay muted loop playsinline>
+        <video class="feat-video-bg" autoplay muted loop playsinline poster="francesca-poster.jpg">
             <source src="francesca-bg.mp4" type="video/mp4">
         </video>
         <div class="feat-video-content">
@@ -2023,6 +2098,72 @@
                     Panelists include academic scholars, advisors, economists, funders,
                     investors, judges, litigation attorneys, and policy advocates.
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== INLINE AGENDA ===== -->
+    <section class="inline-agenda" id="agenda">
+        <div class="inline-agenda-inner">
+            <div class="inline-agenda-header">
+                <div class="section-label">Conference Agenda</div>
+                <h2 class="section-title">Friday, May 1, 2026<br><span style="font-size:0.65em;font-weight:400;color:var(--gray-mid);">Museum of Contemporary Art Chicago</span></h2>
+            </div>
+            <div class="ia-legend">
+                <span><span class="ia-dot" style="background:#1a1a2e;"></span> Theater &mdash; 1st Floor</span>
+                <span><span class="ia-dot" style="background:#c9a84c;"></span> Crown Room &mdash; 3rd Floor</span>
+                <span><span class="ia-dot" style="background:#4a7c59;"></span> Meals &mdash; 2nd Floor</span>
+            </div>
+            <div class="ia-schedule">
+                <div class="ia-block ia-full"><div class="ia-time">7:30 &ndash; 9:00</div><div class="ia-session ia-meal"><div class="ia-label" style="color:#4a7c59;">2nd Floor</div><div class="ia-title">Breakfast</div></div></div>
+                <div class="ia-block ia-full"><div class="ia-time">8:30 &ndash; 8:40</div><div class="ia-session ia-ceremony"><div class="ia-label">Theater &bull; 1st Floor</div><div class="ia-title">Opening Ceremony</div></div></div>
+                <div class="ia-block ia-full"><div class="ia-time">8:40 &ndash; 9:20</div><div class="ia-session ia-panel"><div class="ia-label">Theater &bull; 1st Floor</div><div class="ia-title"><span class="ia-pnum">Panel 1:</span> A Snapshot of Today&rsquo;s World Economy: Perspectives from Macro, Private Equity, Venture Capital, and Secondary Markets</div></div></div>
+                <div class="ia-block ia-dual">
+                    <div class="ia-time">9:25 &ndash; 10:10</div>
+                    <div class="ia-session ia-panel"><div class="ia-label">Theater &bull; 1st Floor</div><div class="ia-title"><span class="ia-pnum">Panel 2:</span> Antitrust &amp; Complex Litigation: High-Stakes Disputes and the Role of Third-Party Funding</div></div>
+                    <div class="ia-session ia-panel ia-crown"><div class="ia-label" style="color:#a08530;">Crown Room &bull; 3rd Floor</div><div class="ia-title"><span class="ia-pnum ia-pnum-crown">Panel 14:</span> When Code Meets Claims: AI, LegalTech, and the Next Generation of Funded Litigation</div><div class="ia-adjusted">&#9201; Adjusted time: 9:30 &ndash; 10:15 (incl. transition time)</div></div>
+                </div>
+                <div class="ia-block ia-full ia-break"><div class="ia-time" style="color:#bbb;">10:10 &ndash; 10:30</div><div class="ia-session" style="background:#f8f8f5;text-align:center;border-left:none;"><div style="font-size:11px;font-weight:600;color:#bbb;text-transform:uppercase;letter-spacing:1px;">Break</div></div></div>
+                <div class="ia-block ia-dual">
+                    <div class="ia-time">10:30 &ndash; 11:15</div>
+                    <div class="ia-session ia-panel"><div class="ia-label">Theater &bull; 1st Floor</div><div class="ia-title"><span class="ia-pnum">Panel 10:</span> The Matchmakers: How Advisors and Intermediaries Shape Deal Flow and Pricing</div></div>
+                    <div class="ia-session ia-panel ia-crown"><div class="ia-label" style="color:#a08530;">Crown Room &bull; 3rd Floor</div><div class="ia-title"><span class="ia-pnum ia-pnum-crown">Panel 12:</span> The Risk Transfer Layer: Litigation Insurance, Judgment Preservation, and Portfolio Protection</div></div>
+                </div>
+                <div class="ia-block ia-dual">
+                    <div class="ia-time">11:20 &ndash; 12:10</div>
+                    <div class="ia-session ia-panel"><div class="ia-label">Theater &bull; 1st Floor</div><div class="ia-title"><span class="ia-pnum">Panel 5:</span> From the Bench: Judicial Gatekeeping in Third-Party Funded Litigation</div></div>
+                    <div class="ia-session ia-panel ia-crown"><div class="ia-label" style="color:#a08530;">Crown Room &bull; 3rd Floor</div><div class="ia-title"><span class="ia-pnum ia-pnum-crown">Panel 6:</span> Global Playbook: International Litigation, Arbitration, and Cross-border Enforcement</div><div class="ia-adjusted">&#9201; Adjusted time: 11:20 &ndash; 12:05 (incl. transition time)</div></div>
+                </div>
+                <div class="ia-block ia-full"><div class="ia-time">12:10 &ndash; 13:30</div>
+                    <div class="ia-session ia-meal">
+                        <div class="ia-label" style="color:#4a7c59;">Lunch Break &bull; 2nd Floor</div>
+                        <div class="ia-title" style="margin-bottom:6px;">Lunch is served on the 2nd Floor</div>
+                        <div class="ia-sub"><span style="color:#8b5e3c;font-weight:600;">12:10 &ndash; 12:40</span> &nbsp; Remark &amp; Dialogue with Dean of Northwestern Pritzker School of Law</div>
+                        <div class="ia-sub"><span style="color:#8b5e3c;font-weight:600;">12:40 &ndash; 13:20</span> &nbsp; <span style="color:#1a1a2e;font-weight:600;">Theater &bull; 1st Floor</span> &nbsp;&mdash;&nbsp; Fireside Chat with Willkie Farr Americas Chairman</div>
+                    </div>
+                </div>
+                <div class="ia-block ia-full"><div class="ia-time">13:30 &ndash; 14:10</div><div class="ia-session ia-panel"><div class="ia-label">Theater &bull; 1st Floor</div><div class="ia-title"><span class="ia-pnum">Panel 9:</span> Rules of the Game: Disclosure, Regulation, and the Political Future of Legal Funding</div></div></div>
+                <div class="ia-block ia-dual">
+                    <div class="ia-time">14:15 &ndash; 15:00</div>
+                    <div class="ia-session ia-panel"><div class="ia-label">Theater &bull; 1st Floor</div><div class="ia-title"><span class="ia-pnum">Panel 4:</span> Capital in Crisis: Litigation Funding in Bankruptcy and Post-Confirmation Disputes</div></div>
+                    <div class="ia-session ia-panel ia-crown"><div class="ia-label" style="color:#a08530;">Crown Room &bull; 3rd Floor</div><div class="ia-title"><span class="ia-pnum ia-pnum-crown">Panel 11:</span> The Research Frontier: What Scholars Are Finding About Litigation Finance</div><div class="ia-adjusted">&#9201; Adjusted time: 14:20 &ndash; 15:05 (incl. transition time)</div></div>
+                </div>
+                <div class="ia-block ia-full ia-break"><div class="ia-time" style="color:#bbb;">15:05 &ndash; 15:20</div><div class="ia-session" style="background:#f8f8f5;text-align:center;border-left:none;"><div style="font-size:11px;font-weight:600;color:#bbb;text-transform:uppercase;letter-spacing:1px;">Break</div></div></div>
+                <div class="ia-block ia-dual">
+                    <div class="ia-time">15:20 &ndash; 16:10</div>
+                    <div class="ia-session ia-panel"><div class="ia-label">Theater &bull; 1st Floor</div><div class="ia-title"><span class="ia-pnum">Panel 7:</span> Patent to Payout: IP Monetization Through Third-Party Capital</div></div>
+                    <div class="ia-session ia-panel ia-crown"><div class="ia-label" style="color:#a08530;">Crown Room &bull; 3rd Floor</div><div class="ia-title"><span class="ia-pnum ia-pnum-crown">Panel 8:</span> Private Credit Meets Legal Risk: Asset-Backed Lending and Law Firm Finance</div></div>
+                </div>
+                <div class="ia-block ia-dual">
+                    <div class="ia-time">16:15 &ndash; 17:05</div>
+                    <div class="ia-session ia-panel"><div class="ia-label">Theater &bull; 1st Floor</div><div class="ia-title"><span class="ia-pnum">Panel 3:</span> Beyond Funding: Current Landscape and Future Trends of Legal Assets Investment and MSOs</div></div>
+                    <div class="ia-session ia-panel ia-crown"><div class="ia-label" style="color:#a08530;">Crown Room &bull; 3rd Floor</div><div class="ia-title"><span class="ia-pnum ia-pnum-crown">Panel 13:</span> The Secondary Market: Liquidity, Continuation Funds, and Price Discovery in Legal Assets</div><div class="ia-adjusted">&#9201; Adjusted time: 16:20 &ndash; 17:10 (incl. transition time)</div></div>
+                </div>
+                <div class="ia-block ia-full"><div class="ia-time">17:10 &ndash; 20:00</div><div class="ia-session ia-reception"><div class="ia-label" style="color:#a08530;">2nd Floor</div><div class="ia-title" style="font-family:'Playfair Display',serif;font-size:15px;color:#1a1a2e;">Reception &amp; Social Event</div></div></div>
+            </div>
+            <div class="ia-cta-row">
+                <a href="agenda.html" class="ia-cta-link">View Full Agenda &rarr;</a>
+                <span class="ia-note">Agenda subject to change.</span>
             </div>
         </div>
     </section>
@@ -2178,6 +2319,31 @@
             </div>
         </div>
     </div>
+
+    <script>
+    /* WeChat in-app browser fallback: detect MicroMessenger UA, hide videos,
+       show poster frame as CSS background instead (Option A+B). */
+    (function () {
+        var isWeChat = /MicroMessenger/i.test(navigator.userAgent);
+        if (isWeChat) {
+            document.addEventListener('DOMContentLoaded', function () {
+                document.querySelectorAll('video').forEach(function (vid) {
+                    var poster = vid.getAttribute('poster');
+                    vid.pause();
+                    vid.removeAttribute('autoplay');
+                    vid.style.display = 'none';
+                    var parent = vid.parentElement;
+                    if (poster) {
+                        parent.style.backgroundImage = 'url(' + poster + ')';
+                        parent.style.backgroundSize = 'cover';
+                        parent.style.backgroundPosition = 'center';
+                    }
+                });
+                document.body.classList.add('is-wechat');
+            });
+        }
+    }());
+    </script>
 
     <script>
     (function() {
