@@ -1772,6 +1772,71 @@
             .ia-time { font-size: 10px; padding: 10px 8px 10px 10px; }
             .ia-title { font-size: 11.5px; }
         }
+
+        /* ===== SPONSOR WALL ===== */
+        .sponsor-wall {
+            min-height: 100vh;
+            background: #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            padding: 80px 60px;
+        }
+        .sponsor-wall-eyebrow {
+            font-family: 'Inter', sans-serif;
+            font-size: clamp(0.6rem, 1.2vw, 0.78rem);
+            font-weight: 600;
+            letter-spacing: 0.28em;
+            text-transform: uppercase;
+            color: #c9a84c;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+        .sponsor-wall-grid {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+            width: 100%;
+            max-width: 820px;
+        }
+        .sponsor-wall-item {
+            font-family: 'Inter', sans-serif;
+            font-size: clamp(1.05rem, 2.6vw, 1.75rem);
+            font-weight: 300;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: #fff;
+            text-align: center;
+            padding: 18px 0;
+            width: 100%;
+            border-bottom: 1px solid rgba(255,255,255,0.07);
+            transition: color 0.25s, letter-spacing 0.25s;
+            cursor: default;
+        }
+        .sponsor-wall-item:first-child {
+            border-top: 1px solid rgba(255,255,255,0.07);
+        }
+        .sponsor-wall-item:hover {
+            color: #c9a84c;
+            letter-spacing: 0.2em;
+        }
+        .sponsor-wall-scroll {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 1px;
+            height: 50px;
+            background: linear-gradient(to bottom, rgba(255,255,255,0.4), transparent);
+        }
+        @media (max-width: 600px) {
+            .sponsor-wall { padding: 60px 24px; }
+            .sponsor-wall-item { font-size: 1rem; padding: 14px 0; letter-spacing: 0.1em; }
+        }
     </style>
 </head>
 <body>
@@ -1822,6 +1887,23 @@
         <div class="splash-text">WHERE THE <em>SCIENCE</em> OF LAW &amp; FINANCE MEETS <em>ART</em></div>
         <img class="splash-logo" src="litfin501c-logo.png" alt="LitFin501c Foundation">
         <div class="splash-scroll"></div>
+    </section>
+
+    <section class="sponsor-wall" id="sponsors">
+        <div class="sponsor-wall-eyebrow">Proudly Supported By</div>
+        <div class="sponsor-wall-grid">
+            <div class="sponsor-wall-item">Omni Bridgeway</div>
+            <div class="sponsor-wall-item">McDonald Hopkins</div>
+            <div class="sponsor-wall-item">Bartlit Beck</div>
+            <div class="sponsor-wall-item">Willkie Farr &amp; Gallagher LLP</div>
+            <div class="sponsor-wall-item">Samson Partners Group</div>
+            <div class="sponsor-wall-item">Invenio</div>
+            <div class="sponsor-wall-item">Backlit Capital</div>
+            <div class="sponsor-wall-item">CAC Group</div>
+            <div class="sponsor-wall-item">Contingency Capital</div>
+            <div class="sponsor-wall-item">Magna Legal Services</div>
+        </div>
+        <div class="sponsor-wall-scroll"></div>
     </section>
 
     <div class="sticky-pin hero-pin">
