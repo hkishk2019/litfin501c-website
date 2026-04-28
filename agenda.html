@@ -6,100 +6,23 @@
 <title>Chicago Litigation Finance Conference 2026 — Agenda</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 <style>
-  /* ===== SITE NAV (matches index.html exactly) ===== */
-  :root {
-    --bg-warm: #f8f7f4;
-    --gold: #c9a84c;
-    --gold-light: #dfc070;
-    --gold-muted: #a08636;
-    --white: #ffffff;
-    --gray-mid: #8a92a1;
-    --gray-dark: #4a5568;
-    --text-heading: #1a1a2e;
-    --text-body: #2d3748;
-    --navy-deepest: #0a1628;
-  }
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; }
 
   body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    background: var(--bg-warm);
-    color: var(--text-body);
+    background: #f5f5f0;
+    color: #2c2c2c;
     line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    /* push content below fixed nav */
-    padding-top: 72px;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
 
-  nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    padding: 0 60px;
-    height: 72px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: rgba(248, 247, 244, 0.97);
-    backdrop-filter: blur(20px);
-    border-bottom: 1px solid rgba(201, 168, 76, 0.2);
-    transition: background 0.4s ease, backdrop-filter 0.4s ease;
-  }
-
-  .nav-brand {
-    font-family: 'Playfair Display', serif;
-    color: var(--text-heading);
-    font-size: 1.05rem;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-  }
-  .nav-brand span { color: var(--gold); }
-  .nav-byline {
-    font-family: 'Inter', sans-serif;
-    font-size: 0.55rem;
-    font-weight: 500;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    color: var(--gray-mid);
-    margin-top: 2px;
-  }
-
-  .nav-links { display: flex; gap: 36px; list-style: none; }
-  .nav-links a {
-    color: var(--gray-dark);
-    text-decoration: none;
-    font-size: 0.82rem;
-    font-weight: 500;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    transition: color 0.3s ease;
-  }
-  .nav-links a:hover { color: var(--gold); }
-  .nav-links a.nav-active { color: var(--gold); }
-
-  .nav-cta {
-    padding: 10px 28px;
-    background: var(--gold);
-    color: var(--white) !important;
-    border-radius: 2px;
-    font-weight: 600 !important;
-    letter-spacing: 1.5px;
-    transition: background 0.3s ease !important;
-  }
-  .nav-cta:hover { background: var(--gold-light) !important; }
-
-  /* ===== AGENDA CONTENT (original styles, minimally adjusted) ===== */
   .page {
     max-width: 1000px;
     margin: 0 auto;
     background: #fff;
-    box-shadow: 0 2px 24px rgba(0,0,0,0.06);
   }
 
   /* --- HEADER --- */
@@ -277,7 +200,7 @@
     grid-column: 2 / -1;
   }
 
-  /* --- AGENDA FOOTER --- */
+  /* --- FOOTER --- */
   .footer {
     padding: 20px 48px 28px;
     border-top: 1px solid #e8e8e4;
@@ -294,50 +217,22 @@
     font-weight: 500;
   }
 
-  /* --- SITE FOOTER (brand strip matching index.html) --- */
-  .site-footer {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 24px 48px;
-    text-align: center;
-    border-top: 1px solid rgba(201, 168, 76, 0.25);
-    background: var(--bg-warm);
-  }
-  .site-footer div:first-child {
-    font-size: 11px;
-    letter-spacing: 2.5px;
-    text-transform: uppercase;
-    color: var(--gold-muted);
-    font-weight: 600;
-    margin-bottom: 6px;
-  }
-  .site-footer div:last-child {
-    font-size: 10.5px;
-    color: var(--gray-mid);
-    letter-spacing: 0.4px;
-  }
-
   /* --- PRINT --- */
   @media print {
-    body { background: #fff; font-size: 11px; padding-top: 0; }
-    nav { display: none; }
-    .page { max-width: 100%; box-shadow: none; }
+    body { background: #fff; font-size: 11px; }
+    .page { max-width: 100%; }
     .header { padding: 28px 36px 24px; }
     .header h1 { font-size: 24px; }
     .schedule, .footer, .venue-legend { padding-left: 36px; padding-right: 36px; }
     .session-title { font-size: 11.5px; }
     .time-col { font-size: 10.5px; }
-    .site-footer { display: none; }
   }
 
   @media (max-width: 700px) {
-    nav { padding: 0 20px; }
-    .nav-links { display: none; }
     .header, .schedule, .footer, .venue-legend { padding-left: 16px; padding-right: 16px; }
     .time-block { grid-template-columns: 80px 1fr; }
     .time-block:not(.full-width) { grid-template-columns: 80px 1fr; }
     .session { padding: 10px 12px; }
-    .site-footer { padding: 20px 16px; }
   }
 </style>
 </head>
