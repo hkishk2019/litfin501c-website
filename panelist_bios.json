@@ -1,42 +1,839 @@
 [
   {
-    "name": "Virginia M. Kendall",
-    "current_title": "Chief Judge",
-    "current_employer": "U.S. District Court, Northern District of Illinois",
-    "panel": "5",
+    "name": "Michele Gambera",
+    "current_title": "Head of Strategic Asset Allocation Modeling",
+    "current_employer": "UBS Asset Management",
+    "panel": "1",
     "role_on_panel": "Panelist",
     "email": "",
-    "photo": "panelist_photos/virginia_kendall.jpg",
-    "bio": "Chief Judge Virginia M. Kendall has served on the U.S. District Court for the Northern District of Illinois since 2006, appointed by President George W. Bush, and became Chief Judge in 2024. Previously a federal prosecutor for over ten years, she served as Deputy Chief of the Criminal Division and Child Exploitation Coordinator. She teaches trial practice and federal litigation at the University of Chicago Law School, Northwestern, and Loyola, and is co-author of books on child exploitation and trafficking. Kendall lectures internationally in over 30 countries and serves on Judicial Conference committees. She received a JD from Loyola University Chicago School of Law, an MA from Northwestern University, and a BA from Northwestern University.\n",
+    "photo": "panelist_photos/michele_gambera.jpg",
+    "bio": "Michele Gambera has over 25 years of top-down investment management experience, focusing on asset allocation, risk management, and portfolio construction. After two years at the Chicago Fed as economist, he was at Morningstar for ten years in several capacities including chief economist of Ibbotson Associates, and among other things, he is one of the two authors of the Morningstar Star Ratings methodology for mutual funds. He then was at UBS Asset Management for 15 years, leading the development of models for strategic and tactical asset allocation, as well as envisioning portfolio solutions for large complex institutional clients such as sovereign wealth funds. A graduate of the University of Trento in Italy, Michele holds a PhD from the Pennsylvania State University. A CFA charterholder and co-author of two chapters in the CFA curriculum, Michele has published his research in several peer-reviewed journals, including the Journal of Finance. He has taught economics and finance at the Illinois Institute of Technology, Loyola University Chicago, University of Illinois at Chicago, University of Illinois at Urbana-Champaign, and University of West Virginia.\n",
     "career": [
       {
-        "role": "Chief Judge",
-        "employer": "U.S. District Court, Northern District of Illinois",
+        "role": "Head of Strategic Asset Allocation Modeling",
+        "employer": "UBS Asset Management",
+        "years": "2010–Present"
+      },
+      {
+        "role": "Chief Economist, Ibbotson Associates",
+        "employer": "Morningstar",
+        "years": "2000–2010"
+      },
+      {
+        "role": "Economist",
+        "employer": "Federal Reserve Bank of Chicago",
+        "years": "1998–2000"
+      }
+    ],
+    "education": [
+      {
+        "degree": "PhD in Economics",
+        "school": "Pennsylvania State University"
+      },
+      {
+        "degree": "BA/MA in Economics, with honors",
+        "school": "University of Trento, Italy"
+      }
+    ]
+  },
+  {
+    "name": "Charles Agee",
+    "current_title": "CEO",
+    "current_employer": "Westfleet Advisors",
+    "panel": "10",
+    "role_on_panel": "Panelist",
+    "email": "cagee@westfleetadvisors.com",
+    "photo": "panelist_photos/charles_agee.jpg",
+    "bio": "Charles Agee is CEO and Founder of Westfleet Advisors, a litigation finance advisory firm based in Nashville. With over 27 years in litigation finance, he co-founded Augusta Capital—one of the first litigation finance companies—in 1998 during his senior year of college, serving as EVP and COO for 15 years and overseeing financing in over a thousand complex matters. Westfleet provides transaction advisory, competitive process management, and expert valuations for the litigation finance industry. Agee received a BA in Economics (Phi Beta Kappa) from Rhodes College.\n",
+    "career": [
+      {
+        "role": "CEO & Founder",
+        "employer": "Westfleet Advisors",
+        "years": "2013–Present"
+      },
+      {
+        "role": "Executive Vice President & COO",
+        "employer": "Augusta Capital",
+        "years": "1998–2013"
+      }
+    ],
+    "education": [
+      {
+        "degree": "BA in Economics (Phi Beta Kappa)",
+        "school": "Rhodes College"
+      }
+    ]
+  },
+  {
+    "name": "Suneal Bedi",
+    "current_title": "Associate Professor",
+    "current_employer": "Indiana University Kelley School of Business",
+    "panel": "11",
+    "role_on_panel": "Moderator",
+    "email": "sbedi@iu.edu",
+    "photo": "panelist_photos/suneal_bedi.jpg",
+    "bio": "Suneal Bedi is an Associate Professor and Jerome Bess Faculty Fellow at Indiana University's Kelley School of Business and Research Director of Business Ethics at the Institute of Corporate Governance and Ethics. His expertise spans intellectual property, marketing ethics, brand strategy, and business ethics. Previously a corporate associate at Ropes & Gray in real estate and finance, Bedi has published in numerous law reviews and business journals and writes for the New York Times, Forbes, and Washington Post. He received a PhD in Marketing and a PhD in Business Ethics (joint) and an MS in Marketing from the Wharton School at the University of Pennsylvania, a JD from Harvard Law School, and a BA, with Honors, in Economics and Russian Literature from Swarthmore College.\n",
+    "career": [
+      {
+        "role": "Associate Professor & Jerome Bess Faculty Fellow",
+        "employer": "Indiana University, Kelley School of Business",
+        "years": "2019–Present"
+      },
+      {
+        "role": "Lecturer",
+        "employer": "Wharton School, University of Pennsylvania",
+        "years": "2014–2019"
+      },
+      {
+        "role": "Associate",
+        "employer": "Ropes & Gray",
+        "years": "2012–2014"
+      }
+    ],
+    "education": [
+      {
+        "degree": "PhD in Marketing & PhD in Business Ethics (joint)",
+        "school": "Wharton School, University of Pennsylvania"
+      },
+      {
+        "degree": "MS in Marketing",
+        "school": "Wharton School, University of Pennsylvania"
+      },
+      {
+        "degree": "JD",
+        "school": "Harvard Law School"
+      },
+      {
+        "degree": "BA, with Honors, in Economics & Russian Literature",
+        "school": "Swarthmore College"
+      }
+    ]
+  },
+  {
+    "name": "Max Bernstein",
+    "current_title": "Senior Vice President",
+    "current_employer": "CAC Group",
+    "panel": "12",
+    "role_on_panel": "Moderator",
+    "email": "Max.Bernstein@cacgroup.com",
+    "photo": "panelist_photos/max_bernstein.jpg",
+    "bio": "Max Bernstein is Vice President of Contingent Risk at CAC Specialty, procuring insurance solutions for contingent legal assets and liabilities. He previously litigated at Quinn Emanuel Urquhart & Sullivan and BraunHagey & Borden, and clerked for Hon. Cathy Seibel (S.D.N.Y.) and Hon. Denny Chin (Second Circuit). Bernstein served as Editor-in-Chief of the Fordham Law Review and is an Adjunct Professor at Fordham Law School. CAC's Contingent Risk Practice has placed over $4.5 billion in insurance coverage. He received a JD from Fordham University School of Law (Fordham Law School Prize, Mary Daly Scholar).\n",
+    "career": [
+      {
+        "role": "Vice President, Contingent Risk",
+        "employer": "CAC Specialty",
+        "years": "2023–Present"
+      },
+      {
+        "role": "Adjunct Professor",
+        "employer": "Fordham Law School",
+        "years": "2025–Present"
+      },
+      {
+        "role": "Associate",
+        "employer": "BraunHagey & Borden",
+        "years": "2021–2023"
+      },
+      {
+        "role": "Law Clerk, Hon. Denny Chin",
+        "employer": "U.S. Court of Appeals for the Second Circuit",
+        "years": "Prior"
+      },
+      {
+        "role": "Law Clerk, Hon. Cathy Seibel",
+        "employer": "U.S. District Court, Southern District of New York",
+        "years": "Prior"
+      },
+      {
+        "role": "Associate",
+        "employer": "Quinn Emanuel Urquhart & Sullivan",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD (Fordham Law School Prize, Mary Daly Scholar)",
+        "school": "Fordham University School of Law"
+      }
+    ]
+  },
+  {
+    "name": "Benjamin Blum",
+    "current_title": "Managing Director",
+    "current_employer": "Flexpoint Ford",
+    "panel": "1",
+    "role_on_panel": "Panelist",
+    "email": "bblum@flexpointford.com",
+    "photo": "panelist_photos/benjamin_blum.jpg",
+    "photo_source": "Flexpoint Ford team page",
+    "photo_dimensions": "768x768",
+    "bio": "Benjamin Blum is a Managing Director at Flexpoint Ford, where he focuses on identifying, valuing, and executing investment opportunities in the Asset Opportunities strategy. Based in New York, he joined Flexpoint in 2016 as Vice President and was promoted to Managing Director in 2021. Prior to Flexpoint Ford, Blum spent nearly seven years at Morgan Stanley in the Fixed Income Division, progressing from Analyst to Vice President, with a focus on asset-based lending and securitized products. He has extensive experience evaluating, structuring, and managing term securitizations and warehouse credit lines across a broad range of asset classes. Blum received a BSBA in Finance, summa cum laude, from Washington University in St. Louis (Olin Business School).\n",
+    "career": [
+      {
+        "role": "Managing Director",
+        "employer": "Flexpoint Ford",
+        "years": "2021–Present"
+      },
+      {
+        "role": "Vice President",
+        "employer": "Flexpoint Ford",
+        "years": "2016–2021"
+      },
+      {
+        "role": "Vice President, Fixed Income Division",
+        "employer": "Morgan Stanley",
+        "years": "2015–2016"
+      },
+      {
+        "role": "Associate",
+        "employer": "Morgan Stanley",
+        "years": "2011–2015"
+      },
+      {
+        "role": "Analyst, Research",
+        "employer": "Morgan Stanley",
+        "years": "2009–2011"
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSBA in Finance, summa cum laude",
+        "school": "Washington University in St. Louis (Olin Business School)",
+        "year": "2009"
+      }
+    ]
+  },
+  {
+    "name": "Matthew Blumenstein",
+    "current_title": "Head of Underwriting",
+    "current_employer": "Statera Capital",
+    "panel": "12",
+    "role_on_panel": "Panelist",
+    "email": "mhb@stateracap.com",
+    "photo": "panelist_photos/matthew_blumenstein.jpg",
+    "bio": "Matthew Blumenstein is Director, Head of Underwriting, and Deputy General Counsel at Statera Capital since 2020. He previously practiced general civil litigation for approximately ten years at Williams & Connolly LLP and clerked for Judge Karen LeCraft Henderson on the U.S. Court of Appeals for the D.C. Circuit. Blumenstein serves as Adjunct Professor at Vanderbilt Law School teaching commercial litigation finance. Named to Lawdragon's Global 100 Leaders in Litigation Finance in 2022 and a Super Lawyers Rising Star from 2014 to 2019. He received a JD from Vanderbilt Law School (Order of the Coif, Cecil D. Branstetter Award) and a BA from Stanford University.\n",
+    "career": [
+      {
+        "role": "Director & Head of Underwriting",
+        "employer": "Statera Capital",
+        "years": "2020–Present"
+      },
+      {
+        "role": "Attorney",
+        "employer": "Williams & Connolly LLP",
+        "years": "2010–2020"
+      },
+      {
+        "role": "Law Clerk, Judge Karen LeCraft Henderson",
+        "employer": "U.S. Court of Appeals for the D.C. Circuit",
+        "years": "2009–2010"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD (Order of the Coif, Cecil D. Branstetter Award)",
+        "school": "Vanderbilt Law School"
+      },
+      {
+        "degree": "BA",
+        "school": "Stanford University"
+      }
+    ]
+  },
+  {
+    "name": "Daniel Bond",
+    "current_title": "Managing Director, North America",
+    "current_employer": "Litica",
+    "panel": "12",
+    "role_on_panel": "Panelist",
+    "email": "shai.silverman@litica.us",
+    "photo": "panelist_photos/daniel_bond.jpg",
+    "bio": "Daniel Bond is Managing Director of Litica North America since 2024, overseeing U.S. operations. He started his career at Kirkland & Ellis as an associate and made partner in 2014, specializing in complex commercial and IP litigation. Bond transitioned to contingent risk and litigation funding as Managing Director and Global Director of Underwriting at Delta Capital Partners Management from 2019 to 2022, then served as EVP of Contingent Risk at DUAL North America. At Litica, he builds solutions for funders, credit funds, and law firms through bespoke insurance structures. He is one of few underwriters to have served senior roles on all sides of the market. Bond received a BA from Middle Tennessee State University.\n",
+    "career": [
+      {
+        "role": "Managing Director, North America",
+        "employer": "Litica",
         "years": "2024–Present"
       },
       {
-        "role": "U.S. District Judge",
-        "employer": "U.S. District Court, Northern District of Illinois",
-        "years": "2006–2024"
+        "role": "Executive Vice President, Contingent Risk",
+        "employer": "DUAL North America",
+        "years": "2022–2024"
       },
       {
-        "role": "Federal Prosecutor",
-        "employer": "U.S. Attorney's Office, Northern District of Illinois",
-        "years": "Prior (10+ years)"
+        "role": "Managing Director & Global Director of Underwriting",
+        "employer": "Delta Capital Partners Management",
+        "years": "2019–2022"
+      },
+      {
+        "role": "Partner",
+        "employer": "Kirkland & Ellis",
+        "years": "2014–2019"
+      },
+      {
+        "role": "Associate",
+        "employer": "Kirkland & Ellis",
+        "years": "2008–2014"
+      }
+    ],
+    "education": [
+      {
+        "degree": "BA",
+        "school": "Middle Tennessee State University"
+      }
+    ]
+  },
+  {
+    "name": "Leonard Brahin",
+    "current_title": "Associate",
+    "current_employer": "Holland & Knight LLP",
+    "panel": "3",
+    "role_on_panel": "Panelist",
+    "email": "Leonard.Brahin@hklaw.com",
+    "photo": "panelist_photos/leonard_brahin.jpg",
+    "bio": "Leonard Brahin is an Associate in Holland & Knight's Chicago office focusing on litigation and dispute resolution, lawyer ethics, and legal services transactions. He handles expedited matters involving TROs and preliminary injunctions in high-stakes business disputes and develops legal frameworks for law firm management services organizations. During law school, Brahin externed for Hon. Thomas M. Durkin of the Northern District of Illinois and assisted with appeals for Hon. John Z. Lee of the Seventh Circuit. Prior to law school, he worked at a transportation logistics company in Chicago. Brahin received a JD from DePaul Law School.\n",
+    "career": [
+      {
+        "role": "Associate",
+        "employer": "Holland & Knight LLP",
+        "years": "Current"
+      },
+      {
+        "role": "Extern, Hon. Thomas M. Durkin",
+        "employer": "U.S. District Court, Northern District of Illinois",
+        "years": "Prior"
+      },
+      {
+        "role": "Extern, Hon. John Z. Lee",
+        "employer": "U.S. Court of Appeals for the Seventh Circuit",
+        "years": "Prior"
       }
     ],
     "education": [
       {
         "degree": "JD",
-        "school": "Loyola University Chicago School of Law"
+        "school": "DePaul Law School"
+      }
+    ]
+  },
+  {
+    "name": "Eric Carlson",
+    "current_title": "Managing Director, Global Patent",
+    "current_employer": "Burford Capital",
+    "panel": "7",
+    "role_on_panel": "Panelist",
+    "email": "ecarlson@burfordcapital.com",
+    "photo": "panelist_photos/eric_carlson.jpg",
+    "bio": "Eric Carlson is a Managing Director at Burford Capital responsible for assessing and underwriting legal risk in Burford's patent group. With over 18 years in IP and litigation finance, he previously practiced as a patent litigator at Katten Muchin Rosenman and Jones Day, handling matters involving software, hardware, semiconductors, and smartphones. Carlson transitioned to litigation finance in 2014 as an analyst at Gerchen Keller Capital, which was later acquired by Burford. He is listed in IAM Strategy 300 and recognized by Chambers. Carlson received a JD from the University of Illinois College of Law and a BS in Computer Science from the University of Illinois College of Engineering.\n",
+    "career": [
+      {
+        "role": "Managing Director",
+        "employer": "Burford Capital",
+        "years": "2023–Present"
       },
       {
-        "degree": "MA",
-        "school": "Northwestern University"
+        "role": "Director",
+        "employer": "Burford Capital",
+        "years": "2020–2023"
       },
       {
-        "degree": "BA",
-        "school": "Northwestern University"
+        "role": "IP Principal / Vice President",
+        "employer": "Burford Capital",
+        "years": "2017–2020"
+      },
+      {
+        "role": "Analyst",
+        "employer": "Gerchen Keller Capital",
+        "years": "2014–2016"
+      },
+      {
+        "role": "Associate",
+        "employer": "Katten Muchin Rosenman",
+        "years": "2012–2014"
+      },
+      {
+        "role": "Associate",
+        "employer": "Jones Day",
+        "years": "2007–2011"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "University of Illinois College of Law"
+      },
+      {
+        "degree": "BS in Computer Science",
+        "school": "University of Illinois College of Engineering"
+      }
+    ]
+  },
+  {
+    "name": "Marc Carmel",
+    "current_title": "Managing Member",
+    "current_employer": "McDonald Hopkins LLC",
+    "panel": "3, 4",
+    "role_on_panel": "Panelist (Panel 3) / Moderator (Panel 4)",
+    "email": "mcarmel@mcdonaldhopkins.com",
+    "photo": "panelist_photos/marc_carmel.jpg",
+    "bio": "Marc Carmel is Managing Member of McDonald Hopkins' Chicago office, where he co-leads the Private Equity and Litigation Finance practice groups. With two decades of experience, he represents public and private companies, PE firms, directors, and lenders in restructurings, M&A, and litigation finance. Previously at Kirkland & Ellis, Paul Hastings, and Longford Capital, where he served as Director leading bankruptcy and restructuring investments. Ranked Band 4 in Bankruptcy/Restructuring by Chambers USA 2025, Carmel also holds an inactive CPA credential. He received a JD from Harvard Law School, a Master of Accounting from the University of Michigan, and a BBA from the University of Michigan.\n",
+    "career": [
+      {
+        "role": "Managing Member",
+        "employer": "McDonald Hopkins LLC",
+        "years": "2018–Present"
+      },
+      {
+        "role": "Director",
+        "employer": "Longford Capital",
+        "years": "Prior"
+      },
+      {
+        "role": "Partner",
+        "employer": "Kirkland & Ellis",
+        "years": "Prior"
+      },
+      {
+        "role": "Partner",
+        "employer": "Paul Hastings",
+        "years": "Prior"
+      },
+      {
+        "role": "Accountant",
+        "employer": "National accounting firm",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "Harvard Law School"
+      },
+      {
+        "degree": "Master of Accounting",
+        "school": "University of Michigan"
+      },
+      {
+        "degree": "BBA",
+        "school": "University of Michigan"
+      }
+    ]
+  },
+  {
+    "name": "Albert Chang",
+    "current_title": "Adjunct Professor / Senior Director",
+    "current_employer": "Northwestern Pritzker School of Law / Fannie Mae",
+    "panel": "9",
+    "role_on_panel": "Moderator",
+    "email": "albert.chang1@law.northwestern.edu",
+    "photo": "panelist_photos/albert_chang.jpg",
+    "bio": "Albert Chang is a Senior Director at Fannie Mae and Adjunct Professor at Northwestern Pritzker School of Law, where he teaches Fintech Law and Regulation. Previously Senior Counsel at the Consumer Financial Protection Bureau (CFPB) in the Office of Competition and Innovation and Office of Fair Lending, his earlier career included roles at American Express in Fair Lending and as Senior Consultant at EY in Quantitative Economics and Risk Management. Chang received a JD, cum laude (Dean's Merit Scholarship), from Yeshiva University and a BA in Physics and Economics (Philip Evans Scholar) from Swarthmore College.\n",
+    "career": [
+      {
+        "role": "Senior Director",
+        "employer": "Fannie Mae",
+        "years": "2025–Present"
+      },
+      {
+        "role": "Adjunct Professor",
+        "employer": "Northwestern Pritzker School of Law",
+        "years": "2022–Present"
+      },
+      {
+        "role": "Senior Counsel",
+        "employer": "Consumer Financial Protection Bureau (CFPB)",
+        "years": "2014–2025"
+      },
+      {
+        "role": "Senior Manager",
+        "employer": "American Express",
+        "years": "Prior"
+      },
+      {
+        "role": "Manager / Senior Consultant",
+        "employer": "EY",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD, cum laude (Dean's Merit Scholarship)",
+        "school": "Yeshiva University"
+      },
+      {
+        "degree": "BA in Physics & Economics (Philip Evans Scholar)",
+        "school": "Swarthmore College"
+      }
+    ]
+  },
+  {
+    "name": "Kelly Daley",
+    "current_title": "Founder",
+    "current_employer": "Celsia Capital",
+    "panel": "13",
+    "role_on_panel": "Panelist",
+    "email": "KMD@gerchen.com",
+    "photo": "panelist_photos/kelly_daley.jpg",
+    "bio": "Kelly Daley is Founder of Celsia Capital, a litigation finance platform. With over 18 years of experience, she previously served as Managing Director at Gerchen Capital Partners from 2024 to 2025, leading corporate monetization transactions, and spent seven years at Burford Capital from 2017 to 2024, rising from VP to MD and leading U.S. commercial underwriting for corporate finance secured by contingent legal assets. Daley's earlier career included roles as senior litigator at Orrick Herrington & Sutcliffe and associate at MoloLamken and McDermott Will & Emery. She clerked for Hon. D. Michael Fisher on the Third Circuit. Daley received a JD from Georgetown University and a BA in Literature and History from Georgetown University.\n",
+    "career": [
+      {
+        "role": "Founder",
+        "employer": "Celsia Capital",
+        "years": "2025–Present"
+      },
+      {
+        "role": "Managing Director",
+        "employer": "Gerchen Capital Partners",
+        "years": "2024–2025"
+      },
+      {
+        "role": "Managing Director",
+        "employer": "Burford Capital",
+        "years": "2017–2024"
+      },
+      {
+        "role": "Senior Associate",
+        "employer": "Orrick Herrington & Sutcliffe",
+        "years": "2012–2017"
+      },
+      {
+        "role": "Associate",
+        "employer": "MoloLamken",
+        "years": "2010–2012"
+      },
+      {
+        "role": "Associate",
+        "employer": "McDermott Will & Emery",
+        "years": "2007–2009"
+      },
+      {
+        "role": "Law Clerk, Hon. D. Michael Fisher",
+        "employer": "U.S. Court of Appeals for the Third Circuit",
+        "years": "2009–2010"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "Georgetown University"
+      },
+      {
+        "degree": "BA in Literature & History",
+        "school": "Georgetown University"
+      }
+    ]
+  },
+  {
+    "name": "Patrick Dempsey",
+    "current_title": "Director of Commercial Litigation Strategy",
+    "current_employer": "Certum Group",
+    "panel": "8",
+    "role_on_panel": "Moderator",
+    "email": "pdempsey@certumgroup.com",
+    "photo": "panelist_photos/patrick_dempsey.jpg",
+    "bio": "Patrick Dempsey is Director of Commercial Litigation Strategy at Certum Group since 2025, overseeing origination, structuring, and monitoring of commercial litigation financing and portfolio solutions. Previously a Director at Burford Capital and CIO of U.S. operations at Therium Capital Management, his earlier career included roles as litigator at Proskauer and senior associate at Hogan Lovells. Recognized by Lawdragon, Who's Who Legal, and Leaders League for litigation finance expertise. Dempsey received a JD, magna cum laude (Order of the Coif, Managing Editor of the Tulane Law Review), from Tulane University Law School and a BS from the University of New Orleans.\n",
+    "career": [
+      {
+        "role": "Director of Commercial Litigation Strategy",
+        "employer": "Certum Group",
+        "years": "2025–Present"
+      },
+      {
+        "role": "Director",
+        "employer": "Burford Capital",
+        "years": "2022–2024"
+      },
+      {
+        "role": "CIO, U.S. Operations",
+        "employer": "Therium Capital Management",
+        "years": "2016–2022"
+      },
+      {
+        "role": "Associate",
+        "employer": "Hogan Lovells",
+        "years": "2013–2016"
+      },
+      {
+        "role": "Associate",
+        "employer": "Proskauer Rose",
+        "years": "2006–2013"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD, magna cum laude (Order of the Coif, Managing Editor Tulane Law Review)",
+        "school": "Tulane University Law School"
+      },
+      {
+        "degree": "BS",
+        "school": "University of New Orleans"
+      }
+    ]
+  },
+  {
+    "name": "Seth Deutsch",
+    "current_title": "Co-Founder",
+    "current_employer": "Samson Partners Group",
+    "panel": "3",
+    "role_on_panel": "Panelist",
+    "email": "seth@samsonpartnersgroup.com",
+    "photo": "panelist_photos/seth_deutsch.jpg",
+    "bio": "Seth Deutsch is Founder of Samson Partners Group (Samson Operating Partners), providing executive advisory and board-level services to PE firms, family offices, and portfolio companies. A growth leader, operating partner, board member, and CEO, he has a track record of profitable growth for PE-backed, family-owned, and public companies. Previously President of AECOM's Industrial Group and CEO of its Facility Services Group, Deutsch currently serves as Board Member and Chief Growth Officer at E78 Partners. He received an MBA from the Kellogg School of Management at Northwestern University and an undergraduate degree from Rice University.\n",
+    "career": [
+      {
+        "role": "Founder",
+        "employer": "Samson Partners Group",
+        "years": "Current"
+      },
+      {
+        "role": "Board Member & Chief Growth Officer",
+        "employer": "E78 Partners",
+        "years": "Current"
+      },
+      {
+        "role": "President, Industrial Group",
+        "employer": "AECOM",
+        "years": "Prior"
+      },
+      {
+        "role": "CEO, Facility Services Group",
+        "employer": "AECOM",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "MBA",
+        "school": "Kellogg School of Management, Northwestern University"
+      },
+      {
+        "degree": "Undergraduate degree",
+        "school": "Rice University"
+      }
+    ]
+  },
+  {
+    "name": "Chris Dore",
+    "current_title": "Chief Strategy Officer",
+    "current_employer": "Bridge Legal",
+    "panel": "",
+    "role_on_panel": "Panelist",
+    "email": "",
+    "photo": "panelist_photos/chris_dore.jpg",
+    "bio": "Chris Dore is Chief Strategy Officer at Bridge Legal, an AI-enabled legal fintech platform headquartered in Chicago that delivers end-to-end workflow infrastructure for law firms and litigation funders across the full case lifecycle. Elevated to CSO in January 2026 after joining as Managing Director of Strategic Opportunities in September 2024, Dore leads enterprise-wide strategy, investment initiatives, and portfolio management as Bridge Legal continues to scale its capital markets presence in high-volume consumer litigation.\n\nDore brings more than fifteen years of combined experience as a plaintiff's litigator and litigation finance professional. He was a Partner at Edelson PC, one of the nation's premier mass tort and class action firms, where he built deep expertise in complex multi-district litigation. He subsequently served as a Director at Burford Capital, the world's largest litigation funder, where he oversaw mass tort and single-event investments.\n\nAt Bridge Legal, Dore has been instrumental in sharpening the company's strategic focus, strengthening relationships across the funder and law firm ecosystem, and positioning the platform—anchored by its AI-driven Bridgify software—for its next phase of intentional, disciplined growth. His rare vantage point spanning the plaintiff's bar, institutional litigation finance, and legal technology makes him a distinctive voice on the convergence of capital, AI, and legal practice.",
+    "career": [
+      {
+        "role": "Chief Strategy Officer",
+        "employer": "Bridge Legal",
+        "years": "2026–Present"
+      },
+      {
+        "role": "Managing Director, Strategic Opportunities",
+        "employer": "Bridge Legal",
+        "years": "2024–2026"
+      },
+      {
+        "role": "Director, Mass Tort & Single Event Investments",
+        "employer": "Burford Capital",
+        "years": "Prior to 2024"
+      },
+      {
+        "role": "Partner",
+        "employer": "Edelson PC",
+        "years": "Prior"
+      }
+    ],
+    "education": []
+  },
+  {
+    "name": "Ken Epstein",
+    "current_title": "Co-Founder & Principal",
+    "current_employer": "Backlit Capital",
+    "panel": "4",
+    "role_on_panel": "Panelist",
+    "email": "ken@backlitcapital.com",
+    "photo": "panelist_photos/ken_epstein.jpg",
+    "bio": "Ken Epstein is Co-Founder and Principal of Backlit Capital Solutions, a financial consulting and advisory firm specializing in legal finance and litigation risk management. With 25 years of experience in bankruptcy law, commercial litigation, restructuring, and finance, he previously served as Senior Investment Manager and Legal Counsel at Omni Bridgeway, leading the U.S. insolvency litigation finance platform. Before that, Epstein was Managing Director at MBIA and Associate Director at Standard & Poor's. He also teaches bankruptcy law as adjunct professor at Cardozo Law School. Epstein received a JD, cum laude, from Brooklyn Law School and an undergraduate accounting degree from the University of Maryland.\n",
+    "career": [
+      {
+        "role": "Co-Founder & Principal",
+        "employer": "Backlit Capital Solutions",
+        "years": "2025–Present"
+      },
+      {
+        "role": "Senior Investment Manager & Legal Counsel",
+        "employer": "Omni Bridgeway",
+        "years": "2017–2025"
+      },
+      {
+        "role": "Managing Director",
+        "employer": "MBIA",
+        "years": "2008–2017"
+      },
+      {
+        "role": "Associate Director",
+        "employer": "Standard & Poor's",
+        "years": "2005–2008"
+      },
+      {
+        "role": "Associate",
+        "employer": "Cadwalader, Wickersham & Taft",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD, cum laude",
+        "school": "Brooklyn Law School"
+      },
+      {
+        "degree": "Undergraduate accounting degree",
+        "school": "University of Maryland"
+      }
+    ]
+  },
+  {
+    "name": "Josh Gammon",
+    "current_title": "Founder / Instructor",
+    "current_employer": "WealthDocket / Northwestern Pritzker School of Law",
+    "panel": "7",
+    "role_on_panel": "Panelist",
+    "email": "jgammon@wealthdocket.com",
+    "photo": "panelist_photos/josh_gammon.jpg",
+    "bio": "Josh Gammon is Co-Founder and Managing Member of WealthDocket Advisors, a litigation funding advisory and IP asset management firm that created the world's first crowdfunded IP monetization platform. He has served as Adjunct Instructor at Northwestern Pritzker School of Law teaching IP Valuation since 2018. With 15 years of IP experience, Gammon previously held roles as Managing Director at Hilco IP Merchant Banking and Director at Ocean Tomo. He is licensed in Illinois and holds a Series 7 credential. Gammon received a JD from Washington University in St. Louis School of Law and a BS in Finance, with high distinction, from Indiana University's Kelley School of Business.\n",
+    "career": [
+      {
+        "role": "Co-Founder & Managing Member",
+        "employer": "WealthDocket Advisors",
+        "years": "Current"
+      },
+      {
+        "role": "Adjunct Instructor",
+        "employer": "Northwestern Pritzker School of Law",
+        "years": "2018–Present"
+      },
+      {
+        "role": "Managing Director",
+        "employer": "Hilco IP Merchant Banking",
+        "years": "2016–2023"
+      },
+      {
+        "role": "Director",
+        "employer": "Ocean Tomo",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "Washington University in St. Louis School of Law"
+      },
+      {
+        "degree": "BS in Finance, with high distinction",
+        "school": "Indiana University, Kelley School of Business"
+      }
+    ]
+  },
+  {
+    "name": "Ed Gehres",
+    "current_title": "Managing Partner",
+    "current_employer": "Invenio LLP",
+    "panel": "3",
+    "role_on_panel": "Moderator",
+    "email": "edg@inveniolaw.com",
+    "photo": "panelist_photos/ed_gehres.jpg",
+    "bio": "Ed Gehres is Managing Partner and co-founder of Invenio LLP, focused on litigation finance, complex litigation, and advisory services. With over 25 years of legal and leadership experience spanning BigLaw, in-house, and government, he previously served as General Counsel at 777 Partners overseeing 50-plus portfolio companies and as GC at Think Finance. Gehres was a partner at Squire Patton Boggs and Van Ness Feldman, and began his BigLaw career at Arnold & Porter. His early career included legislative and government affairs work. He received a JD from the University of Virginia School of Law, an MA in Issues and Crisis Management from George Washington University, and a BA in History from the University of Michigan.\n",
+    "career": [
+      {
+        "role": "Managing Partner",
+        "employer": "Invenio LLP",
+        "years": "2022–Present"
+      },
+      {
+        "role": "General Counsel",
+        "employer": "777 Partners",
+        "years": "2016–2023"
+      },
+      {
+        "role": "General Counsel",
+        "employer": "Think Finance",
+        "years": "Prior"
+      },
+      {
+        "role": "Partner",
+        "employer": "Squire Patton Boggs",
+        "years": "Prior"
+      },
+      {
+        "role": "Partner",
+        "employer": "Van Ness Feldman",
+        "years": "Prior"
+      },
+      {
+        "role": "Associate",
+        "employer": "Arnold & Porter",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "University of Virginia School of Law"
+      },
+      {
+        "degree": "MA in Issues & Crisis Management",
+        "school": "George Washington University"
+      },
+      {
+        "degree": "BA in History",
+        "school": "University of Michigan"
+      }
+    ]
+  },
+  {
+    "name": "William Henderson",
+    "current_title": "Professor",
+    "current_employer": "Indiana University Maurer School of Law",
+    "panel": "3",
+    "role_on_panel": "Panelist",
+    "email": "wihender@iu.edu",
+    "photo": "panelist_photos/william_henderson.jpg",
+    "bio": "William Henderson holds the Stephen F. Burns Chair on the Legal Profession at Indiana University Maurer School of Law, where he has taught since 2003. He is founding director of the Milt and Judi Stewart Center on the Global Legal Profession and co-founder of the Institute for the Future of Law Practice. Named to the NLJ's 100 Most Influential Lawyers in America and Most Influential Person in Legal Education by The National Jurist in 2015 and 2016, his research focuses on empirical analysis of the legal profession. Henderson received a JD, with honors, from the University of Chicago and a BA, magna cum laude, in History and Economics from Case Western Reserve University.\n",
+    "career": [
+      {
+        "role": "Stephen F. Burns Chair on the Legal Profession",
+        "employer": "Indiana University Maurer School of Law",
+        "years": "2017–Present"
+      },
+      {
+        "role": "Professor",
+        "employer": "Indiana University Maurer School of Law",
+        "years": "2009–2017"
+      },
+      {
+        "role": "Associate Professor",
+        "employer": "Indiana University Maurer School of Law",
+        "years": "2003–2009"
+      },
+      {
+        "role": "Co-Founder",
+        "employer": "Lawyer Metrics",
+        "years": "2010–2016"
+      },
+      {
+        "role": "Founder",
+        "employer": "Legal Evolution",
+        "years": "2017–Present"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD, with honors",
+        "school": "University of Chicago"
+      },
+      {
+        "degree": "BA, magna cum laude, in History & Economics",
+        "school": "Case Western Reserve University"
       }
     ]
   },
@@ -78,6 +875,741 @@
       {
         "degree": "BS",
         "school": "University of Houston"
+      }
+    ]
+  },
+  {
+    "name": "Sarah Jacobson",
+    "current_title": "Investment Manager / Legal Counsel",
+    "current_employer": "Omni Bridgeway",
+    "panel": "10",
+    "role_on_panel": "Panelist",
+    "email": "sjacobson@omnibridgeway.com",
+    "photo": "panelist_photos/sarah_jacobson.jpg",
+    "bio": "Sarah Jacobson is an Investment Manager and Legal Counsel at Omni Bridgeway, conducting due diligence on potential investments and advising on U.S. law matters. With over 17 years of legal experience, she previously served as Senior Litigation Associate at Haynes and Boone from 2010 to 2018 handling complex commercial litigation and as an associate at Willkie Farr & Gallagher. Jacobson has been an Adjunct Professor at Cardozo School of Law teaching legal writing since 2013 and was named a Thomson Reuters NY Super Lawyers Rising Star from 2013 to 2017. She received a JD from the University of Michigan Law School and a BA from Cornell University.\n",
+    "career": [
+      {
+        "role": "Investment Manager & Legal Counsel",
+        "employer": "Omni Bridgeway",
+        "years": "2021–Present"
+      },
+      {
+        "role": "Adjunct Professor",
+        "employer": "Cardozo School of Law",
+        "years": "2013–Present"
+      },
+      {
+        "role": "Senior Associate",
+        "employer": "Haynes and Boone",
+        "years": "2010–2018"
+      },
+      {
+        "role": "Associate",
+        "employer": "Willkie Farr & Gallagher",
+        "years": "2008–2010"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "University of Michigan Law School"
+      },
+      {
+        "degree": "BA",
+        "school": "Cornell University"
+      }
+    ]
+  },
+  {
+    "name": "David Jang",
+    "current_title": "Portfolio Manager",
+    "current_employer": "Legalist",
+    "panel": "14",
+    "role_on_panel": "Panelist",
+    "email": "david@legalist.com",
+    "photo": "panelist_photos/david_jang.jpg",
+    "bio": "David Jang is a Portfolio Manager at Legalist, an institutional alternative asset management firm with $1.6 billion AUM focused on legal assets and litigation finance. Previously a Principal at Bardin Hill Investment Partners and Dana Cove LRC, his earlier career included work as a structured credit analyst at Och-Ziff Capital Management. Jang practiced law as an associate at Wachtell, Lipton, Rosen & Katz and MoloLamken, and clerked for Hon. Sandra L. Lynch on the First Circuit. He received a JD from Stanford University Law School and a BA from Stanford University.\n",
+    "career": [
+      {
+        "role": "Portfolio Manager",
+        "employer": "Legalist",
+        "years": "2022–Present"
+      },
+      {
+        "role": "Principal",
+        "employer": "Bardin Hill Investment Partners",
+        "years": "2018–2022"
+      },
+      {
+        "role": "Principal",
+        "employer": "Dana Cove LRC",
+        "years": "2016–2018"
+      },
+      {
+        "role": "Analyst",
+        "employer": "Och-Ziff Capital Management",
+        "years": "2014–2016"
+      },
+      {
+        "role": "Associate",
+        "employer": "MoloLamken",
+        "years": "2012–2014"
+      },
+      {
+        "role": "Associate",
+        "employer": "Wachtell, Lipton, Rosen & Katz",
+        "years": "2008–2012"
+      },
+      {
+        "role": "Law Clerk, Hon. Sandra L. Lynch",
+        "employer": "U.S. Court of Appeals for the First Circuit",
+        "years": "2007–2008"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "Stanford University Law School"
+      },
+      {
+        "degree": "BA",
+        "school": "Stanford University"
+      }
+    ]
+  },
+  {
+    "name": "Michael Kelley",
+    "current_title": "Partner",
+    "current_employer": "Parker Poe Adams & Bernstein LLP",
+    "panel": "10, 13",
+    "role_on_panel": "Panelist",
+    "email": "michaelkelley@parkerpoe.com",
+    "photo": "panelist_photos/michael_kelley.jpg",
+    "bio": "Michael Kelley is a Partner at Parker Poe Adams & Bernstein and DC Office Development Partner. He lectures at the University of Chicago Law School teaching litigation finance and is ranked Chambers Band 1 USA in Litigation Finance Deal Counsel. Named among Lawdragon's Global 100 Leaders in Legal Finance as a top-ten global advisor, Kelley brings over 34 years of experience. He previously served as General Counsel of EMP Global, overseeing approximately $8 billion in assets across 10 investment funds in emerging markets, and serves on the Advisory Committee of the UChicago Law School Center on Law and Finance.\n",
+    "career": [
+      {
+        "role": "Partner",
+        "employer": "Parker Poe Adams & Bernstein LLP",
+        "years": "Current"
+      },
+      {
+        "role": "Lecturer",
+        "employer": "University of Chicago Law School",
+        "years": "Current"
+      },
+      {
+        "role": "General Counsel",
+        "employer": "EMP Global",
+        "years": "Prior"
+      },
+      {
+        "role": "Investment committee and board roles",
+        "employer": "Various (Latin America, Asia, Europe, Middle East)",
+        "years": "Prior"
+      }
+    ],
+    "education": []
+  },
+  {
+    "name": "Jack Kelly",
+    "current_title": "Managing Director",
+    "current_employer": "American Legal Finance Association (ALFA)",
+    "panel": "9",
+    "role_on_panel": "Panelist",
+    "email": "jkelly@mcphersongroup.us",
+    "photo": "panelist_photos/jack_kelly.jpg",
+    "bio": "Jack Kelly is Managing Director of the American Legal Finance Association (ALFA), the leading trade association for consumer litigation funding companies, and Partner in the McPherson Group LLP advising on public policy risk management. With two decades of experience in structured finance and tax-related issues, he also serves as adjunct professor at Fordham School of Law teaching compliance and crisis management. Kelly previously served as aide to two U.S. Presidents and held Congressional staff positions. A 28-year U.S. Army veteran in active and reserve service, he commanded a Special Forces unit and received the Legion of Merit.\n",
+    "career": [
+      {
+        "role": "Managing Director",
+        "employer": "American Legal Finance Association (ALFA)",
+        "years": "Current"
+      },
+      {
+        "role": "Partner",
+        "employer": "McPherson Group LLP",
+        "years": "Current"
+      },
+      {
+        "role": "Adjunct Professor",
+        "employer": "Fordham School of Law",
+        "years": "Current"
+      },
+      {
+        "role": "Political aide",
+        "employer": "White House (two U.S. Presidents)",
+        "years": "Prior"
+      },
+      {
+        "role": "Congressional staff",
+        "employer": "U.S. Congress",
+        "years": "Prior"
+      },
+      {
+        "role": "U.S. Army (Special Forces Commander)",
+        "employer": "U.S. Army",
+        "years": "28 years (active and reserve)"
+      }
+    ],
+    "education": []
+  },
+  {
+    "name": "Virginia M. Kendall",
+    "current_title": "Chief Judge",
+    "current_employer": "U.S. District Court, Northern District of Illinois",
+    "panel": "5",
+    "role_on_panel": "Panelist",
+    "email": "",
+    "photo": "panelist_photos/virginia_kendall.jpg",
+    "bio": "Chief Judge Virginia M. Kendall has served on the U.S. District Court for the Northern District of Illinois since 2006, appointed by President George W. Bush, and became Chief Judge in 2024. Previously a federal prosecutor for over ten years, she served as Deputy Chief of the Criminal Division and Child Exploitation Coordinator. She teaches trial practice and federal litigation at the University of Chicago Law School, Northwestern, and Loyola, and is co-author of books on child exploitation and trafficking. Kendall lectures internationally in over 30 countries and serves on Judicial Conference committees. She received a JD from Loyola University Chicago School of Law, an MA from Northwestern University, and a BA from Northwestern University.\n",
+    "career": [
+      {
+        "role": "Chief Judge",
+        "employer": "U.S. District Court, Northern District of Illinois",
+        "years": "2024–Present"
+      },
+      {
+        "role": "U.S. District Judge",
+        "employer": "U.S. District Court, Northern District of Illinois",
+        "years": "2006–2024"
+      },
+      {
+        "role": "Federal Prosecutor",
+        "employer": "U.S. Attorney's Office, Northern District of Illinois",
+        "years": "Prior (10+ years)"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "Loyola University Chicago School of Law"
+      },
+      {
+        "degree": "MA",
+        "school": "Northwestern University"
+      },
+      {
+        "degree": "BA",
+        "school": "Northwestern University"
+      }
+    ]
+  },
+  {
+    "name": "Paul Kong",
+    "current_title": "Executive Director & President",
+    "current_employer": "International Legal Finance Association (ILFA)",
+    "panel": "9",
+    "role_on_panel": "Panelist",
+    "email": "pkong@ilfa.com",
+    "photo": "panelist_photos/paul_kong.jpg",
+    "bio": "Paul Kong is Executive Director and President of the International Legal Finance Association (ILFA), the global trade association representing the commercial legal finance industry. Based in Washington, D.C., ILFA engages, educates, and influences the legislative, regulatory, and judicial landscapes as the voice of the commercial legal finance sector.\n",
+    "career": [
+      {
+        "role": "Executive Director & President",
+        "employer": "International Legal Finance Association (ILFA)",
+        "years": "Current"
+      }
+    ],
+    "education": []
+  },
+  {
+    "name": "Matt Leland",
+    "current_title": "Principal & Co-Founder",
+    "current_employer": "Backlit Capital",
+    "panel": "10",
+    "role_on_panel": "Panelist",
+    "email": "matt@backlitcapital.com",
+    "photo": "panelist_photos/matt_leland.jpg",
+    "bio": "Matt Leland is Principal and Co-Founder of Backlit Capital Solutions, a legal finance consultancy. With over 20 years in commercial litigation and litigation finance, he previously served as Investment Manager and Legal Counsel at Omni Bridgeway and was a partner and commercial litigator for nearly two decades at King & Spalding and McDermott Will & Emery, recovering hundreds of millions in damages for clients. Leland's early career included service as a top aide to former U.S. Senator John Sununu. He is recognized in Best Lawyers in America, Legal 500, and Super Lawyers. Leland received a JD from Georgetown University Law Center and a BA in Political Science from the University of New Hampshire.\n",
+    "career": [
+      {
+        "role": "Co-Founder & Principal",
+        "employer": "Backlit Capital Solutions",
+        "years": "2025–Present"
+      },
+      {
+        "role": "Investment Manager & Legal Counsel",
+        "employer": "Omni Bridgeway",
+        "years": "2022–2025"
+      },
+      {
+        "role": "Partner",
+        "employer": "King & Spalding",
+        "years": "2015–2022"
+      },
+      {
+        "role": "Partner",
+        "employer": "McDermott Will & Emery",
+        "years": "2011–2015"
+      },
+      {
+        "role": "Deputy Campaign Manager / Legislative Director",
+        "employer": "Office of Sen. John Sununu",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "Georgetown University Law Center"
+      },
+      {
+        "degree": "BA in Political Science",
+        "school": "University of New Hampshire"
+      }
+    ]
+  },
+  {
+    "name": "Erika Levin",
+    "current_title": "Partner",
+    "current_employer": "Fox Rothschild LLP",
+    "panel": "6",
+    "role_on_panel": "Moderator",
+    "email": "ELevin@foxrothschild.com",
+    "photo": "panelist_photos/erika_levin.jpg",
+    "bio": "Erika Levin is a Partner at Fox Rothschild leading the firm's Litigation Finance team, focusing on international disputes and serving as both counsel and arbitrator/mediator. She previously served as Senior VP and General Counsel at The Judge (litigation finance), was a partner at Lewis Baach Kaufmann Middlemiss, and a partner at Stone & Magnanini (formerly Boies Schiller NJ office). Levin clerked for judges on the NJ Appellate Division, Third Circuit, and D.N.J., and has served as adjunct professor at Rutgers Law since 2004. She also worked at the U.S. Embassy in Malta on EU accession. Levin received a JD from Rutgers Law School and a BA from Rutgers University.\n",
+    "career": [
+      {
+        "role": "Partner",
+        "employer": "Fox Rothschild LLP",
+        "years": "2021–Present"
+      },
+      {
+        "role": "Partner",
+        "employer": "Lewis Baach Kaufmann Middlemiss",
+        "years": "2017–2021"
+      },
+      {
+        "role": "Senior Vice President & General Counsel",
+        "employer": "The Judge",
+        "years": "2016–2017"
+      },
+      {
+        "role": "Partner",
+        "employer": "Stone & Magnanini",
+        "years": "2012–2016"
+      },
+      {
+        "role": "Associate",
+        "employer": "Clifford Chance",
+        "years": "Prior"
+      },
+      {
+        "role": "Law Clerk",
+        "employer": "U.S. Court of Appeals for the Third Circuit",
+        "years": "Prior"
+      },
+      {
+        "role": "Law Clerk",
+        "employer": "NJ Appellate Division",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "Rutgers Law School"
+      },
+      {
+        "degree": "BA",
+        "school": "Rutgers University"
+      }
+    ]
+  },
+  {
+    "name": "Jason Levine",
+    "current_title": "Partner",
+    "current_employer": "Foley & Lardner LLP",
+    "panel": "2",
+    "role_on_panel": "Panelist",
+    "email": "jason.levine@foley.com",
+    "photo": "panelist_photos/jason_levine.jpg",
+    "bio": "Jason Levine is a Partner at Foley & Lardner with 30 years of combined experience as a first-chair trial lawyer, antitrust litigator, and litigation finance executive. He previously launched and led the D.C. office of Omni Bridgeway, managing antitrust and commercial investments involving billion-dollar claims. Levine has first-chaired over a dozen trials and secured over $3 billion in relief for plaintiff-side corporate clients, in addition to saving defense-side clients from over $17 billion in potential liability exposure. He clerked for Judge Randall Rader of the U.S. Court of Appeals for the Federal Circuit and was formerly a partner at McDermott Will & Emery, Vinson & Elkins, and Alston & Bird. Levine received a JD, cum laude, from Harvard Law School and a BA, summa cum laude (Phi Beta Kappa), from Brandeis University.",
+    "career": [
+      {
+        "role": "Partner",
+        "employer": "Foley & Lardner LLP",
+        "years": "Current"
+      },
+      {
+        "role": "Director, D.C. Office",
+        "employer": "Omni Bridgeway",
+        "years": "Prior"
+      },
+      {
+        "role": "Partner",
+        "employer": "McDermott Will & Emery",
+        "years": "Prior"
+      },
+      {
+        "role": "Partner",
+        "employer": "Vinson & Elkins",
+        "years": "Prior"
+      },
+      {
+        "role": "Partner",
+        "employer": "Alston & Bird",
+        "years": "Prior"
+      },
+      {
+        "role": "Law Clerk, Judge Randall Rader",
+        "employer": "U.S. Court of Appeals for the Federal Circuit",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD, cum laude",
+        "school": "Harvard Law School"
+      },
+      {
+        "degree": "BA, summa cum laude (Phi Beta Kappa)",
+        "school": "Brandeis University"
+      }
+    ]
+  },
+  {
+    "name": "Adam Levitt",
+    "current_title": "Founding Partner",
+    "current_employer": "DiCello Levitt LLP",
+    "panel": "13",
+    "role_on_panel": "Panelist",
+    "email": "alevitt@dicellolevitt.com",
+    "photo": "panelist_photos/adam_levitt.jpg",
+    "bio": "Adam Levitt is Founding Partner of DiCello Levitt LLP, one of the nation's leading plaintiffs' advocates in complex, multidistrict, class action, and mass tort litigation. He has delivered over $25 billion in recoveries for clients, including serving as co-lead counsel in the three largest biotechnology class actions in U.S. history with $1.7 billion recovered. Levitt helped secure the $16 billion VW emissions settlement, won a $102.6 million GM jury verdict, and represents State AGs in PFAS cases. A monthly columnist for the National Law Journal, he previously practiced at Wolf Haldenstein and Grant & Eisenhofer. Levitt received a JD from Northwestern University Pritzker School of Law and an AB, magna cum laude, in Political Science from Columbia University.\n",
+    "career": [
+      {
+        "role": "Founding Partner",
+        "employer": "DiCello Levitt LLP",
+        "years": "2017–Present"
+      },
+      {
+        "role": "Director",
+        "employer": "Grant & Eisenhofer",
+        "years": "2013–2017"
+      },
+      {
+        "role": "Partner",
+        "employer": "Wolf Haldenstein",
+        "years": "2000–2013"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "Northwestern University Pritzker School of Law"
+      },
+      {
+        "degree": "AB, magna cum laude, in Political Science",
+        "school": "Columbia University"
+      }
+    ]
+  },
+  {
+    "name": "Joshua Libling",
+    "current_title": "Founder & Managing Director",
+    "current_employer": "Arcadia Finance",
+    "panel": "8",
+    "role_on_panel": "Panelist",
+    "email": "joshua@arcadiafin.com",
+    "photo": "panelist_photos/joshua_libling.jpg",
+    "bio": "Joshua Libling is Co-Founder and Managing Director of Arcadia Finance, a litigation funding firm launched in 2024 with fellow former Validity Finance executives. He focuses on operations, financial analytics, and translating legal merits into risk data. Previously at Validity Finance as Portfolio Counsel and Director of Risk Analytics, Libling spent a decade as associate and counsel at Boies Schiller & Flexner specializing in antitrust, securities, and class actions. He clerked for Hon. Kenneth Karas (S.D.N.Y.) and Hon. Chester Straub (Second Circuit) and is recognized among Lawdragon's Global 100 in Legal Finance. Libling received a JD, magna cum laude (Order of the Coif), from NYU Law School and a BA from the University of Chicago.\n",
+    "career": [
+      {
+        "role": "Co-Founder & Managing Director",
+        "employer": "Arcadia Finance",
+        "years": "2024–Present"
+      },
+      {
+        "role": "Director of Risk Analytics",
+        "employer": "Validity Finance",
+        "years": "2020–2023"
+      },
+      {
+        "role": "Counsel",
+        "employer": "Boies Schiller & Flexner",
+        "years": "2010–2020"
+      },
+      {
+        "role": "Law Clerk",
+        "employer": "U.S. Court of Appeals for the Second Circuit",
+        "years": "Prior"
+      },
+      {
+        "role": "Law Clerk",
+        "employer": "U.S. District Court, Southern District of New York",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD, magna cum laude (Order of the Coif)",
+        "school": "NYU Law School"
+      },
+      {
+        "degree": "BA",
+        "school": "University of Chicago"
+      }
+    ]
+  },
+  {
+    "name": "Daniel Linna",
+    "current_title": "Senior Lecturer & Director of Law and Technology Initiatives",
+    "current_employer": "Northwestern Pritzker School of Law",
+    "panel": "14",
+    "role_on_panel": "Moderator",
+    "email": "daniel.linna@law.northwestern.edu",
+    "photo": "panelist_photos/daniel_linna.jpg",
+    "bio": "Daniel Linna is Senior Lecturer and Director of Law and Technology Initiatives at Northwestern Pritzker School of Law, with a joint appointment at McCormick School of Engineering. He is affiliated faculty at Stanford CodeX—The Stanford Center for Legal Informatics—and teaches AI and Legal Reasoning, Law of AI and Robotics, and Innovation Lab. Previously a professor and founder of LegalRnD at Michigan State University College of Law, Linna practiced as equity partner at Honigman Miller. Named an ABA Journal Legal Rebel in 2018 and Fastcase 50 in 2015, he is a Fellow of the College of Law Practice Management. Linna received a JD, magna cum laude, from the University of Michigan Law School, an MA in Public Policy and Administration from Michigan State University, and a BA from the University of Michigan.\n",
+    "career": [
+      {
+        "role": "Senior Lecturer & Director of Law and Technology Initiatives",
+        "employer": "Northwestern Pritzker School of Law",
+        "years": "Current"
+      },
+      {
+        "role": "Affiliated Faculty",
+        "employer": "Stanford CodeX",
+        "years": "Current"
+      },
+      {
+        "role": "Professor & Founder, LegalRnD",
+        "employer": "Michigan State University College of Law",
+        "years": "Prior"
+      },
+      {
+        "role": "Equity Partner",
+        "employer": "Honigman Miller",
+        "years": "Prior"
+      },
+      {
+        "role": "Law Clerk, Judge James L. Ryan",
+        "employer": "U.S. Court of Appeals",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD, magna cum laude",
+        "school": "University of Michigan Law School"
+      },
+      {
+        "degree": "MA in Public Policy & Administration",
+        "school": "Michigan State University"
+      },
+      {
+        "degree": "BA",
+        "school": "University of Michigan"
+      }
+    ]
+  },
+  {
+    "name": "Jeffery Lula",
+    "current_title": "Managing Director",
+    "current_employer": "GLS Capital",
+    "panel": "4",
+    "role_on_panel": "Panelist",
+    "email": "jlula@glscap.com",
+    "photo": "panelist_photos/jeffery_lula.jpg",
+    "bio": "Jeffery Lula is a Managing Director at GLS Capital responsible for due diligence and monitoring of commercial litigation and arbitration investments. Previously a litigation partner at Kirkland & Ellis for nine years, he focused on complex commercial litigation including contract disputes, bankruptcy, corporate mismanagement, and insurance matters. Lula successfully argued before the Illinois Supreme Court and served as Articles Editor of the University of Chicago Law Review. He is a certified mediator by the Center for Conflict Resolution. Lula received a JD from the University of Chicago Law School (Mulroy Prize) and a BS in Psychology and English from the University of Illinois Urbana-Champaign (Bronze Tablet, Highest Honors).\n",
+    "career": [
+      {
+        "role": "Managing Director",
+        "employer": "GLS Capital",
+        "years": "2019–Present"
+      },
+      {
+        "role": "Partner",
+        "employer": "Kirkland & Ellis",
+        "years": "2010–2019"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD (Mulroy Prize)",
+        "school": "University of Chicago Law School"
+      },
+      {
+        "degree": "BS in Psychology & English (Bronze Tablet, Highest Honors)",
+        "school": "University of Illinois Urbana-Champaign"
+      }
+    ]
+  },
+  {
+    "name": "Justin Maleson",
+    "current_title": "Managing Director & Assistant General Counsel",
+    "current_employer": "Victory Park Capital",
+    "panel": "8",
+    "role_on_panel": "Panelist",
+    "email": "jmaleson@victoryparkcapital.com",
+    "photo": "panelist_photos/justin_maleson.jpg",
+    "bio": "Justin Maleson is a Managing Director and Assistant General Counsel at Victory Park Capital, co-heading the firm's legal credit investment strategy. He is responsible for sourcing, analyzing, executing, and managing investments in the legal industry. Previously a Director at Longford Capital from 2018 to 2024, where he originated litigation finance opportunities, Maleson was a litigation partner at Jenner & Block for a decade advising on complex commercial and IP matters. He received a JD, with highest honors, from the University of New Hampshire and a BS from the University of Maryland Smith School of Business.\n",
+    "career": [
+      {
+        "role": "Managing Director & Assistant General Counsel",
+        "employer": "Victory Park Capital",
+        "years": "2024–Present"
+      },
+      {
+        "role": "Director",
+        "employer": "Longford Capital",
+        "years": "2018–2024"
+      },
+      {
+        "role": "Partner",
+        "employer": "Jenner & Block",
+        "years": "2008–2018"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD, with highest honors",
+        "school": "University of New Hampshire"
+      },
+      {
+        "degree": "BS",
+        "school": "University of Maryland Smith School of Business"
+      }
+    ]
+  },
+  {
+    "name": "Bruce Markell",
+    "current_title": "Retired U.S. Bankruptcy Judge / Professor",
+    "current_employer": "Northwestern Pritzker School of Law",
+    "panel": "4",
+    "role_on_panel": "Panelist",
+    "email": "bmarkell@law.northwestern.edu",
+    "photo": "panelist_photos/bruce_markell.jpg",
+    "bio": "Hon. Bruce Markell is the Edward Avery Harriman Lecturer in Law and Professor of Bankruptcy Law and Practice at Northwestern Pritzker School of Law since 2015. He previously served as U.S. Bankruptcy Judge for the District of Nevada (2004–2013) and on the Bankruptcy Appellate Panel for the Ninth Circuit. Markell clerked for then-Judge Anthony M. Kennedy, was a partner at Sidley & Austin, and has held visiting professorships at Harvard Law School and Peking University. He served as primary drafter of Kosovo's bankruptcy law and is co-author of four law school casebooks. Markell received a JD from UC Davis School of Law, where he was editor-in-chief of the law review and received the School of Law Medal, and a BA from Pitzer College.\n",
+    "career": [
+      {
+        "role": "Professor",
+        "employer": "Northwestern Pritzker School of Law",
+        "years": "2015–Present"
+      },
+      {
+        "role": "U.S. Bankruptcy Judge",
+        "employer": "District of Nevada",
+        "years": "2004–2013"
+      },
+      {
+        "role": "Professor",
+        "employer": "Boyd School of Law / UNLV",
+        "years": "1999–2004"
+      },
+      {
+        "role": "Professor",
+        "employer": "Indiana University Law",
+        "years": "1990–1999"
+      },
+      {
+        "role": "Partner",
+        "employer": "Sidley & Austin",
+        "years": "1988–1990"
+      },
+      {
+        "role": "Law Clerk, Justice Anthony M. Kennedy",
+        "employer": "U.S. Court of Appeals for the Ninth Circuit",
+        "years": "1980–1981"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD (Editor-in-Chief, School of Law Medal)",
+        "school": "UC Davis School of Law"
+      },
+      {
+        "degree": "BA",
+        "school": "Pitzer College"
+      }
+    ]
+  },
+  {
+    "name": "Will Marra",
+    "current_title": "Director",
+    "current_employer": "Certum Group",
+    "panel": "2, 11",
+    "role_on_panel": "Moderator (Panel 2) / Panelist (Panel 11)",
+    "email": "wmarra@certumgroup.com",
+    "photo": "panelist_photos/will_marra.jpg",
+    "bio": "Will Marra is a Director at Certum Group and Lecturer in Law at UPenn Carey Law School, where he co-teaches litigation finance. He formerly clerked for Justice Samuel A. Alito Jr. of the U.S. Supreme Court and Chief Judge William H. Pryor Jr. of the Eleventh Circuit. Marra previously litigated at Cooper & Kirk PLLC and consulted at Bain & Company. In litigation finance since 2019, he is a published scholar on agency costs in third-party litigation finance and serves as a board member of the International Legal Finance Association. Marra received a JD, magna cum laude, from Harvard Law School and a BA, magna cum laude, from Harvard College.\n",
+    "career": [
+      {
+        "role": "Director",
+        "employer": "Certum Group",
+        "years": "Current"
+      },
+      {
+        "role": "Lecturer in Law",
+        "employer": "UPenn Carey Law School",
+        "years": "Current"
+      },
+      {
+        "role": "Law Clerk, Justice Samuel A. Alito Jr.",
+        "employer": "Supreme Court of the United States",
+        "years": "Prior"
+      },
+      {
+        "role": "Law Clerk, Chief Judge William H. Pryor Jr.",
+        "employer": "U.S. Court of Appeals for the Eleventh Circuit",
+        "years": "Prior"
+      },
+      {
+        "role": "Associate",
+        "employer": "Cooper & Kirk PLLC",
+        "years": "Prior"
+      },
+      {
+        "role": "Consultant",
+        "employer": "Bain & Company",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD, magna cum laude",
+        "school": "Harvard Law School"
+      },
+      {
+        "degree": "BA, magna cum laude",
+        "school": "Harvard College"
+      }
+    ]
+  },
+  {
+    "name": "Craig Martin",
+    "current_title": "Chairman of the Americas",
+    "current_employer": "Willkie Farr & Gallagher LLP",
+    "panel": "Opening",
+    "role_on_panel": "Fireside Chat",
+    "email": "CMartin@willkie.com",
+    "photo": "panelist_photos/craig_martin.jpg",
+    "bio": "Craig Martin is Chairman, Americas of Willkie Farr & Gallagher LLP and member of the firm's Executive Committee. He founded the Willkie Chicago office in 2020 and grew it to over 100 lawyers. Previously chairman of a national law firm, Martin is recognized as a \"courtroom to boardroom\" lawyer with approximately 50 trials and arbitrations across antitrust, employment, patent, ERISA, and commercial disputes. He is ranked in Chambers Global and USA in four practice areas and listed in Chicago Magazine's \"Power 100\" and Crain's \"Who's Who.\" Martin received a JD from Harvard Law School and a BA, magna cum laude, from the University of Notre Dame.\n",
+    "career": [
+      {
+        "role": "Chairman, Americas",
+        "employer": "Willkie Farr & Gallagher LLP",
+        "years": "2025–Present"
+      },
+      {
+        "role": "Chairman, Midwest",
+        "employer": "Willkie Farr & Gallagher LLP",
+        "years": "2020–2025"
+      },
+      {
+        "role": "Chairman",
+        "employer": "National law firm",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "Harvard Law School"
+      },
+      {
+        "degree": "BA, magna cum laude",
+        "school": "University of Notre Dame"
       }
     ]
   },
@@ -134,6 +1666,160 @@
     ]
   },
   {
+    "name": "Joel Merkin",
+    "current_title": "Managing Director",
+    "current_employer": "GLS Capital",
+    "panel": "7",
+    "role_on_panel": "Panelist",
+    "email": "jmerkin@glscap.com",
+    "photo": "panelist_photos/joel_merkin.jpg",
+    "bio": "Joel Merkin is a Managing Director at GLS Capital – one of the world’s largest private investment firms focused on litigation finance – where he is responsible for due diligence and monitoring of patent investments. Previously a Partner in the intellectual property litigation group at Kirkland & Ellis for over a decade, Joel is a registered patent attorney with experience litigating patent cases involving computer hardware and software, communication systems, consumer electronics, and medical devices. He received a JD from the University of Illinois College of Law and a BS in Computer Engineering from the University of Illinois Urbana-Champaign.",
+    "career": [
+      {
+        "role": "Managing Director",
+        "employer": "GLS Capital",
+        "years": "2020–Present"
+      },
+      {
+        "role": "Partner",
+        "employer": "Kirkland & Ellis",
+        "years": "2012–2020"
+      },
+      {
+        "role": "Associate",
+        "employer": "Kirkland & Ellis",
+        "years": "2008–2012"
+      },
+      {
+        "role": "Associate",
+        "employer": "Sonnenschein Nath & Rosenthal",
+        "years": "2006–2008"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD (IP Law)",
+        "school": "University of Illinois College of Law"
+      },
+      {
+        "degree": "BS in Electrical & Computer Engineering",
+        "school": "University of Illinois Urbana-Champaign"
+      }
+    ]
+  },
+  {
+    "name": "Steven Nachtwey",
+    "current_title": "Partner",
+    "current_employer": "Bartlit Beck LLP",
+    "panel": "2",
+    "role_on_panel": "Panelist",
+    "email": "steven.nachtwey@bartlitbeck.com",
+    "photo": "panelist_photos/steven_nachtwey.jpg",
+    "bio": "Steven Nachtwey is a Partner at Bartlit Beck LLP specializing in complex commercial litigation, particularly residential mortgage-backed securities and financial services disputes. He represented MassMutual in RMBS litigation against Credit Suisse and Goldman Sachs, served as lead co-counsel for an ad hoc group of investors in a $950 million settlement involving Bank of America, and represented MGIC against Lehman Brothers in bankruptcy fraud litigation. Nachtwey received a JD, summa cum laude, from the University of Minnesota Law School and a BS, with distinction, from the University of Wisconsin-Madison.\n",
+    "career": [
+      {
+        "role": "Partner",
+        "employer": "Bartlit Beck LLP",
+        "years": "Current"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD, summa cum laude",
+        "school": "University of Minnesota Law School",
+        "year": "2000"
+      },
+      {
+        "degree": "BS, with distinction",
+        "school": "University of Wisconsin-Madison",
+        "year": "1997"
+      }
+    ]
+  },
+  {
+    "name": "Matt Oxman",
+    "current_title": "Vice President of Underwriting",
+    "current_employer": "Bench Walk Advisors",
+    "panel": "6",
+    "role_on_panel": "Panelist",
+    "email": "matt@benchwalk.com",
+    "photo": "panelist_photos/matt_oxman.jpg",
+    "bio": "Matt Oxman is Vice President of Underwriting at Bench Walk Advisors since 2023, assisting with case review and investment analysis. Previously VP of Business Development at LexShares from 2017 to 2023, he expanded the firm's caseload and established relationships in litigation funding. Oxman's earlier career included work as a litigation associate at Dewey & LeBoeuf specializing in antitrust, securities, FCPA, and white-collar defense, and as an MBA Summer Associate at J.P. Morgan Private Bank's Law Firms Group. He received an MBA from NYU Stern School of Business, a JD from Columbia Law School, and an AB, magna cum laude, in Politics from Princeton University.\n",
+    "career": [
+      {
+        "role": "Vice President of Underwriting",
+        "employer": "Bench Walk Advisors",
+        "years": "2023–Present"
+      },
+      {
+        "role": "Vice President, Business Development",
+        "employer": "LexShares",
+        "years": "2017–2023"
+      },
+      {
+        "role": "Independent Investor Consultant",
+        "employer": "Self-employed",
+        "years": "2014–2017"
+      },
+      {
+        "role": "Associate",
+        "employer": "Dewey & LeBoeuf",
+        "years": "2006–2012"
+      }
+    ],
+    "education": [
+      {
+        "degree": "MBA (Financial Instruments & Markets)",
+        "school": "NYU Stern School of Business"
+      },
+      {
+        "degree": "JD",
+        "school": "Columbia Law School"
+      },
+      {
+        "degree": "AB, magna cum laude, in Politics",
+        "school": "Princeton University"
+      }
+    ]
+  },
+  {
+    "name": "Ryan N. Phelan",
+    "current_title": "Partner",
+    "current_employer": "Marshall, Gerstein & Borun LLP",
+    "panel": "7",
+    "role_on_panel": "Moderator",
+    "email": "rphelan@marshallip.com",
+    "photo": "panelist_photos/ryan_phelan.jpg",
+    "bio": "Ryan N. Phelan is a Partner at Marshall, Gerstein & Borun, a Chicago-based IP law firm. With over 16 years of experience in patent prosecution, litigation, IP opinions, and post-grant proceedings, he specializes in AI, machine learning, medical devices, blockchain, fintech, and emerging technologies. Previously a technology consultant at Accenture for Fortune 500 clients, Phelan also serves as Adjunct Professor at Northwestern Pritzker School of Law teaching Patenting Software Inventions and is founder of the PatentNext legal blog. He received a JD from Northwestern University Pritzker School of Law and an MBA from Northwestern University's Kellogg School of Management.\n",
+    "career": [
+      {
+        "role": "Partner",
+        "employer": "Marshall, Gerstein & Borun LLP",
+        "years": "2016–Present"
+      },
+      {
+        "role": "Adjunct Professor",
+        "employer": "Northwestern Pritzker School of Law",
+        "years": "Current"
+      },
+      {
+        "role": "Technology Consultant",
+        "employer": "Accenture",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "Northwestern University Pritzker School of Law"
+      },
+      {
+        "degree": "MBA",
+        "school": "Northwestern University, Kellogg School of Management"
+      }
+    ]
+  },
+  {
     "name": "Jesse G. Reyes",
     "current_title": "Justice",
     "current_employer": "Illinois Appellate Court, First District",
@@ -176,54 +1862,250 @@
     ]
   },
   {
-    "name": "Bruce Markell",
-    "current_title": "Retired U.S. Bankruptcy Judge / Professor",
-    "current_employer": "Northwestern Pritzker School of Law",
-    "panel": "4",
+    "name": "Victoria Sahani",
+    "current_title": "Professor",
+    "current_employer": "Boston University School of Law",
+    "panel": "6, 11",
     "role_on_panel": "Panelist",
-    "email": "bmarkell@law.northwestern.edu",
-    "photo": "panelist_photos/bruce_markell.jpg",
-    "bio": "Hon. Bruce Markell is the Edward Avery Harriman Lecturer in Law and Professor of Bankruptcy Law and Practice at Northwestern Pritzker School of Law since 2015. He previously served as U.S. Bankruptcy Judge for the District of Nevada (2004–2013) and on the Bankruptcy Appellate Panel for the Ninth Circuit. Markell clerked for then-Judge Anthony M. Kennedy, was a partner at Sidley & Austin, and has held visiting professorships at Harvard Law School and Peking University. He served as primary drafter of Kosovo's bankruptcy law and is co-author of four law school casebooks. Markell received a JD from UC Davis School of Law, where he was editor-in-chief of the law review and received the School of Law Medal, and a BA from Pitzer College.\n",
+    "email": "sahani@bu.edu",
+    "photo": "panelist_photos/victoria_sahani.jpg",
+    "bio": "Victoria Sahani is a Professor of Law at Boston University School of Law and an internationally recognized scholar in arbitration law and third-party litigation funding. With 18 years of international arbitration experience and over 16 years of funding expertise, she co-authored Third-Party Funding in International Arbitration (Wolters Kluwer)—the first book on this topic. Previously Associate Provost for Community and Inclusion at BU, she held prior academic posts at Arizona State (as Associate Dean) and Washington & Lee. Sahani serves as independent arbitrator, consultant, and expert witness, and is a member of the ALI and an American Bar Foundation Fellow. She received a JD from Harvard Law School and an AB in Psychology from Harvard College.\n",
     "career": [
       {
+        "role": "Professor of Law",
+        "employer": "Boston University School of Law",
+        "years": "Current"
+      },
+      {
+        "role": "Associate Provost for Community & Inclusion",
+        "employer": "Boston University",
+        "years": "2022–2025"
+      },
+      {
+        "role": "Professor & Associate Dean",
+        "employer": "Arizona State University",
+        "years": "Prior"
+      },
+      {
         "role": "Professor",
-        "employer": "Northwestern Pritzker School of Law",
-        "years": "2015–Present"
-      },
-      {
-        "role": "U.S. Bankruptcy Judge",
-        "employer": "District of Nevada",
-        "years": "2004–2013"
-      },
-      {
-        "role": "Professor",
-        "employer": "Boyd School of Law / UNLV",
-        "years": "1999–2004"
-      },
-      {
-        "role": "Professor",
-        "employer": "Indiana University Law",
-        "years": "1990–1999"
-      },
-      {
-        "role": "Partner",
-        "employer": "Sidley & Austin",
-        "years": "1988–1990"
-      },
-      {
-        "role": "Law Clerk, Justice Anthony M. Kennedy",
-        "employer": "U.S. Court of Appeals for the Ninth Circuit",
-        "years": "1980–1981"
+        "employer": "Washington & Lee University",
+        "years": "Prior"
       }
     ],
     "education": [
       {
-        "degree": "JD (Editor-in-Chief, School of Law Medal)",
-        "school": "UC Davis School of Law"
+        "degree": "JD",
+        "school": "Harvard Law School"
+      },
+      {
+        "degree": "AB in Psychology",
+        "school": "Harvard College"
+      }
+    ]
+  },
+  {
+    "name": "Jackson Schaap",
+    "current_title": "Vice President & Partner",
+    "current_employer": "Signal Peak Partners",
+    "panel": "12",
+    "role_on_panel": "Panelist",
+    "email": "jackson@signalpeakllc.com",
+    "photo": "panelist_photos/jackson_schaap.jpg",
+    "bio": "Jackson Schaap is Vice President and Partner at Signal Peak Partners, a litigation finance company launched in 2025 offering customized financing and private credit solutions for commercial and patent litigation. He previously spent seven years at Siltstone Capital, a multi-strategy alternative investment firm, where he led acquisitions and divestiture underwriting, valuation, and strategic planning across over $300 million in assets. At Rice University, Schaap was a four-year rowing team member and two-season captain. He received a BA in Mathematical Economic Analysis from Rice University.\n",
+    "career": [
+      {
+        "role": "Vice President & Partner",
+        "employer": "Signal Peak Partners",
+        "years": "2025–Present"
+      },
+      {
+        "role": "Director of Finance",
+        "employer": "Signal Peak Partners",
+        "years": 2025
+      },
+      {
+        "role": "Analyst / Associate",
+        "employer": "Siltstone Capital",
+        "years": "Prior (7 years)"
+      }
+    ],
+    "education": [
+      {
+        "degree": "BA in Mathematical Economic Analysis",
+        "school": "Rice University"
+      }
+    ]
+  },
+  {
+    "name": "Eric Schuller",
+    "current_title": "President",
+    "current_employer": "Alliance for Responsible Consumer Legal Funding (ARC)",
+    "panel": "9",
+    "role_on_panel": "Panelist",
+    "email": "eschuller@arclegalfunding.org",
+    "photo": "panelist_photos/eric_schuller.jpg",
+    "bio": "Eric Schuller is President of the Alliance for Responsible Consumer Legal Funding (ARC) since 2011, a national trade association representing consumer legal funding companies. A government affairs expert with 50 years of professional experience, he previously served as Senior Policy Advisor in the Illinois Lieutenant Governor's Office. Schuller chairs the Public Outreach Committee of the State Government Affairs Council and serves on the Advisory Board of NYU School of Law's Dispute Financing Library. He is a U.S. Army and Illinois National Guard veteran who served from 1979 to 2001.\n",
+    "career": [
+      {
+        "role": "President",
+        "employer": "Alliance for Responsible Consumer Legal Funding (ARC)",
+        "years": "2011–Present"
+      },
+      {
+        "role": "Director of Government Affairs",
+        "employer": "Libra Solutions",
+        "years": "2008–Present"
+      },
+      {
+        "role": "Senior Policy Advisor",
+        "employer": "Illinois Lieutenant Governor's Office",
+        "years": "2003–2007"
+      },
+      {
+        "role": "President/Owner",
+        "employer": "TE INC",
+        "years": "1990–2003"
+      },
+      {
+        "role": "Service Member",
+        "employer": "U.S. Army / Illinois National Guard",
+        "years": "1979–2001"
+      }
+    ],
+    "education": []
+  },
+  {
+    "name": "Ryan Schultz",
+    "current_title": "Head of Business Development",
+    "current_employer": "Pine Valley Capital Partners",
+    "panel": "8",
+    "role_on_panel": "Panelist",
+    "email": "Ryan.Schultz@pvcapitalpartners.com",
+    "photo": "panelist_photos/ryan_schultz.jpg",
+    "bio": "Ryan Schultz is Head of Business Development at Pine Valley Capital Partners, a litigation finance firm providing capital solutions for plaintiff trial law firms and legal asset owners. Previously VP at TT Capital Partners in healthcare investments, VP of Business Development at LifeFlow Partners, and VP of Corporate Development at Bridgepointe Technologies, he brings a background in investment banking and financial modeling. Schultz received a BA in Finance and Accounting from the University of Denver's Daniels College of Business.\n",
+    "career": [
+      {
+        "role": "Head of Business Development",
+        "employer": "Pine Valley Capital Partners",
+        "years": "Current"
+      },
+      {
+        "role": "Vice President",
+        "employer": "TT Capital Partners",
+        "years": "2021–2023"
+      },
+      {
+        "role": "Vice President, Business Development",
+        "employer": "LifeFlow Partners",
+        "years": "Prior"
+      },
+      {
+        "role": "Vice President, Corporate Development",
+        "employer": "Bridgepointe Technologies",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "BA in Finance & Accounting",
+        "school": "University of Denver, Daniels College of Business"
+      }
+    ]
+  },
+  {
+    "name": "Anthony Sebok",
+    "current_title": "Professor",
+    "current_employer": "Benjamin N. Cardozo School of Law / NYU",
+    "panel": "11",
+    "role_on_panel": "Panelist",
+    "email": "sebok@yu.edu",
+    "photo": "panelist_photos/anthony_sebok.jpg",
+    "bio": "Anthony Sebok holds the Joseph and Sadie Danciger Chair in Law at Cardozo School of Law and is Co-Director of the Jacob Burns Center for Ethics in the Practice of Law. An Adjunct Professor at NYU School of Law, he is a leading scholar in tort law, professional responsibility, and litigation finance. Sebok joined Cardozo in 2007 after serving as Centennial Professor at Brooklyn Law School for 15 years. He is Ethics Consultant to Burford Capital, a member of the ALI, and clerked for Chief Judge Edward Cahn of the Eastern District of Pennsylvania. He has held visiting professorships at Cornell, Tsinghua, Free University Berlin, and Princeton. Sebok received a PhD in Politics from Princeton University, a JD from Yale Law School, an MPhil from Oxford University, and a BA from Cornell University.\n",
+    "career": [
+      {
+        "role": "Danciger Chair in Law",
+        "employer": "Cardozo School of Law",
+        "years": "2021–Present"
+      },
+      {
+        "role": "Professor",
+        "employer": "Cardozo School of Law",
+        "years": "2007–Present"
+      },
+      {
+        "role": "Adjunct Professor",
+        "employer": "NYU School of Law",
+        "years": "Current"
+      },
+      {
+        "role": "Centennial Professor",
+        "employer": "Brooklyn Law School",
+        "years": "Prior (15 years)"
+      },
+      {
+        "role": "Law Clerk, Chief Judge Edward Cahn",
+        "employer": "U.S. District Court, Eastern District of Pennsylvania",
+        "years": "Prior"
+      },
+      {
+        "role": "Ethics Consultant",
+        "employer": "Burford Capital",
+        "years": "Current"
+      }
+    ],
+    "education": [
+      {
+        "degree": "PhD in Politics",
+        "school": "Princeton University"
+      },
+      {
+        "degree": "JD",
+        "school": "Yale Law School"
+      },
+      {
+        "degree": "MPhil",
+        "school": "Oxford University"
       },
       {
         "degree": "BA",
-        "school": "Pitzer College"
+        "school": "Cornell University"
+      }
+    ]
+  },
+  {
+    "name": "Alex Sha",
+    "current_title": "Co-Founder",
+    "current_employer": "Bridge Legal",
+    "panel": "14",
+    "role_on_panel": "Panelist",
+    "email": "alex@bridgelegal.com",
+    "photo": "panelist_photos/alex_sha.jpg",
+    "bio": "Alex Sha is Co-Founder and Chief Product and Technology Officer at Bridge Legal, an AI-powered legal technology company. A product leader rooted in innovation through data and technology, he previously served as Director of Product and Engineering at UpRight Law. Sha's earlier experience includes roles at Signal, Wolfram Alpha, and Blocher Consulting. Named a Rising Star in Tech by Crain's Chicago Business in 2020, he is currently pursuing an Executive MBA at the University of Chicago Booth School of Business. Sha received a BS in Computer Science and Business from the University of Illinois Urbana-Champaign.\n",
+    "career": [
+      {
+        "role": "Co-Founder & Chief Product & Technology Officer",
+        "employer": "Bridge Legal",
+        "years": "Current"
+      },
+      {
+        "role": "Director of Product & Engineering",
+        "employer": "UpRight Law",
+        "years": "Prior"
+      },
+      {
+        "role": "Engineering Manager",
+        "employer": "UpRight Law",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "BS in Computer Science & Business",
+        "school": "University of Illinois Urbana-Champaign"
+      },
+      {
+        "degree": "Executive MBA (Candidate)",
+        "school": "University of Chicago Booth School of Business"
       }
     ]
   },
@@ -294,619 +2176,6 @@
     ]
   },
   {
-    "name": "Benjamin Blum",
-    "current_title": "Managing Director",
-    "current_employer": "Flexpoint Ford",
-    "panel": "1",
-    "role_on_panel": "Panelist",
-    "email": "bblum@flexpointford.com",
-    "photo": "panelist_photos/benjamin_blum.jpg",
-    "photo_source": "Flexpoint Ford team page",
-    "photo_dimensions": "768x768",
-    "bio": "Benjamin Blum is a Managing Director at Flexpoint Ford, where he focuses on identifying, valuing, and executing investment opportunities in the Asset Opportunities strategy. Based in New York, he joined Flexpoint in 2016 as Vice President and was promoted to Managing Director in 2021. Prior to Flexpoint Ford, Blum spent nearly seven years at Morgan Stanley in the Fixed Income Division, progressing from Analyst to Vice President, with a focus on asset-based lending and securitized products. He has extensive experience evaluating, structuring, and managing term securitizations and warehouse credit lines across a broad range of asset classes. Blum received a BSBA in Finance, summa cum laude, from Washington University in St. Louis (Olin Business School).\n",
-    "career": [
-      {
-        "role": "Managing Director",
-        "employer": "Flexpoint Ford",
-        "years": "2021–Present"
-      },
-      {
-        "role": "Vice President",
-        "employer": "Flexpoint Ford",
-        "years": "2016–2021"
-      },
-      {
-        "role": "Vice President, Fixed Income Division",
-        "employer": "Morgan Stanley",
-        "years": "2015–2016"
-      },
-      {
-        "role": "Associate",
-        "employer": "Morgan Stanley",
-        "years": "2011–2015"
-      },
-      {
-        "role": "Analyst, Research",
-        "employer": "Morgan Stanley",
-        "years": "2009–2011"
-      }
-    ],
-    "education": [
-      {
-        "degree": "BSBA in Finance, summa cum laude",
-        "school": "Washington University in St. Louis (Olin Business School)",
-        "year": "2009"
-      }
-    ]
-  },
-  {
-    "name": "Michele Gambera",
-    "current_title": "Head of Strategic Asset Allocation Modeling",
-    "current_employer": "UBS Asset Management",
-    "panel": "1",
-    "role_on_panel": "Panelist",
-    "email": "",
-    "photo": "panelist_photos/michele_gambera.jpg",
-    "bio": "Michele Gambera has over 25 years of top-down investment management experience, focusing on asset allocation, risk management, and portfolio construction. After two years at the Chicago Fed as economist, he was at Morningstar for ten years in several capacities including chief economist of Ibbotson Associates, and among other things, he is one of the two authors of the Morningstar Star Ratings methodology for mutual funds. He then was at UBS Asset Management for 15 years, leading the development of models for strategic and tactical asset allocation, as well as envisioning portfolio solutions for large complex institutional clients such as sovereign wealth funds. A graduate of the University of Trento in Italy, Michele holds a PhD from the Pennsylvania State University. A CFA charterholder and co-author of two chapters in the CFA curriculum, Michele has published his research in several peer-reviewed journals, including the Journal of Finance. He has taught economics and finance at the Illinois Institute of Technology, Loyola University Chicago, University of Illinois at Chicago, University of Illinois at Urbana-Champaign, and University of West Virginia.\n",
-    "career": [
-      {
-        "role": "Head of Strategic Asset Allocation Modeling",
-        "employer": "UBS Asset Management",
-        "years": "2010–Present"
-      },
-      {
-        "role": "Chief Economist, Ibbotson Associates",
-        "employer": "Morningstar",
-        "years": "2000–2010"
-      },
-      {
-        "role": "Economist",
-        "employer": "Federal Reserve Bank of Chicago",
-        "years": "1998–2000"
-      }
-    ],
-    "education": [
-      {
-        "degree": "PhD in Economics",
-        "school": "Pennsylvania State University"
-      },
-      {
-        "degree": "BA/MA in Economics, with honors",
-        "school": "University of Trento, Italy"
-      }
-    ]
-  },
-  {
-    "name": "Sarah Jacobson",
-    "current_title": "Investment Manager / Legal Counsel",
-    "current_employer": "Omni Bridgeway",
-    "panel": "10",
-    "role_on_panel": "Panelist",
-    "email": "sjacobson@omnibridgeway.com",
-    "photo": "panelist_photos/sarah_jacobson.jpg",
-    "bio": "Sarah Jacobson is an Investment Manager and Legal Counsel at Omni Bridgeway, conducting due diligence on potential investments and advising on U.S. law matters. With over 17 years of legal experience, she previously served as Senior Litigation Associate at Haynes and Boone from 2010 to 2018 handling complex commercial litigation and as an associate at Willkie Farr & Gallagher. Jacobson has been an Adjunct Professor at Cardozo School of Law teaching legal writing since 2013 and was named a Thomson Reuters NY Super Lawyers Rising Star from 2013 to 2017. She received a JD from the University of Michigan Law School and a BA from Cornell University.\n",
-    "career": [
-      {
-        "role": "Investment Manager & Legal Counsel",
-        "employer": "Omni Bridgeway",
-        "years": "2021–Present"
-      },
-      {
-        "role": "Adjunct Professor",
-        "employer": "Cardozo School of Law",
-        "years": "2013–Present"
-      },
-      {
-        "role": "Senior Associate",
-        "employer": "Haynes and Boone",
-        "years": "2010–2018"
-      },
-      {
-        "role": "Associate",
-        "employer": "Willkie Farr & Gallagher",
-        "years": "2008–2010"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "University of Michigan Law School"
-      },
-      {
-        "degree": "BA",
-        "school": "Cornell University"
-      }
-    ]
-  },
-  {
-    "name": "Marc Carmel",
-    "current_title": "Managing Member",
-    "current_employer": "McDonald Hopkins LLC",
-    "panel": "3, 4",
-    "role_on_panel": "Panelist (Panel 3) / Moderator (Panel 4)",
-    "email": "mcarmel@mcdonaldhopkins.com",
-    "photo": "panelist_photos/marc_carmel.jpg",
-    "bio": "Marc Carmel is Managing Member of McDonald Hopkins' Chicago office, where he co-leads the Private Equity and Litigation Finance practice groups. With two decades of experience, he represents public and private companies, PE firms, directors, and lenders in restructurings, M&A, and litigation finance. Previously at Kirkland & Ellis, Paul Hastings, and Longford Capital, where he served as Director leading bankruptcy and restructuring investments. Ranked Band 4 in Bankruptcy/Restructuring by Chambers USA 2025, Carmel also holds an inactive CPA credential. He received a JD from Harvard Law School, a Master of Accounting from the University of Michigan, and a BBA from the University of Michigan.\n",
-    "career": [
-      {
-        "role": "Managing Member",
-        "employer": "McDonald Hopkins LLC",
-        "years": "2018–Present"
-      },
-      {
-        "role": "Director",
-        "employer": "Longford Capital",
-        "years": "Prior"
-      },
-      {
-        "role": "Partner",
-        "employer": "Kirkland & Ellis",
-        "years": "Prior"
-      },
-      {
-        "role": "Partner",
-        "employer": "Paul Hastings",
-        "years": "Prior"
-      },
-      {
-        "role": "Accountant",
-        "employer": "National accounting firm",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "Harvard Law School"
-      },
-      {
-        "degree": "Master of Accounting",
-        "school": "University of Michigan"
-      },
-      {
-        "degree": "BBA",
-        "school": "University of Michigan"
-      }
-    ]
-  },
-  {
-    "name": "Steven Nachtwey",
-    "current_title": "Partner",
-    "current_employer": "Bartlit Beck LLP",
-    "panel": "2",
-    "role_on_panel": "Panelist",
-    "email": "steven.nachtwey@bartlitbeck.com",
-    "photo": "panelist_photos/steven_nachtwey.jpg",
-    "bio": "Steven Nachtwey is a Partner at Bartlit Beck LLP specializing in complex commercial litigation, particularly residential mortgage-backed securities and financial services disputes. He represented MassMutual in RMBS litigation against Credit Suisse and Goldman Sachs, served as lead co-counsel for an ad hoc group of investors in a $950 million settlement involving Bank of America, and represented MGIC against Lehman Brothers in bankruptcy fraud litigation. Nachtwey received a JD, summa cum laude, from the University of Minnesota Law School and a BS, with distinction, from the University of Wisconsin-Madison.\n",
-    "career": [
-      {
-        "role": "Partner",
-        "employer": "Bartlit Beck LLP",
-        "years": "Current"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD, summa cum laude",
-        "school": "University of Minnesota Law School",
-        "year": "2000"
-      },
-      {
-        "degree": "BS, with distinction",
-        "school": "University of Wisconsin-Madison",
-        "year": "1997"
-      }
-    ]
-  },
-  {
-    "name": "Craig Martin",
-    "current_title": "Chairman of the Americas",
-    "current_employer": "Willkie Farr & Gallagher LLP",
-    "panel": "Opening",
-    "role_on_panel": "Fireside Chat",
-    "email": "CMartin@willkie.com",
-    "photo": "panelist_photos/craig_martin.jpg",
-    "bio": "Craig Martin is Chairman, Americas of Willkie Farr & Gallagher LLP and member of the firm's Executive Committee. He founded the Willkie Chicago office in 2020 and grew it to over 100 lawyers. Previously chairman of a national law firm, Martin is recognized as a \"courtroom to boardroom\" lawyer with approximately 50 trials and arbitrations across antitrust, employment, patent, ERISA, and commercial disputes. He is ranked in Chambers Global and USA in four practice areas and listed in Chicago Magazine's \"Power 100\" and Crain's \"Who's Who.\" Martin received a JD from Harvard Law School and a BA, magna cum laude, from the University of Notre Dame.\n",
-    "career": [
-      {
-        "role": "Chairman, Americas",
-        "employer": "Willkie Farr & Gallagher LLP",
-        "years": "2025–Present"
-      },
-      {
-        "role": "Chairman, Midwest",
-        "employer": "Willkie Farr & Gallagher LLP",
-        "years": "2020–2025"
-      },
-      {
-        "role": "Chairman",
-        "employer": "National law firm",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "Harvard Law School"
-      },
-      {
-        "degree": "BA, magna cum laude",
-        "school": "University of Notre Dame"
-      }
-    ]
-  },
-  {
-    "name": "Seth Deutsch",
-    "current_title": "Co-Founder",
-    "current_employer": "Samson Partners Group",
-    "panel": "3",
-    "role_on_panel": "Panelist",
-    "email": "seth@samsonpartnersgroup.com",
-    "photo": "panelist_photos/seth_deutsch.jpg",
-    "bio": "Seth Deutsch is Founder of Samson Partners Group (Samson Operating Partners), providing executive advisory and board-level services to PE firms, family offices, and portfolio companies. A growth leader, operating partner, board member, and CEO, he has a track record of profitable growth for PE-backed, family-owned, and public companies. Previously President of AECOM's Industrial Group and CEO of its Facility Services Group, Deutsch currently serves as Board Member and Chief Growth Officer at E78 Partners. He received an MBA from the Kellogg School of Management at Northwestern University and an undergraduate degree from Rice University.\n",
-    "career": [
-      {
-        "role": "Founder",
-        "employer": "Samson Partners Group",
-        "years": "Current"
-      },
-      {
-        "role": "Board Member & Chief Growth Officer",
-        "employer": "E78 Partners",
-        "years": "Current"
-      },
-      {
-        "role": "President, Industrial Group",
-        "employer": "AECOM",
-        "years": "Prior"
-      },
-      {
-        "role": "CEO, Facility Services Group",
-        "employer": "AECOM",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "MBA",
-        "school": "Kellogg School of Management, Northwestern University"
-      },
-      {
-        "degree": "Undergraduate degree",
-        "school": "Rice University"
-      }
-    ]
-  },
-  {
-    "name": "Ed Gehres",
-    "current_title": "Managing Partner",
-    "current_employer": "Invenio LLP",
-    "panel": "3",
-    "role_on_panel": "Moderator",
-    "email": "edg@inveniolaw.com",
-    "photo": "panelist_photos/ed_gehres.jpg",
-    "bio": "Ed Gehres is Managing Partner and co-founder of Invenio LLP, focused on litigation finance, complex litigation, and advisory services. With over 25 years of legal and leadership experience spanning BigLaw, in-house, and government, he previously served as General Counsel at 777 Partners overseeing 50-plus portfolio companies and as GC at Think Finance. Gehres was a partner at Squire Patton Boggs and Van Ness Feldman, and began his BigLaw career at Arnold & Porter. His early career included legislative and government affairs work. He received a JD from the University of Virginia School of Law, an MA in Issues and Crisis Management from George Washington University, and a BA in History from the University of Michigan.\n",
-    "career": [
-      {
-        "role": "Managing Partner",
-        "employer": "Invenio LLP",
-        "years": "2022–Present"
-      },
-      {
-        "role": "General Counsel",
-        "employer": "777 Partners",
-        "years": "2016–2023"
-      },
-      {
-        "role": "General Counsel",
-        "employer": "Think Finance",
-        "years": "Prior"
-      },
-      {
-        "role": "Partner",
-        "employer": "Squire Patton Boggs",
-        "years": "Prior"
-      },
-      {
-        "role": "Partner",
-        "employer": "Van Ness Feldman",
-        "years": "Prior"
-      },
-      {
-        "role": "Associate",
-        "employer": "Arnold & Porter",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "University of Virginia School of Law"
-      },
-      {
-        "degree": "MA in Issues & Crisis Management",
-        "school": "George Washington University"
-      },
-      {
-        "degree": "BA in History",
-        "school": "University of Michigan"
-      }
-    ]
-  },
-  {
-    "name": "Kacey Wolmer",
-    "current_title": "Chief Operating Officer",
-    "current_employer": "Contingency Capital LLC",
-    "panel": "TBD",
-    "role_on_panel": "Panelist (added 4/18)",
-    "email": "",
-    "photo": "panelist_photos/kacey_wolmer.jpg",
-    "bio": "Kacey Wolmer is Chief Operating Officer at Contingency Capital LLC, a litigation finance firm, where she has served since January 2021. With approximately 18 years of experience spanning finance and law, she previously served as Senior Vice President and Counsel at FirstKey Mortgage, a portfolio company of Cerberus Capital Management. Earlier in her career, Wolmer practiced as an associate at Hunton & Williams LLP specializing in structured finance and securitization, at Fortress Investment Group, at Morgan Lewis & Bockius LLP in private funds, and at Thacher Proffitt & Wood in structured finance. Wolmer received a JD from the University of Michigan Law School and a BA from Emory University.\n",
-    "career": [
-      {
-        "role": "Chief Operating Officer",
-        "employer": "Contingency Capital LLC",
-        "years": "2021–Present"
-      },
-      {
-        "role": "Senior Vice President and Counsel",
-        "employer": "FirstKey Mortgage (Cerberus Capital Management)",
-        "years": "2017–2021"
-      },
-      {
-        "role": "Associate",
-        "employer": "Hunton & Williams LLP",
-        "years": "2012–2017"
-      },
-      {
-        "role": "Associate & Counsel",
-        "employer": "Fortress Investment Group",
-        "years": "2010–2012"
-      },
-      {
-        "role": "Associate",
-        "employer": "Morgan, Lewis & Bockius LLP",
-        "years": "2008–2009"
-      },
-      {
-        "role": "Associate",
-        "employer": "Thacher Proffitt & Wood",
-        "years": "2007–2008"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "University of Michigan Law School",
-        "year": "2006"
-      },
-      {
-        "degree": "BA",
-        "school": "Emory University"
-      }
-    ]
-  },
-  {
-    "name": "Ken Epstein",
-    "current_title": "Co-Founder & Principal",
-    "current_employer": "Backlit Capital",
-    "panel": "4",
-    "role_on_panel": "Panelist",
-    "email": "ken@backlitcapital.com",
-    "photo": "panelist_photos/ken_epstein.jpg",
-    "bio": "Ken Epstein is Co-Founder and Principal of Backlit Capital Solutions, a financial consulting and advisory firm specializing in legal finance and litigation risk management. With 25 years of experience in bankruptcy law, commercial litigation, restructuring, and finance, he previously served as Senior Investment Manager and Legal Counsel at Omni Bridgeway, leading the U.S. insolvency litigation finance platform. Before that, Epstein was Managing Director at MBIA and Associate Director at Standard & Poor's. He also teaches bankruptcy law as adjunct professor at Cardozo Law School. Epstein received a JD, cum laude, from Brooklyn Law School and an undergraduate accounting degree from the University of Maryland.\n",
-    "career": [
-      {
-        "role": "Co-Founder & Principal",
-        "employer": "Backlit Capital Solutions",
-        "years": "2025–Present"
-      },
-      {
-        "role": "Senior Investment Manager & Legal Counsel",
-        "employer": "Omni Bridgeway",
-        "years": "2017–2025"
-      },
-      {
-        "role": "Managing Director",
-        "employer": "MBIA",
-        "years": "2008–2017"
-      },
-      {
-        "role": "Associate Director",
-        "employer": "Standard & Poor's",
-        "years": "2005–2008"
-      },
-      {
-        "role": "Associate",
-        "employer": "Cadwalader, Wickersham & Taft",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD, cum laude",
-        "school": "Brooklyn Law School"
-      },
-      {
-        "degree": "Undergraduate accounting degree",
-        "school": "University of Maryland"
-      }
-    ]
-  },
-  {
-    "name": "Matt Leland",
-    "current_title": "Principal & Co-Founder",
-    "current_employer": "Backlit Capital",
-    "panel": "10",
-    "role_on_panel": "Panelist",
-    "email": "matt@backlitcapital.com",
-    "photo": "panelist_photos/matt_leland.jpg",
-    "bio": "Matt Leland is Principal and Co-Founder of Backlit Capital Solutions, a legal finance consultancy. With over 20 years in commercial litigation and litigation finance, he previously served as Investment Manager and Legal Counsel at Omni Bridgeway and was a partner and commercial litigator for nearly two decades at King & Spalding and McDermott Will & Emery, recovering hundreds of millions in damages for clients. Leland's early career included service as a top aide to former U.S. Senator John Sununu. He is recognized in Best Lawyers in America, Legal 500, and Super Lawyers. Leland received a JD from Georgetown University Law Center and a BA in Political Science from the University of New Hampshire.\n",
-    "career": [
-      {
-        "role": "Co-Founder & Principal",
-        "employer": "Backlit Capital Solutions",
-        "years": "2025–Present"
-      },
-      {
-        "role": "Investment Manager & Legal Counsel",
-        "employer": "Omni Bridgeway",
-        "years": "2022–2025"
-      },
-      {
-        "role": "Partner",
-        "employer": "King & Spalding",
-        "years": "2015–2022"
-      },
-      {
-        "role": "Partner",
-        "employer": "McDermott Will & Emery",
-        "years": "2011–2015"
-      },
-      {
-        "role": "Deputy Campaign Manager / Legislative Director",
-        "employer": "Office of Sen. John Sununu",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "Georgetown University Law Center"
-      },
-      {
-        "degree": "BA in Political Science",
-        "school": "University of New Hampshire"
-      }
-    ]
-  },
-  {
-    "name": "Jeffery Lula",
-    "current_title": "Managing Director",
-    "current_employer": "GLS Capital",
-    "panel": "4",
-    "role_on_panel": "Panelist",
-    "email": "jlula@glscap.com",
-    "photo": "panelist_photos/jeffery_lula.jpg",
-    "bio": "Jeffery Lula is a Managing Director at GLS Capital responsible for due diligence and monitoring of commercial litigation and arbitration investments. Previously a litigation partner at Kirkland & Ellis for nine years, he focused on complex commercial litigation including contract disputes, bankruptcy, corporate mismanagement, and insurance matters. Lula successfully argued before the Illinois Supreme Court and served as Articles Editor of the University of Chicago Law Review. He is a certified mediator by the Center for Conflict Resolution. Lula received a JD from the University of Chicago Law School (Mulroy Prize) and a BS in Psychology and English from the University of Illinois Urbana-Champaign (Bronze Tablet, Highest Honors).\n",
-    "career": [
-      {
-        "role": "Managing Director",
-        "employer": "GLS Capital",
-        "years": "2019–Present"
-      },
-      {
-        "role": "Partner",
-        "employer": "Kirkland & Ellis",
-        "years": "2010–2019"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD (Mulroy Prize)",
-        "school": "University of Chicago Law School"
-      },
-      {
-        "degree": "BS in Psychology & English (Bronze Tablet, Highest Honors)",
-        "school": "University of Illinois Urbana-Champaign"
-      }
-    ]
-  },
-  {
-    "name": "Joel Merkin",
-    "current_title": "Managing Director",
-    "current_employer": "GLS Capital",
-    "panel": "7",
-    "role_on_panel": "Panelist",
-    "email": "jmerkin@glscap.com",
-    "photo": "panelist_photos/joel_merkin.jpg",
-    "bio": "Joel Merkin is a Managing Director at GLS Capital – one of the world’s largest private investment firms focused on litigation finance – where he is responsible for due diligence and monitoring of patent investments. Previously a Partner in the intellectual property litigation group at Kirkland & Ellis for over a decade, Joel is a registered patent attorney with experience litigating patent cases involving computer hardware and software, communication systems, consumer electronics, and medical devices. He received a JD from the University of Illinois College of Law and a BS in Computer Engineering from the University of Illinois Urbana-Champaign.",
-    "career": [
-      {
-        "role": "Managing Director",
-        "employer": "GLS Capital",
-        "years": "2020–Present"
-      },
-      {
-        "role": "Partner",
-        "employer": "Kirkland & Ellis",
-        "years": "2012–2020"
-      },
-      {
-        "role": "Associate",
-        "employer": "Kirkland & Ellis",
-        "years": "2008–2012"
-      },
-      {
-        "role": "Associate",
-        "employer": "Sonnenschein Nath & Rosenthal",
-        "years": "2006–2008"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD (IP Law)",
-        "school": "University of Illinois College of Law"
-      },
-      {
-        "degree": "BS in Electrical & Computer Engineering",
-        "school": "University of Illinois Urbana-Champaign"
-      }
-    ]
-  },
-  {
-    "name": "Eric Carlson",
-    "current_title": "Managing Director, Global Patent",
-    "current_employer": "Burford Capital",
-    "panel": "7",
-    "role_on_panel": "Panelist",
-    "email": "ecarlson@burfordcapital.com",
-    "photo": "panelist_photos/eric_carlson.jpg",
-    "bio": "Eric Carlson is a Managing Director at Burford Capital responsible for assessing and underwriting legal risk in Burford's patent group. With over 18 years in IP and litigation finance, he previously practiced as a patent litigator at Katten Muchin Rosenman and Jones Day, handling matters involving software, hardware, semiconductors, and smartphones. Carlson transitioned to litigation finance in 2014 as an analyst at Gerchen Keller Capital, which was later acquired by Burford. He is listed in IAM Strategy 300 and recognized by Chambers. Carlson received a JD from the University of Illinois College of Law and a BS in Computer Science from the University of Illinois College of Engineering.\n",
-    "career": [
-      {
-        "role": "Managing Director",
-        "employer": "Burford Capital",
-        "years": "2023–Present"
-      },
-      {
-        "role": "Director",
-        "employer": "Burford Capital",
-        "years": "2020–2023"
-      },
-      {
-        "role": "IP Principal / Vice President",
-        "employer": "Burford Capital",
-        "years": "2017–2020"
-      },
-      {
-        "role": "Analyst",
-        "employer": "Gerchen Keller Capital",
-        "years": "2014–2016"
-      },
-      {
-        "role": "Associate",
-        "employer": "Katten Muchin Rosenman",
-        "years": "2012–2014"
-      },
-      {
-        "role": "Associate",
-        "employer": "Jones Day",
-        "years": "2007–2011"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "University of Illinois College of Law"
-      },
-      {
-        "degree": "BS in Computer Science",
-        "school": "University of Illinois College of Engineering"
-      }
-    ]
-  },
-  {
     "name": "Andrew Stulce",
     "current_title": "Director",
     "current_employer": "Longford Capital",
@@ -959,231 +2228,6 @@
     ]
   },
   {
-    "name": "Jason Levine",
-    "current_title": "Partner",
-    "current_employer": "Foley & Lardner LLP",
-    "panel": "2",
-    "role_on_panel": "Panelist",
-    "email": "jason.levine@foley.com",
-    "photo": "panelist_photos/jason_levine.jpg",
-    "bio": "Jason Levine is a Partner at Foley & Lardner with 30 years of combined experience as a first-chair trial lawyer, antitrust litigator, and litigation finance executive. He previously launched and led the D.C. office of Omni Bridgeway, managing antitrust and commercial investments involving billion-dollar claims. Levine has first-chaired over a dozen trials and secured over $3 billion in relief for plaintiff-side corporate clients, in addition to saving defense-side clients from over $17 billion in potential liability exposure. He clerked for Judge Randall Rader of the U.S. Court of Appeals for the Federal Circuit and was formerly a partner at McDermott Will & Emery, Vinson & Elkins, and Alston & Bird. Levine received a JD, cum laude, from Harvard Law School and a BA, summa cum laude (Phi Beta Kappa), from Brandeis University.",
-    "career": [
-      {
-        "role": "Partner",
-        "employer": "Foley & Lardner LLP",
-        "years": "Current"
-      },
-      {
-        "role": "Director, D.C. Office",
-        "employer": "Omni Bridgeway",
-        "years": "Prior"
-      },
-      {
-        "role": "Partner",
-        "employer": "McDermott Will & Emery",
-        "years": "Prior"
-      },
-      {
-        "role": "Partner",
-        "employer": "Vinson & Elkins",
-        "years": "Prior"
-      },
-      {
-        "role": "Partner",
-        "employer": "Alston & Bird",
-        "years": "Prior"
-      },
-      {
-        "role": "Law Clerk, Judge Randall Rader",
-        "employer": "U.S. Court of Appeals for the Federal Circuit",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD, cum laude",
-        "school": "Harvard Law School"
-      },
-      {
-        "degree": "BA, summa cum laude (Phi Beta Kappa)",
-        "school": "Brandeis University"
-      }
-    ]
-  },
-  {
-    "name": "Ben Whiting",
-    "current_title": "Senior Partner",
-    "current_employer": "Keller Postman LLC",
-    "panel": "2",
-    "role_on_panel": "Panelist",
-    "email": "ben.whiting@kellerpostman.com",
-    "photo": "panelist_photos/ben_whiting.jpg",
-    "bio": "Ben Whiting is a Senior Partner at Keller Postman specializing in complex litigation including consumer protection, labor and employment, and product liability in class action and mass tort contexts. Previously a partner at Bartlit Beck LLP for a decade, he led a $60 million jury verdict against infant formula manufacturers in 2024 and developed Keller Postman's mass arbitration strategy. Named a 2022 Plaintiffs' Lawyers Trailblazer by the National Law Journal. Before law school, Whiting taught philosophy and logic at multiple universities. He received a JD, with High Honors, from the University of Chicago Law School, an MA in Philosophy from the University of Wyoming, and a BS in Finance and Philosophy from Trinity University.\n",
-    "career": [
-      {
-        "role": "Senior Partner",
-        "employer": "Keller Postman LLC",
-        "years": "2020–Present"
-      },
-      {
-        "role": "Partner",
-        "employer": "Bartlit Beck LLP",
-        "years": "Prior (approx. decade)"
-      },
-      {
-        "role": "Philosophy Instructor",
-        "employer": "Multiple universities",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD, with High Honors",
-        "school": "University of Chicago Law School"
-      },
-      {
-        "degree": "MA in Philosophy",
-        "school": "University of Wyoming"
-      },
-      {
-        "degree": "BS in Finance & Philosophy",
-        "school": "Trinity University"
-      }
-    ]
-  },
-  {
-    "name": "Will Marra",
-    "current_title": "Director",
-    "current_employer": "Certum Group",
-    "panel": "2, 11",
-    "role_on_panel": "Moderator (Panel 2) / Panelist (Panel 11)",
-    "email": "wmarra@certumgroup.com",
-    "photo": "panelist_photos/will_marra.jpg",
-    "bio": "Will Marra is a Director at Certum Group and Lecturer in Law at UPenn Carey Law School, where he co-teaches litigation finance. He formerly clerked for Justice Samuel A. Alito Jr. of the U.S. Supreme Court and Chief Judge William H. Pryor Jr. of the Eleventh Circuit. Marra previously litigated at Cooper & Kirk PLLC and consulted at Bain & Company. In litigation finance since 2019, he is a published scholar on agency costs in third-party litigation finance and serves as a board member of the International Legal Finance Association. Marra received a JD, magna cum laude, from Harvard Law School and a BA, magna cum laude, from Harvard College.\n",
-    "career": [
-      {
-        "role": "Director",
-        "employer": "Certum Group",
-        "years": "Current"
-      },
-      {
-        "role": "Lecturer in Law",
-        "employer": "UPenn Carey Law School",
-        "years": "Current"
-      },
-      {
-        "role": "Law Clerk, Justice Samuel A. Alito Jr.",
-        "employer": "Supreme Court of the United States",
-        "years": "Prior"
-      },
-      {
-        "role": "Law Clerk, Chief Judge William H. Pryor Jr.",
-        "employer": "U.S. Court of Appeals for the Eleventh Circuit",
-        "years": "Prior"
-      },
-      {
-        "role": "Associate",
-        "employer": "Cooper & Kirk PLLC",
-        "years": "Prior"
-      },
-      {
-        "role": "Consultant",
-        "employer": "Bain & Company",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD, magna cum laude",
-        "school": "Harvard Law School"
-      },
-      {
-        "degree": "BA, magna cum laude",
-        "school": "Harvard College"
-      }
-    ]
-  },
-  {
-    "name": "William Henderson",
-    "current_title": "Professor",
-    "current_employer": "Indiana University Maurer School of Law",
-    "panel": "3",
-    "role_on_panel": "Panelist",
-    "email": "wihender@iu.edu",
-    "photo": "panelist_photos/william_henderson.jpg",
-    "bio": "William Henderson holds the Stephen F. Burns Chair on the Legal Profession at Indiana University Maurer School of Law, where he has taught since 2003. He is founding director of the Milt and Judi Stewart Center on the Global Legal Profession and co-founder of the Institute for the Future of Law Practice. Named to the NLJ's 100 Most Influential Lawyers in America and Most Influential Person in Legal Education by The National Jurist in 2015 and 2016, his research focuses on empirical analysis of the legal profession. Henderson received a JD, with honors, from the University of Chicago and a BA, magna cum laude, in History and Economics from Case Western Reserve University.\n",
-    "career": [
-      {
-        "role": "Stephen F. Burns Chair on the Legal Profession",
-        "employer": "Indiana University Maurer School of Law",
-        "years": "2017–Present"
-      },
-      {
-        "role": "Professor",
-        "employer": "Indiana University Maurer School of Law",
-        "years": "2009–2017"
-      },
-      {
-        "role": "Associate Professor",
-        "employer": "Indiana University Maurer School of Law",
-        "years": "2003–2009"
-      },
-      {
-        "role": "Co-Founder",
-        "employer": "Lawyer Metrics",
-        "years": "2010–2016"
-      },
-      {
-        "role": "Founder",
-        "employer": "Legal Evolution",
-        "years": "2017–Present"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD, with honors",
-        "school": "University of Chicago"
-      },
-      {
-        "degree": "BA, magna cum laude, in History & Economics",
-        "school": "Case Western Reserve University"
-      }
-    ]
-  },
-  {
-    "name": "Leonard Brahin",
-    "current_title": "Associate",
-    "current_employer": "Holland & Knight LLP",
-    "panel": "3",
-    "role_on_panel": "Panelist",
-    "email": "Leonard.Brahin@hklaw.com",
-    "photo": "panelist_photos/leonard_brahin.jpg",
-    "bio": "Leonard Brahin is an Associate in Holland & Knight's Chicago office focusing on litigation and dispute resolution, lawyer ethics, and legal services transactions. He handles expedited matters involving TROs and preliminary injunctions in high-stakes business disputes and develops legal frameworks for law firm management services organizations. During law school, Brahin externed for Hon. Thomas M. Durkin of the Northern District of Illinois and assisted with appeals for Hon. John Z. Lee of the Seventh Circuit. Prior to law school, he worked at a transportation logistics company in Chicago. Brahin received a JD from DePaul Law School.\n",
-    "career": [
-      {
-        "role": "Associate",
-        "employer": "Holland & Knight LLP",
-        "years": "Current"
-      },
-      {
-        "role": "Extern, Hon. Thomas M. Durkin",
-        "employer": "U.S. District Court, Northern District of Illinois",
-        "years": "Prior"
-      },
-      {
-        "role": "Extern, Hon. John Z. Lee",
-        "employer": "U.S. Court of Appeals for the Seventh Circuit",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "DePaul Law School"
-      }
-    ]
-  },
-  {
     "name": "J. Samuel Tenenbaum",
     "current_title": "Clinical Professor",
     "current_employer": "Northwestern Pritzker School of Law",
@@ -1226,999 +2270,43 @@
     ]
   },
   {
-    "name": "Matt Oxman",
-    "current_title": "Vice President of Underwriting",
-    "current_employer": "Bench Walk Advisors",
-    "panel": "6",
+    "name": "Ben Whiting",
+    "current_title": "Senior Partner",
+    "current_employer": "Keller Postman LLC",
+    "panel": "2",
     "role_on_panel": "Panelist",
-    "email": "matt@benchwalk.com",
-    "photo": "panelist_photos/matt_oxman.jpg",
-    "bio": "Matt Oxman is Vice President of Underwriting at Bench Walk Advisors since 2023, assisting with case review and investment analysis. Previously VP of Business Development at LexShares from 2017 to 2023, he expanded the firm's caseload and established relationships in litigation funding. Oxman's earlier career included work as a litigation associate at Dewey & LeBoeuf specializing in antitrust, securities, FCPA, and white-collar defense, and as an MBA Summer Associate at J.P. Morgan Private Bank's Law Firms Group. He received an MBA from NYU Stern School of Business, a JD from Columbia Law School, and an AB, magna cum laude, in Politics from Princeton University.\n",
+    "email": "ben.whiting@kellerpostman.com",
+    "photo": "panelist_photos/ben_whiting.jpg",
+    "bio": "Ben Whiting is a Senior Partner at Keller Postman specializing in complex litigation including consumer protection, labor and employment, and product liability in class action and mass tort contexts. Previously a partner at Bartlit Beck LLP for a decade, he led a $60 million jury verdict against infant formula manufacturers in 2024 and developed Keller Postman's mass arbitration strategy. Named a 2022 Plaintiffs' Lawyers Trailblazer by the National Law Journal. Before law school, Whiting taught philosophy and logic at multiple universities. He received a JD, with High Honors, from the University of Chicago Law School, an MA in Philosophy from the University of Wyoming, and a BS in Finance and Philosophy from Trinity University.\n",
     "career": [
       {
-        "role": "Vice President of Underwriting",
-        "employer": "Bench Walk Advisors",
-        "years": "2023–Present"
-      },
-      {
-        "role": "Vice President, Business Development",
-        "employer": "LexShares",
-        "years": "2017–2023"
-      },
-      {
-        "role": "Independent Investor Consultant",
-        "employer": "Self-employed",
-        "years": "2014–2017"
-      },
-      {
-        "role": "Associate",
-        "employer": "Dewey & LeBoeuf",
-        "years": "2006–2012"
-      }
-    ],
-    "education": [
-      {
-        "degree": "MBA (Financial Instruments & Markets)",
-        "school": "NYU Stern School of Business"
-      },
-      {
-        "degree": "JD",
-        "school": "Columbia Law School"
-      },
-      {
-        "degree": "AB, magna cum laude, in Politics",
-        "school": "Princeton University"
-      }
-    ]
-  },
-  {
-    "name": "Victoria Sahani",
-    "current_title": "Professor",
-    "current_employer": "Boston University School of Law",
-    "panel": "6, 11",
-    "role_on_panel": "Panelist",
-    "email": "sahani@bu.edu",
-    "photo": "panelist_photos/victoria_sahani.jpg",
-    "bio": "Victoria Sahani is a Professor of Law at Boston University School of Law and an internationally recognized scholar in arbitration law and third-party litigation funding. With 18 years of international arbitration experience and over 16 years of funding expertise, she co-authored Third-Party Funding in International Arbitration (Wolters Kluwer)—the first book on this topic. Previously Associate Provost for Community and Inclusion at BU, she held prior academic posts at Arizona State (as Associate Dean) and Washington & Lee. Sahani serves as independent arbitrator, consultant, and expert witness, and is a member of the ALI and an American Bar Foundation Fellow. She received a JD from Harvard Law School and an AB in Psychology from Harvard College.\n",
-    "career": [
-      {
-        "role": "Professor of Law",
-        "employer": "Boston University School of Law",
-        "years": "Current"
-      },
-      {
-        "role": "Associate Provost for Community & Inclusion",
-        "employer": "Boston University",
-        "years": "2022–2025"
-      },
-      {
-        "role": "Professor & Associate Dean",
-        "employer": "Arizona State University",
-        "years": "Prior"
-      },
-      {
-        "role": "Professor",
-        "employer": "Washington & Lee University",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "Harvard Law School"
-      },
-      {
-        "degree": "AB in Psychology",
-        "school": "Harvard College"
-      }
-    ]
-  },
-  {
-    "name": "Erika Levin",
-    "current_title": "Partner",
-    "current_employer": "Fox Rothschild LLP",
-    "panel": "6",
-    "role_on_panel": "Moderator",
-    "email": "ELevin@foxrothschild.com",
-    "photo": "panelist_photos/erika_levin.jpg",
-    "bio": "Erika Levin is a Partner at Fox Rothschild leading the firm's Litigation Finance team, focusing on international disputes and serving as both counsel and arbitrator/mediator. She previously served as Senior VP and General Counsel at The Judge (litigation finance), was a partner at Lewis Baach Kaufmann Middlemiss, and a partner at Stone & Magnanini (formerly Boies Schiller NJ office). Levin clerked for judges on the NJ Appellate Division, Third Circuit, and D.N.J., and has served as adjunct professor at Rutgers Law since 2004. She also worked at the U.S. Embassy in Malta on EU accession. Levin received a JD from Rutgers Law School and a BA from Rutgers University.\n",
-    "career": [
-      {
-        "role": "Partner",
-        "employer": "Fox Rothschild LLP",
-        "years": "2021–Present"
-      },
-      {
-        "role": "Partner",
-        "employer": "Lewis Baach Kaufmann Middlemiss",
-        "years": "2017–2021"
-      },
-      {
-        "role": "Senior Vice President & General Counsel",
-        "employer": "The Judge",
-        "years": "2016–2017"
-      },
-      {
-        "role": "Partner",
-        "employer": "Stone & Magnanini",
-        "years": "2012–2016"
-      },
-      {
-        "role": "Associate",
-        "employer": "Clifford Chance",
-        "years": "Prior"
-      },
-      {
-        "role": "Law Clerk",
-        "employer": "U.S. Court of Appeals for the Third Circuit",
-        "years": "Prior"
-      },
-      {
-        "role": "Law Clerk",
-        "employer": "NJ Appellate Division",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "Rutgers Law School"
-      },
-      {
-        "degree": "BA",
-        "school": "Rutgers University"
-      }
-    ]
-  },
-  {
-    "name": "Josh Gammon",
-    "current_title": "Founder / Instructor",
-    "current_employer": "WealthDocket / Northwestern Pritzker School of Law",
-    "panel": "7",
-    "role_on_panel": "Panelist",
-    "email": "jgammon@wealthdocket.com",
-    "photo": "panelist_photos/josh_gammon.jpg",
-    "bio": "Josh Gammon is Co-Founder and Managing Member of WealthDocket Advisors, a litigation funding advisory and IP asset management firm that created the world's first crowdfunded IP monetization platform. He has served as Adjunct Instructor at Northwestern Pritzker School of Law teaching IP Valuation since 2018. With 15 years of IP experience, Gammon previously held roles as Managing Director at Hilco IP Merchant Banking and Director at Ocean Tomo. He is licensed in Illinois and holds a Series 7 credential. Gammon received a JD from Washington University in St. Louis School of Law and a BS in Finance, with high distinction, from Indiana University's Kelley School of Business.\n",
-    "career": [
-      {
-        "role": "Co-Founder & Managing Member",
-        "employer": "WealthDocket Advisors",
-        "years": "Current"
-      },
-      {
-        "role": "Adjunct Instructor",
-        "employer": "Northwestern Pritzker School of Law",
-        "years": "2018–Present"
-      },
-      {
-        "role": "Managing Director",
-        "employer": "Hilco IP Merchant Banking",
-        "years": "2016–2023"
-      },
-      {
-        "role": "Director",
-        "employer": "Ocean Tomo",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "Washington University in St. Louis School of Law"
-      },
-      {
-        "degree": "BS in Finance, with high distinction",
-        "school": "Indiana University, Kelley School of Business"
-      }
-    ]
-  },
-  {
-    "name": "Ryan N. Phelan",
-    "current_title": "Partner",
-    "current_employer": "Marshall, Gerstein & Borun LLP",
-    "panel": "7",
-    "role_on_panel": "Moderator",
-    "email": "rphelan@marshallip.com",
-    "photo": "panelist_photos/ryan_phelan.jpg",
-    "bio": "Ryan N. Phelan is a Partner at Marshall, Gerstein & Borun, a Chicago-based IP law firm. With over 16 years of experience in patent prosecution, litigation, IP opinions, and post-grant proceedings, he specializes in AI, machine learning, medical devices, blockchain, fintech, and emerging technologies. Previously a technology consultant at Accenture for Fortune 500 clients, Phelan also serves as Adjunct Professor at Northwestern Pritzker School of Law teaching Patenting Software Inventions and is founder of the PatentNext legal blog. He received a JD from Northwestern University Pritzker School of Law and an MBA from Northwestern University's Kellogg School of Management.\n",
-    "career": [
-      {
-        "role": "Partner",
-        "employer": "Marshall, Gerstein & Borun LLP",
-        "years": "2016–Present"
-      },
-      {
-        "role": "Adjunct Professor",
-        "employer": "Northwestern Pritzker School of Law",
-        "years": "Current"
-      },
-      {
-        "role": "Technology Consultant",
-        "employer": "Accenture",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "Northwestern University Pritzker School of Law"
-      },
-      {
-        "degree": "MBA",
-        "school": "Northwestern University, Kellogg School of Management"
-      }
-    ]
-  },
-  {
-    "name": "Ryan Schultz",
-    "current_title": "Head of Business Development",
-    "current_employer": "Pine Valley Capital Partners",
-    "panel": "8",
-    "role_on_panel": "Panelist",
-    "email": "Ryan.Schultz@pvcapitalpartners.com",
-    "photo": "panelist_photos/ryan_schultz.jpg",
-    "bio": "Ryan Schultz is Head of Business Development at Pine Valley Capital Partners, a litigation finance firm providing capital solutions for plaintiff trial law firms and legal asset owners. Previously VP at TT Capital Partners in healthcare investments, VP of Business Development at LifeFlow Partners, and VP of Corporate Development at Bridgepointe Technologies, he brings a background in investment banking and financial modeling. Schultz received a BA in Finance and Accounting from the University of Denver's Daniels College of Business.\n",
-    "career": [
-      {
-        "role": "Head of Business Development",
-        "employer": "Pine Valley Capital Partners",
-        "years": "Current"
-      },
-      {
-        "role": "Vice President",
-        "employer": "TT Capital Partners",
-        "years": "2021–2023"
-      },
-      {
-        "role": "Vice President, Business Development",
-        "employer": "LifeFlow Partners",
-        "years": "Prior"
-      },
-      {
-        "role": "Vice President, Corporate Development",
-        "employer": "Bridgepointe Technologies",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "BA in Finance & Accounting",
-        "school": "University of Denver, Daniels College of Business"
-      }
-    ]
-  },
-  {
-    "name": "Justin Maleson",
-    "current_title": "Managing Director & Assistant General Counsel",
-    "current_employer": "Victory Park Capital",
-    "panel": "8",
-    "role_on_panel": "Panelist",
-    "email": "jmaleson@victoryparkcapital.com",
-    "photo": "panelist_photos/justin_maleson.jpg",
-    "bio": "Justin Maleson is a Managing Director and Assistant General Counsel at Victory Park Capital, co-heading the firm's legal credit investment strategy. He is responsible for sourcing, analyzing, executing, and managing investments in the legal industry. Previously a Director at Longford Capital from 2018 to 2024, where he originated litigation finance opportunities, Maleson was a litigation partner at Jenner & Block for a decade advising on complex commercial and IP matters. He received a JD, with highest honors, from the University of New Hampshire and a BS from the University of Maryland Smith School of Business.\n",
-    "career": [
-      {
-        "role": "Managing Director & Assistant General Counsel",
-        "employer": "Victory Park Capital",
-        "years": "2024–Present"
-      },
-      {
-        "role": "Director",
-        "employer": "Longford Capital",
-        "years": "2018–2024"
-      },
-      {
-        "role": "Partner",
-        "employer": "Jenner & Block",
-        "years": "2008–2018"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD, with highest honors",
-        "school": "University of New Hampshire"
-      },
-      {
-        "degree": "BS",
-        "school": "University of Maryland Smith School of Business"
-      }
-    ]
-  },
-  {
-    "name": "Joshua Libling",
-    "current_title": "Founder & Managing Director",
-    "current_employer": "Arcadia Finance",
-    "panel": "8",
-    "role_on_panel": "Panelist",
-    "email": "joshua@arcadiafin.com",
-    "photo": "panelist_photos/joshua_libling.jpg",
-    "bio": "Joshua Libling is Co-Founder and Managing Director of Arcadia Finance, a litigation funding firm launched in 2024 with fellow former Validity Finance executives. He focuses on operations, financial analytics, and translating legal merits into risk data. Previously at Validity Finance as Portfolio Counsel and Director of Risk Analytics, Libling spent a decade as associate and counsel at Boies Schiller & Flexner specializing in antitrust, securities, and class actions. He clerked for Hon. Kenneth Karas (S.D.N.Y.) and Hon. Chester Straub (Second Circuit) and is recognized among Lawdragon's Global 100 in Legal Finance. Libling received a JD, magna cum laude (Order of the Coif), from NYU Law School and a BA from the University of Chicago.\n",
-    "career": [
-      {
-        "role": "Co-Founder & Managing Director",
-        "employer": "Arcadia Finance",
-        "years": "2024–Present"
-      },
-      {
-        "role": "Director of Risk Analytics",
-        "employer": "Validity Finance",
-        "years": "2020–2023"
-      },
-      {
-        "role": "Counsel",
-        "employer": "Boies Schiller & Flexner",
-        "years": "2010–2020"
-      },
-      {
-        "role": "Law Clerk",
-        "employer": "U.S. Court of Appeals for the Second Circuit",
-        "years": "Prior"
-      },
-      {
-        "role": "Law Clerk",
-        "employer": "U.S. District Court, Southern District of New York",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD, magna cum laude (Order of the Coif)",
-        "school": "NYU Law School"
-      },
-      {
-        "degree": "BA",
-        "school": "University of Chicago"
-      }
-    ]
-  },
-  {
-    "name": "Patrick Dempsey",
-    "current_title": "Director of Commercial Litigation Strategy",
-    "current_employer": "Certum Group",
-    "panel": "8",
-    "role_on_panel": "Moderator",
-    "email": "pdempsey@certumgroup.com",
-    "photo": "panelist_photos/patrick_dempsey.jpg",
-    "bio": "Patrick Dempsey is Director of Commercial Litigation Strategy at Certum Group since 2025, overseeing origination, structuring, and monitoring of commercial litigation financing and portfolio solutions. Previously a Director at Burford Capital and CIO of U.S. operations at Therium Capital Management, his earlier career included roles as litigator at Proskauer and senior associate at Hogan Lovells. Recognized by Lawdragon, Who's Who Legal, and Leaders League for litigation finance expertise. Dempsey received a JD, magna cum laude (Order of the Coif, Managing Editor of the Tulane Law Review), from Tulane University Law School and a BS from the University of New Orleans.\n",
-    "career": [
-      {
-        "role": "Director of Commercial Litigation Strategy",
-        "employer": "Certum Group",
-        "years": "2025–Present"
-      },
-      {
-        "role": "Director",
-        "employer": "Burford Capital",
-        "years": "2022–2024"
-      },
-      {
-        "role": "CIO, U.S. Operations",
-        "employer": "Therium Capital Management",
-        "years": "2016–2022"
-      },
-      {
-        "role": "Associate",
-        "employer": "Hogan Lovells",
-        "years": "2013–2016"
-      },
-      {
-        "role": "Associate",
-        "employer": "Proskauer Rose",
-        "years": "2006–2013"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD, magna cum laude (Order of the Coif, Managing Editor Tulane Law Review)",
-        "school": "Tulane University Law School"
-      },
-      {
-        "degree": "BS",
-        "school": "University of New Orleans"
-      }
-    ]
-  },
-  {
-    "name": "Jack Kelly",
-    "current_title": "Managing Director",
-    "current_employer": "American Legal Finance Association (ALFA)",
-    "panel": "9",
-    "role_on_panel": "Panelist",
-    "email": "jkelly@mcphersongroup.us",
-    "photo": "panelist_photos/jack_kelly.jpg",
-    "bio": "Jack Kelly is Managing Director of the American Legal Finance Association (ALFA), the leading trade association for consumer litigation funding companies, and Partner in the McPherson Group LLP advising on public policy risk management. With two decades of experience in structured finance and tax-related issues, he also serves as adjunct professor at Fordham School of Law teaching compliance and crisis management. Kelly previously served as aide to two U.S. Presidents and held Congressional staff positions. A 28-year U.S. Army veteran in active and reserve service, he commanded a Special Forces unit and received the Legion of Merit.\n",
-    "career": [
-      {
-        "role": "Managing Director",
-        "employer": "American Legal Finance Association (ALFA)",
-        "years": "Current"
-      },
-      {
-        "role": "Partner",
-        "employer": "McPherson Group LLP",
-        "years": "Current"
-      },
-      {
-        "role": "Adjunct Professor",
-        "employer": "Fordham School of Law",
-        "years": "Current"
-      },
-      {
-        "role": "Political aide",
-        "employer": "White House (two U.S. Presidents)",
-        "years": "Prior"
-      },
-      {
-        "role": "Congressional staff",
-        "employer": "U.S. Congress",
-        "years": "Prior"
-      },
-      {
-        "role": "U.S. Army (Special Forces Commander)",
-        "employer": "U.S. Army",
-        "years": "28 years (active and reserve)"
-      }
-    ],
-    "education": []
-  },
-  {
-    "name": "Eric Schuller",
-    "current_title": "President",
-    "current_employer": "Alliance for Responsible Consumer Legal Funding (ARC)",
-    "panel": "9",
-    "role_on_panel": "Panelist",
-    "email": "eschuller@arclegalfunding.org",
-    "photo": "panelist_photos/eric_schuller.jpg",
-    "bio": "Eric Schuller is President of the Alliance for Responsible Consumer Legal Funding (ARC) since 2011, a national trade association representing consumer legal funding companies. A government affairs expert with 50 years of professional experience, he previously served as Senior Policy Advisor in the Illinois Lieutenant Governor's Office. Schuller chairs the Public Outreach Committee of the State Government Affairs Council and serves on the Advisory Board of NYU School of Law's Dispute Financing Library. He is a U.S. Army and Illinois National Guard veteran who served from 1979 to 2001.\n",
-    "career": [
-      {
-        "role": "President",
-        "employer": "Alliance for Responsible Consumer Legal Funding (ARC)",
-        "years": "2011–Present"
-      },
-      {
-        "role": "Director of Government Affairs",
-        "employer": "Libra Solutions",
-        "years": "2008–Present"
-      },
-      {
-        "role": "Senior Policy Advisor",
-        "employer": "Illinois Lieutenant Governor's Office",
-        "years": "2003–2007"
-      },
-      {
-        "role": "President/Owner",
-        "employer": "TE INC",
-        "years": "1990–2003"
-      },
-      {
-        "role": "Service Member",
-        "employer": "U.S. Army / Illinois National Guard",
-        "years": "1979–2001"
-      }
-    ],
-    "education": []
-  },
-  {
-    "name": "Paul Kong",
-    "current_title": "Executive Director & President",
-    "current_employer": "International Legal Finance Association (ILFA)",
-    "panel": "9",
-    "role_on_panel": "Panelist",
-    "email": "pkong@ilfa.com",
-    "photo": "panelist_photos/paul_kong.jpg",
-    "bio": "Paul Kong is Executive Director and President of the International Legal Finance Association (ILFA), the global trade association representing the commercial legal finance industry. Based in Washington, D.C., ILFA engages, educates, and influences the legislative, regulatory, and judicial landscapes as the voice of the commercial legal finance sector.\n",
-    "career": [
-      {
-        "role": "Executive Director & President",
-        "employer": "International Legal Finance Association (ILFA)",
-        "years": "Current"
-      }
-    ],
-    "education": []
-  },
-  {
-    "name": "Albert Chang",
-    "current_title": "Adjunct Professor / Senior Director",
-    "current_employer": "Northwestern Pritzker School of Law / Fannie Mae",
-    "panel": "9",
-    "role_on_panel": "Moderator",
-    "email": "albert.chang1@law.northwestern.edu",
-    "photo": "panelist_photos/albert_chang.jpg",
-    "bio": "Albert Chang is a Senior Director at Fannie Mae and Adjunct Professor at Northwestern Pritzker School of Law, where he teaches Fintech Law and Regulation. Previously Senior Counsel at the Consumer Financial Protection Bureau (CFPB) in the Office of Competition and Innovation and Office of Fair Lending, his earlier career included roles at American Express in Fair Lending and as Senior Consultant at EY in Quantitative Economics and Risk Management. Chang received a JD, cum laude (Dean's Merit Scholarship), from Yeshiva University and a BA in Physics and Economics (Philip Evans Scholar) from Swarthmore College.\n",
-    "career": [
-      {
-        "role": "Senior Director",
-        "employer": "Fannie Mae",
-        "years": "2025–Present"
-      },
-      {
-        "role": "Adjunct Professor",
-        "employer": "Northwestern Pritzker School of Law",
-        "years": "2022–Present"
-      },
-      {
-        "role": "Senior Counsel",
-        "employer": "Consumer Financial Protection Bureau (CFPB)",
-        "years": "2014–2025"
-      },
-      {
-        "role": "Senior Manager",
-        "employer": "American Express",
-        "years": "Prior"
-      },
-      {
-        "role": "Manager / Senior Consultant",
-        "employer": "EY",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD, cum laude (Dean's Merit Scholarship)",
-        "school": "Yeshiva University"
-      },
-      {
-        "degree": "BA in Physics & Economics (Philip Evans Scholar)",
-        "school": "Swarthmore College"
-      }
-    ]
-  },
-  {
-    "name": "Charles Agee",
-    "current_title": "CEO",
-    "current_employer": "Westfleet Advisors",
-    "panel": "10",
-    "role_on_panel": "Panelist",
-    "email": "cagee@westfleetadvisors.com",
-    "photo": "panelist_photos/charles_agee.jpg",
-    "bio": "Charles Agee is CEO and Founder of Westfleet Advisors, a litigation finance advisory firm based in Nashville. With over 27 years in litigation finance, he co-founded Augusta Capital—one of the first litigation finance companies—in 1998 during his senior year of college, serving as EVP and COO for 15 years and overseeing financing in over a thousand complex matters. Westfleet provides transaction advisory, competitive process management, and expert valuations for the litigation finance industry. Agee received a BA in Economics (Phi Beta Kappa) from Rhodes College.\n",
-    "career": [
-      {
-        "role": "CEO & Founder",
-        "employer": "Westfleet Advisors",
-        "years": "2013–Present"
-      },
-      {
-        "role": "Executive Vice President & COO",
-        "employer": "Augusta Capital",
-        "years": "1998–2013"
-      }
-    ],
-    "education": [
-      {
-        "degree": "BA in Economics (Phi Beta Kappa)",
-        "school": "Rhodes College"
-      }
-    ]
-  },
-  {
-    "name": "Michael Kelley",
-    "current_title": "Partner",
-    "current_employer": "Parker Poe Adams & Bernstein LLP",
-    "panel": "10, 13",
-    "role_on_panel": "Panelist",
-    "email": "michaelkelley@parkerpoe.com",
-    "photo": "panelist_photos/michael_kelley.jpg",
-    "bio": "Michael Kelley is a Partner at Parker Poe Adams & Bernstein and DC Office Development Partner. He lectures at the University of Chicago Law School teaching litigation finance and is ranked Chambers Band 1 USA in Litigation Finance Deal Counsel. Named among Lawdragon's Global 100 Leaders in Legal Finance as a top-ten global advisor, Kelley brings over 34 years of experience. He previously served as General Counsel of EMP Global, overseeing approximately $8 billion in assets across 10 investment funds in emerging markets, and serves on the Advisory Committee of the UChicago Law School Center on Law and Finance.\n",
-    "career": [
-      {
-        "role": "Partner",
-        "employer": "Parker Poe Adams & Bernstein LLP",
-        "years": "Current"
-      },
-      {
-        "role": "Lecturer",
-        "employer": "University of Chicago Law School",
-        "years": "Current"
-      },
-      {
-        "role": "General Counsel",
-        "employer": "EMP Global",
-        "years": "Prior"
-      },
-      {
-        "role": "Investment committee and board roles",
-        "employer": "Various (Latin America, Asia, Europe, Middle East)",
-        "years": "Prior"
-      }
-    ],
-    "education": []
-  },
-  {
-    "name": "Anthony Sebok",
-    "current_title": "Professor",
-    "current_employer": "Benjamin N. Cardozo School of Law / NYU",
-    "panel": "11",
-    "role_on_panel": "Panelist",
-    "email": "sebok@yu.edu",
-    "photo": "panelist_photos/anthony_sebok.jpg",
-    "bio": "Anthony Sebok holds the Joseph and Sadie Danciger Chair in Law at Cardozo School of Law and is Co-Director of the Jacob Burns Center for Ethics in the Practice of Law. An Adjunct Professor at NYU School of Law, he is a leading scholar in tort law, professional responsibility, and litigation finance. Sebok joined Cardozo in 2007 after serving as Centennial Professor at Brooklyn Law School for 15 years. He is Ethics Consultant to Burford Capital, a member of the ALI, and clerked for Chief Judge Edward Cahn of the Eastern District of Pennsylvania. He has held visiting professorships at Cornell, Tsinghua, Free University Berlin, and Princeton. Sebok received a PhD in Politics from Princeton University, a JD from Yale Law School, an MPhil from Oxford University, and a BA from Cornell University.\n",
-    "career": [
-      {
-        "role": "Danciger Chair in Law",
-        "employer": "Cardozo School of Law",
-        "years": "2021–Present"
-      },
-      {
-        "role": "Professor",
-        "employer": "Cardozo School of Law",
-        "years": "2007–Present"
-      },
-      {
-        "role": "Adjunct Professor",
-        "employer": "NYU School of Law",
-        "years": "Current"
-      },
-      {
-        "role": "Centennial Professor",
-        "employer": "Brooklyn Law School",
-        "years": "Prior (15 years)"
-      },
-      {
-        "role": "Law Clerk, Chief Judge Edward Cahn",
-        "employer": "U.S. District Court, Eastern District of Pennsylvania",
-        "years": "Prior"
-      },
-      {
-        "role": "Ethics Consultant",
-        "employer": "Burford Capital",
-        "years": "Current"
-      }
-    ],
-    "education": [
-      {
-        "degree": "PhD in Politics",
-        "school": "Princeton University"
-      },
-      {
-        "degree": "JD",
-        "school": "Yale Law School"
-      },
-      {
-        "degree": "MPhil",
-        "school": "Oxford University"
-      },
-      {
-        "degree": "BA",
-        "school": "Cornell University"
-      }
-    ]
-  },
-  {
-    "name": "Suneal Bedi",
-    "current_title": "Associate Professor",
-    "current_employer": "Indiana University Kelley School of Business",
-    "panel": "11",
-    "role_on_panel": "Moderator",
-    "email": "sbedi@iu.edu",
-    "photo": "panelist_photos/suneal_bedi.jpg",
-    "bio": "Suneal Bedi is an Associate Professor and Jerome Bess Faculty Fellow at Indiana University's Kelley School of Business and Research Director of Business Ethics at the Institute of Corporate Governance and Ethics. His expertise spans intellectual property, marketing ethics, brand strategy, and business ethics. Previously a corporate associate at Ropes & Gray in real estate and finance, Bedi has published in numerous law reviews and business journals and writes for the New York Times, Forbes, and Washington Post. He received a PhD in Marketing and a PhD in Business Ethics (joint) and an MS in Marketing from the Wharton School at the University of Pennsylvania, a JD from Harvard Law School, and a BA, with Honors, in Economics and Russian Literature from Swarthmore College.\n",
-    "career": [
-      {
-        "role": "Associate Professor & Jerome Bess Faculty Fellow",
-        "employer": "Indiana University, Kelley School of Business",
-        "years": "2019–Present"
-      },
-      {
-        "role": "Lecturer",
-        "employer": "Wharton School, University of Pennsylvania",
-        "years": "2014–2019"
-      },
-      {
-        "role": "Associate",
-        "employer": "Ropes & Gray",
-        "years": "2012–2014"
-      }
-    ],
-    "education": [
-      {
-        "degree": "PhD in Marketing & PhD in Business Ethics (joint)",
-        "school": "Wharton School, University of Pennsylvania"
-      },
-      {
-        "degree": "MS in Marketing",
-        "school": "Wharton School, University of Pennsylvania"
-      },
-      {
-        "degree": "JD",
-        "school": "Harvard Law School"
-      },
-      {
-        "degree": "BA, with Honors, in Economics & Russian Literature",
-        "school": "Swarthmore College"
-      }
-    ]
-  },
-  {
-    "name": "Daniel Bond",
-    "current_title": "Managing Director, North America",
-    "current_employer": "Litica",
-    "panel": "12",
-    "role_on_panel": "Panelist",
-    "email": "shai.silverman@litica.us",
-    "photo": "panelist_photos/daniel_bond.jpg",
-    "bio": "Daniel Bond is Managing Director of Litica North America since 2024, overseeing U.S. operations. He started his career at Kirkland & Ellis as an associate and made partner in 2014, specializing in complex commercial and IP litigation. Bond transitioned to contingent risk and litigation funding as Managing Director and Global Director of Underwriting at Delta Capital Partners Management from 2019 to 2022, then served as EVP of Contingent Risk at DUAL North America. At Litica, he builds solutions for funders, credit funds, and law firms through bespoke insurance structures. He is one of few underwriters to have served senior roles on all sides of the market. Bond received a BA from Middle Tennessee State University.\n",
-    "career": [
-      {
-        "role": "Managing Director, North America",
-        "employer": "Litica",
-        "years": "2024–Present"
-      },
-      {
-        "role": "Executive Vice President, Contingent Risk",
-        "employer": "DUAL North America",
-        "years": "2022–2024"
-      },
-      {
-        "role": "Managing Director & Global Director of Underwriting",
-        "employer": "Delta Capital Partners Management",
-        "years": "2019–2022"
-      },
-      {
-        "role": "Partner",
-        "employer": "Kirkland & Ellis",
-        "years": "2014–2019"
-      },
-      {
-        "role": "Associate",
-        "employer": "Kirkland & Ellis",
-        "years": "2008–2014"
-      }
-    ],
-    "education": [
-      {
-        "degree": "BA",
-        "school": "Middle Tennessee State University"
-      }
-    ]
-  },
-  {
-    "name": "Matthew Blumenstein",
-    "current_title": "Head of Underwriting",
-    "current_employer": "Statera Capital",
-    "panel": "12",
-    "role_on_panel": "Panelist",
-    "email": "mhb@stateracap.com",
-    "photo": "panelist_photos/matthew_blumenstein.jpg",
-    "bio": "Matthew Blumenstein is Director, Head of Underwriting, and Deputy General Counsel at Statera Capital since 2020. He previously practiced general civil litigation for approximately ten years at Williams & Connolly LLP and clerked for Judge Karen LeCraft Henderson on the U.S. Court of Appeals for the D.C. Circuit. Blumenstein serves as Adjunct Professor at Vanderbilt Law School teaching commercial litigation finance. Named to Lawdragon's Global 100 Leaders in Litigation Finance in 2022 and a Super Lawyers Rising Star from 2014 to 2019. He received a JD from Vanderbilt Law School (Order of the Coif, Cecil D. Branstetter Award) and a BA from Stanford University.\n",
-    "career": [
-      {
-        "role": "Director & Head of Underwriting",
-        "employer": "Statera Capital",
+        "role": "Senior Partner",
+        "employer": "Keller Postman LLC",
         "years": "2020–Present"
       },
       {
-        "role": "Attorney",
-        "employer": "Williams & Connolly LLP",
-        "years": "2010–2020"
-      },
-      {
-        "role": "Law Clerk, Judge Karen LeCraft Henderson",
-        "employer": "U.S. Court of Appeals for the D.C. Circuit",
-        "years": "2009–2010"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD (Order of the Coif, Cecil D. Branstetter Award)",
-        "school": "Vanderbilt Law School"
-      },
-      {
-        "degree": "BA",
-        "school": "Stanford University"
-      }
-    ]
-  },
-  {
-    "name": "Jackson Schaap",
-    "current_title": "Vice President & Partner",
-    "current_employer": "Signal Peak Partners",
-    "panel": "12",
-    "role_on_panel": "Panelist",
-    "email": "jackson@signalpeakllc.com",
-    "photo": "panelist_photos/jackson_schaap.jpg",
-    "bio": "Jackson Schaap is Vice President and Partner at Signal Peak Partners, a litigation finance company launched in 2025 offering customized financing and private credit solutions for commercial and patent litigation. He previously spent seven years at Siltstone Capital, a multi-strategy alternative investment firm, where he led acquisitions and divestiture underwriting, valuation, and strategic planning across over $300 million in assets. At Rice University, Schaap was a four-year rowing team member and two-season captain. He received a BA in Mathematical Economic Analysis from Rice University.\n",
-    "career": [
-      {
-        "role": "Vice President & Partner",
-        "employer": "Signal Peak Partners",
-        "years": "2025–Present"
-      },
-      {
-        "role": "Director of Finance",
-        "employer": "Signal Peak Partners",
-        "years": 2025
-      },
-      {
-        "role": "Analyst / Associate",
-        "employer": "Siltstone Capital",
-        "years": "Prior (7 years)"
-      }
-    ],
-    "education": [
-      {
-        "degree": "BA in Mathematical Economic Analysis",
-        "school": "Rice University"
-      }
-    ]
-  },
-  {
-    "name": "Max Bernstein",
-    "current_title": "Senior Vice President",
-    "current_employer": "CAC Group",
-    "panel": "12",
-    "role_on_panel": "Moderator",
-    "email": "Max.Bernstein@cacgroup.com",
-    "photo": "panelist_photos/max_bernstein.jpg",
-    "bio": "Max Bernstein is Vice President of Contingent Risk at CAC Specialty, procuring insurance solutions for contingent legal assets and liabilities. He previously litigated at Quinn Emanuel Urquhart & Sullivan and BraunHagey & Borden, and clerked for Hon. Cathy Seibel (S.D.N.Y.) and Hon. Denny Chin (Second Circuit). Bernstein served as Editor-in-Chief of the Fordham Law Review and is an Adjunct Professor at Fordham Law School. CAC's Contingent Risk Practice has placed over $4.5 billion in insurance coverage. He received a JD from Fordham University School of Law (Fordham Law School Prize, Mary Daly Scholar).\n",
-    "career": [
-      {
-        "role": "Vice President, Contingent Risk",
-        "employer": "CAC Specialty",
-        "years": "2023–Present"
-      },
-      {
-        "role": "Adjunct Professor",
-        "employer": "Fordham Law School",
-        "years": "2025–Present"
-      },
-      {
-        "role": "Associate",
-        "employer": "BraunHagey & Borden",
-        "years": "2021–2023"
-      },
-      {
-        "role": "Law Clerk, Hon. Denny Chin",
-        "employer": "U.S. Court of Appeals for the Second Circuit",
-        "years": "Prior"
-      },
-      {
-        "role": "Law Clerk, Hon. Cathy Seibel",
-        "employer": "U.S. District Court, Southern District of New York",
-        "years": "Prior"
-      },
-      {
-        "role": "Associate",
-        "employer": "Quinn Emanuel Urquhart & Sullivan",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD (Fordham Law School Prize, Mary Daly Scholar)",
-        "school": "Fordham University School of Law"
-      }
-    ]
-  },
-  {
-    "name": "Kelly Daley",
-    "current_title": "Founder",
-    "current_employer": "Celsia Capital",
-    "panel": "13",
-    "role_on_panel": "Panelist",
-    "email": "KMD@gerchen.com",
-    "photo": "panelist_photos/kelly_daley.jpg",
-    "bio": "Kelly Daley is Founder of Celsia Capital, a litigation finance platform. With over 18 years of experience, she previously served as Managing Director at Gerchen Capital Partners from 2024 to 2025, leading corporate monetization transactions, and spent seven years at Burford Capital from 2017 to 2024, rising from VP to MD and leading U.S. commercial underwriting for corporate finance secured by contingent legal assets. Daley's earlier career included roles as senior litigator at Orrick Herrington & Sutcliffe and associate at MoloLamken and McDermott Will & Emery. She clerked for Hon. D. Michael Fisher on the Third Circuit. Daley received a JD from Georgetown University and a BA in Literature and History from Georgetown University.\n",
-    "career": [
-      {
-        "role": "Founder",
-        "employer": "Celsia Capital",
-        "years": "2025–Present"
-      },
-      {
-        "role": "Managing Director",
-        "employer": "Gerchen Capital Partners",
-        "years": "2024–2025"
-      },
-      {
-        "role": "Managing Director",
-        "employer": "Burford Capital",
-        "years": "2017–2024"
-      },
-      {
-        "role": "Senior Associate",
-        "employer": "Orrick Herrington & Sutcliffe",
-        "years": "2012–2017"
-      },
-      {
-        "role": "Associate",
-        "employer": "MoloLamken",
-        "years": "2010–2012"
-      },
-      {
-        "role": "Associate",
-        "employer": "McDermott Will & Emery",
-        "years": "2007–2009"
-      },
-      {
-        "role": "Law Clerk, Hon. D. Michael Fisher",
-        "employer": "U.S. Court of Appeals for the Third Circuit",
-        "years": "2009–2010"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "Georgetown University"
-      },
-      {
-        "degree": "BA in Literature & History",
-        "school": "Georgetown University"
-      }
-    ]
-  },
-  {
-    "name": "Adam Levitt",
-    "current_title": "Founding Partner",
-    "current_employer": "DiCello Levitt LLP",
-    "panel": "13",
-    "role_on_panel": "Panelist",
-    "email": "alevitt@dicellolevitt.com",
-    "photo": "panelist_photos/adam_levitt.jpg",
-    "bio": "Adam Levitt is Founding Partner of DiCello Levitt LLP, one of the nation's leading plaintiffs' advocates in complex, multidistrict, class action, and mass tort litigation. He has delivered over $25 billion in recoveries for clients, including serving as co-lead counsel in the three largest biotechnology class actions in U.S. history with $1.7 billion recovered. Levitt helped secure the $16 billion VW emissions settlement, won a $102.6 million GM jury verdict, and represents State AGs in PFAS cases. A monthly columnist for the National Law Journal, he previously practiced at Wolf Haldenstein and Grant & Eisenhofer. Levitt received a JD from Northwestern University Pritzker School of Law and an AB, magna cum laude, in Political Science from Columbia University.\n",
-    "career": [
-      {
-        "role": "Founding Partner",
-        "employer": "DiCello Levitt LLP",
-        "years": "2017–Present"
-      },
-      {
-        "role": "Director",
-        "employer": "Grant & Eisenhofer",
-        "years": "2013–2017"
-      },
-      {
         "role": "Partner",
-        "employer": "Wolf Haldenstein",
-        "years": "2000–2013"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "Northwestern University Pritzker School of Law"
+        "employer": "Bartlit Beck LLP",
+        "years": "Prior (approx. decade)"
       },
       {
-        "degree": "AB, magna cum laude, in Political Science",
-        "school": "Columbia University"
-      }
-    ]
-  },
-  {
-    "name": "Alex Sha",
-    "current_title": "Co-Founder",
-    "current_employer": "Bridge Legal",
-    "panel": "14",
-    "role_on_panel": "Panelist",
-    "email": "alex@bridgelegal.com",
-    "photo": "panelist_photos/alex_sha.jpg",
-    "bio": "Alex Sha is Co-Founder and Chief Product and Technology Officer at Bridge Legal, an AI-powered legal technology company. A product leader rooted in innovation through data and technology, he previously served as Director of Product and Engineering at UpRight Law. Sha's earlier experience includes roles at Signal, Wolfram Alpha, and Blocher Consulting. Named a Rising Star in Tech by Crain's Chicago Business in 2020, he is currently pursuing an Executive MBA at the University of Chicago Booth School of Business. Sha received a BS in Computer Science and Business from the University of Illinois Urbana-Champaign.\n",
-    "career": [
-      {
-        "role": "Co-Founder & Chief Product & Technology Officer",
-        "employer": "Bridge Legal",
-        "years": "Current"
-      },
-      {
-        "role": "Director of Product & Engineering",
-        "employer": "UpRight Law",
-        "years": "Prior"
-      },
-      {
-        "role": "Engineering Manager",
-        "employer": "UpRight Law",
+        "role": "Philosophy Instructor",
+        "employer": "Multiple universities",
         "years": "Prior"
       }
     ],
     "education": [
       {
-        "degree": "BS in Computer Science & Business",
-        "school": "University of Illinois Urbana-Champaign"
+        "degree": "JD, with High Honors",
+        "school": "University of Chicago Law School"
       },
       {
-        "degree": "Executive MBA (Candidate)",
-        "school": "University of Chicago Booth School of Business"
+        "degree": "MA in Philosophy",
+        "school": "University of Wyoming"
+      },
+      {
+        "degree": "BS in Finance & Philosophy",
+        "school": "Trinity University"
       }
     ]
   },
@@ -2278,110 +2366,55 @@
     ]
   },
   {
-    "name": "David Jang",
-    "current_title": "Portfolio Manager",
-    "current_employer": "Legalist",
-    "panel": "14",
-    "role_on_panel": "Panelist",
-    "email": "david@legalist.com",
-    "photo": "panelist_photos/david_jang.jpg",
-    "bio": "David Jang is a Portfolio Manager at Legalist, an institutional alternative asset management firm with $1.6 billion AUM focused on legal assets and litigation finance. Previously a Principal at Bardin Hill Investment Partners and Dana Cove LRC, his earlier career included work as a structured credit analyst at Och-Ziff Capital Management. Jang practiced law as an associate at Wachtell, Lipton, Rosen & Katz and MoloLamken, and clerked for Hon. Sandra L. Lynch on the First Circuit. He received a JD from Stanford University Law School and a BA from Stanford University.\n",
+    "name": "Kacey Wolmer",
+    "current_title": "Chief Operating Officer",
+    "current_employer": "Contingency Capital LLC",
+    "panel": "TBD",
+    "role_on_panel": "Panelist (added 4/18)",
+    "email": "",
+    "photo": "panelist_photos/kacey_wolmer.jpg",
+    "bio": "Kacey Wolmer is Chief Operating Officer at Contingency Capital LLC, a litigation finance firm, where she has served since January 2021. With approximately 18 years of experience spanning finance and law, she previously served as Senior Vice President and Counsel at FirstKey Mortgage, a portfolio company of Cerberus Capital Management. Earlier in her career, Wolmer practiced as an associate at Hunton & Williams LLP specializing in structured finance and securitization, at Fortress Investment Group, at Morgan Lewis & Bockius LLP in private funds, and at Thacher Proffitt & Wood in structured finance. Wolmer received a JD from the University of Michigan Law School and a BA from Emory University.\n",
     "career": [
       {
-        "role": "Portfolio Manager",
-        "employer": "Legalist",
-        "years": "2022–Present"
+        "role": "Chief Operating Officer",
+        "employer": "Contingency Capital LLC",
+        "years": "2021–Present"
       },
       {
-        "role": "Principal",
-        "employer": "Bardin Hill Investment Partners",
-        "years": "2018–2022"
-      },
-      {
-        "role": "Principal",
-        "employer": "Dana Cove LRC",
-        "years": "2016–2018"
-      },
-      {
-        "role": "Analyst",
-        "employer": "Och-Ziff Capital Management",
-        "years": "2014–2016"
+        "role": "Senior Vice President and Counsel",
+        "employer": "FirstKey Mortgage (Cerberus Capital Management)",
+        "years": "2017–2021"
       },
       {
         "role": "Associate",
-        "employer": "MoloLamken",
-        "years": "2012–2014"
+        "employer": "Hunton & Williams LLP",
+        "years": "2012–2017"
+      },
+      {
+        "role": "Associate & Counsel",
+        "employer": "Fortress Investment Group",
+        "years": "2010–2012"
       },
       {
         "role": "Associate",
-        "employer": "Wachtell, Lipton, Rosen & Katz",
-        "years": "2008–2012"
+        "employer": "Morgan, Lewis & Bockius LLP",
+        "years": "2008–2009"
       },
       {
-        "role": "Law Clerk, Hon. Sandra L. Lynch",
-        "employer": "U.S. Court of Appeals for the First Circuit",
+        "role": "Associate",
+        "employer": "Thacher Proffitt & Wood",
         "years": "2007–2008"
       }
     ],
     "education": [
       {
         "degree": "JD",
-        "school": "Stanford University Law School"
+        "school": "University of Michigan Law School",
+        "year": "2006"
       },
       {
         "degree": "BA",
-        "school": "Stanford University"
-      }
-    ]
-  },
-  {
-    "name": "Daniel Linna",
-    "current_title": "Senior Lecturer & Director of Law and Technology Initiatives",
-    "current_employer": "Northwestern Pritzker School of Law",
-    "panel": "14",
-    "role_on_panel": "Moderator",
-    "email": "daniel.linna@law.northwestern.edu",
-    "photo": "panelist_photos/daniel_linna.jpg",
-    "bio": "Daniel Linna is Senior Lecturer and Director of Law and Technology Initiatives at Northwestern Pritzker School of Law, with a joint appointment at McCormick School of Engineering. He is affiliated faculty at Stanford CodeX—The Stanford Center for Legal Informatics—and teaches AI and Legal Reasoning, Law of AI and Robotics, and Innovation Lab. Previously a professor and founder of LegalRnD at Michigan State University College of Law, Linna practiced as equity partner at Honigman Miller. Named an ABA Journal Legal Rebel in 2018 and Fastcase 50 in 2015, he is a Fellow of the College of Law Practice Management. Linna received a JD, magna cum laude, from the University of Michigan Law School, an MA in Public Policy and Administration from Michigan State University, and a BA from the University of Michigan.\n",
-    "career": [
-      {
-        "role": "Senior Lecturer & Director of Law and Technology Initiatives",
-        "employer": "Northwestern Pritzker School of Law",
-        "years": "Current"
-      },
-      {
-        "role": "Affiliated Faculty",
-        "employer": "Stanford CodeX",
-        "years": "Current"
-      },
-      {
-        "role": "Professor & Founder, LegalRnD",
-        "employer": "Michigan State University College of Law",
-        "years": "Prior"
-      },
-      {
-        "role": "Equity Partner",
-        "employer": "Honigman Miller",
-        "years": "Prior"
-      },
-      {
-        "role": "Law Clerk, Judge James L. Ryan",
-        "employer": "U.S. Court of Appeals",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD, magna cum laude",
-        "school": "University of Michigan Law School"
-      },
-      {
-        "degree": "MA in Public Policy & Administration",
-        "school": "Michigan State University"
-      },
-      {
-        "degree": "BA",
-        "school": "University of Michigan"
+        "school": "Emory University"
       }
     ]
   },
@@ -2414,39 +2447,6 @@
         "role": "Litigation Analyst",
         "employer": "Wildman Harrold",
         "years": "2000–2002"
-      }
-    ],
-    "education": []
-  },
-  {
-    "name": "Chris Dore",
-    "current_title": "Chief Strategy Officer",
-    "current_employer": "Bridge Legal",
-    "panel": "",
-    "role_on_panel": "Panelist",
-    "email": "",
-    "photo": "panelist_photos/chris_dore.jpg",
-    "bio": "Chris Dore is Chief Strategy Officer at Bridge Legal, an AI-enabled legal fintech platform headquartered in Chicago that delivers end-to-end workflow infrastructure for law firms and litigation funders across the full case lifecycle. Elevated to CSO in January 2026 after joining as Managing Director of Strategic Opportunities in September 2024, Dore leads enterprise-wide strategy, investment initiatives, and portfolio management as Bridge Legal continues to scale its capital markets presence in high-volume consumer litigation.\n\nDore brings more than fifteen years of combined experience as a plaintiff's litigator and litigation finance professional. He was a Partner at Edelson PC, one of the nation's premier mass tort and class action firms, where he built deep expertise in complex multi-district litigation. He subsequently served as a Director at Burford Capital, the world's largest litigation funder, where he oversaw mass tort and single-event investments.\n\nAt Bridge Legal, Dore has been instrumental in sharpening the company's strategic focus, strengthening relationships across the funder and law firm ecosystem, and positioning the platform—anchored by its AI-driven Bridgify software—for its next phase of intentional, disciplined growth. His rare vantage point spanning the plaintiff's bar, institutional litigation finance, and legal technology makes him a distinctive voice on the convergence of capital, AI, and legal practice.",
-    "career": [
-      {
-        "role": "Chief Strategy Officer",
-        "employer": "Bridge Legal",
-        "years": "2026–Present"
-      },
-      {
-        "role": "Managing Director, Strategic Opportunities",
-        "employer": "Bridge Legal",
-        "years": "2024–2026"
-      },
-      {
-        "role": "Director, Mass Tort & Single Event Investments",
-        "employer": "Burford Capital",
-        "years": "Prior to 2024"
-      },
-      {
-        "role": "Partner",
-        "employer": "Edelson PC",
-        "years": "Prior"
       }
     ],
     "education": []
