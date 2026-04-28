@@ -1,5 +1,345 @@
 [
   {
+    "name": "Marvin Isgur",
+    "current_title": "U.S. Bankruptcy Judge",
+    "current_employer": "U.S. Bankruptcy Court, Southern District of Texas",
+    "panel": "4",
+    "role_on_panel": "Panelist",
+    "email": "marvin_isgur@txs.uscourts.gov",
+    "photo": "panelist_photos/marvin_isgur.jpg",
+    "bio": "Judge Marvin Isgur has served as a United States Bankruptcy Judge for the Southern District of Texas since 2004, reappointed in 2018 through 2032. He served as Chief Judge from 2009 to 2012 and was appointed by Chief Justice Roberts to the Judicial Conference Committee on Court Administration and Case Management—the sole bankruptcy judge on that committee. He has authored over 500 memorandum opinions. Before the bench, Isgur practiced representing debtors and trustees in Chapter 11, 7, and 9 cases and spent 12 years as an executive at a Houston real estate development company. He also serves as adjunct at the University of Houston Law Center. Isgur received a JD, with high honors, from the University of Houston Law Center, an MBA, with honors, from Stanford University, and a BS from the University of Houston.\n",
+    "career": [
+      {
+        "role": "U.S. Bankruptcy Judge",
+        "employer": "Southern District of Texas",
+        "years": "2004–Present"
+      },
+      {
+        "role": "Private bankruptcy practice",
+        "employer": "Various",
+        "years": "1990–2004"
+      },
+      {
+        "role": "Real estate executive",
+        "employer": "Houston development company",
+        "years": "1978–1990"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD, with high honors",
+        "school": "University of Houston Law Center"
+      },
+      {
+        "degree": "MBA, with honors",
+        "school": "Stanford University"
+      },
+      {
+        "degree": "BS",
+        "school": "University of Houston"
+      }
+    ]
+  },
+  {
+    "name": "Virginia M. Kendall",
+    "current_title": "Chief Judge",
+    "current_employer": "U.S. District Court, Northern District of Illinois",
+    "panel": "5",
+    "role_on_panel": "Panelist",
+    "email": "",
+    "photo": "panelist_photos/virginia_kendall.jpg",
+    "bio": "Chief Judge Virginia M. Kendall has served on the U.S. District Court for the Northern District of Illinois since 2006, appointed by President George W. Bush, and became Chief Judge in 2024. Previously a federal prosecutor for over ten years, she served as Deputy Chief of the Criminal Division and Child Exploitation Coordinator. She teaches trial practice and federal litigation at the University of Chicago Law School, Northwestern, and Loyola, and is co-author of books on child exploitation and trafficking. Kendall lectures internationally in over 30 countries and serves on Judicial Conference committees. She received a JD from Loyola University Chicago School of Law, an MA from Northwestern University, and a BA from Northwestern University.\n",
+    "career": [
+      {
+        "role": "Chief Judge",
+        "employer": "U.S. District Court, Northern District of Illinois",
+        "years": "2024–Present"
+      },
+      {
+        "role": "U.S. District Judge",
+        "employer": "U.S. District Court, Northern District of Illinois",
+        "years": "2006–2024"
+      },
+      {
+        "role": "Federal Prosecutor",
+        "employer": "U.S. Attorney's Office, Northern District of Illinois",
+        "years": "Prior (10+ years)"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "Loyola University Chicago School of Law"
+      },
+      {
+        "degree": "MA",
+        "school": "Northwestern University"
+      },
+      {
+        "degree": "BA",
+        "school": "Northwestern University"
+      }
+    ]
+  },
+  {
+    "name": "Bruce Markell",
+    "current_title": "Retired U.S. Bankruptcy Judge / Professor",
+    "current_employer": "Northwestern Pritzker School of Law",
+    "panel": "4",
+    "role_on_panel": "Panelist",
+    "email": "bmarkell@law.northwestern.edu",
+    "photo": "panelist_photos/bruce_markell.jpg",
+    "bio": "Hon. Bruce Markell is the Edward Avery Harriman Lecturer in Law and Professor of Bankruptcy Law and Practice at Northwestern Pritzker School of Law since 2015. He previously served as U.S. Bankruptcy Judge for the District of Nevada (2004–2013) and on the Bankruptcy Appellate Panel for the Ninth Circuit. Markell clerked for then-Judge Anthony M. Kennedy, was a partner at Sidley & Austin, and has held visiting professorships at Harvard Law School and Peking University. He served as primary drafter of Kosovo's bankruptcy law and is co-author of four law school casebooks. Markell received a JD from UC Davis School of Law, where he was editor-in-chief of the law review and received the School of Law Medal, and a BA from Pitzer College.\n",
+    "career": [
+      {
+        "role": "Professor",
+        "employer": "Northwestern Pritzker School of Law",
+        "years": "2015–Present"
+      },
+      {
+        "role": "U.S. Bankruptcy Judge",
+        "employer": "District of Nevada",
+        "years": "2004–2013"
+      },
+      {
+        "role": "Professor",
+        "employer": "Boyd School of Law / UNLV",
+        "years": "1999–2004"
+      },
+      {
+        "role": "Professor",
+        "employer": "Indiana University Law",
+        "years": "1990–1999"
+      },
+      {
+        "role": "Partner",
+        "employer": "Sidley & Austin",
+        "years": "1988–1990"
+      },
+      {
+        "role": "Law Clerk, Justice Anthony M. Kennedy",
+        "employer": "U.S. Court of Appeals for the Ninth Circuit",
+        "years": "1980–1981"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD (Editor-in-Chief, School of Law Medal)",
+        "school": "UC Davis School of Law"
+      },
+      {
+        "degree": "BA",
+        "school": "Pitzer College"
+      }
+    ]
+  },
+  {
+    "name": "Heather K. McShain",
+    "current_title": "U.S. Magistrate Judge",
+    "current_employer": "U.S. District Court, Northern District of Illinois",
+    "panel": "5",
+    "role_on_panel": "Panelist",
+    "email": "",
+    "photo": "panelist_photos/heather_mcshain.jpg",
+    "bio": "Hon. Heather K. McShain has served as a U.S. Magistrate Judge for the Northern District of Illinois since 2020. Previously, she served for ten years as an Assistant United States Attorney in the Northern District of Illinois, rising to Deputy Chief of the Financial Crimes Section and supervising the Health Care Fraud Unit. She also served as Deputy Chief of General Crimes and as a line AUSA in the General Crimes, Financial Crimes, and Public Corruption and Organized Crime Sections. From 2002 to 2010, McShain was an AUSA in the Civil Division of the U.S. Attorney's Office for the Southern District of New York. Earlier in her career, she was an associate at Jones Day in Washington, D.C., and clerked for Judge Robert Cowen of the U.S. Court of Appeals for the Third Circuit and Judge William Lee of the U.S. District Court for the Northern District of Indiana. McShain currently serves as Adjunct Professor of Law at Notre Dame Law School and presides over the Veterans Treatment Court. She received a JD from Notre Dame Law School and a BS in Mathematics from the University of Notre Dame.\n",
+    "career": [
+      {
+        "role": "U.S. Magistrate Judge",
+        "employer": "U.S. District Court, Northern District of Illinois",
+        "years": "2020–Present"
+      },
+      {
+        "role": "Assistant U.S. Attorney (Deputy Chief, Financial Crimes)",
+        "employer": "U.S. Attorney's Office, Northern District of Illinois",
+        "years": "2010–2020"
+      },
+      {
+        "role": "Assistant U.S. Attorney, Civil Division",
+        "employer": "U.S. Attorney's Office, Southern District of New York",
+        "years": "2002–2010"
+      },
+      {
+        "role": "Associate",
+        "employer": "Jones Day",
+        "years": "Prior"
+      },
+      {
+        "role": "Law Clerk, Judge Robert Cowen",
+        "employer": "U.S. Court of Appeals for the Third Circuit",
+        "years": "Prior"
+      },
+      {
+        "role": "Law Clerk, Judge William Lee",
+        "employer": "U.S. District Court, Northern District of Indiana",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "Notre Dame Law School"
+      },
+      {
+        "degree": "BS in Mathematics",
+        "school": "University of Notre Dame"
+      }
+    ]
+  },
+  {
+    "name": "Jesse G. Reyes",
+    "current_title": "Justice",
+    "current_employer": "Illinois Appellate Court, First District",
+    "panel": "5",
+    "role_on_panel": "Panelist",
+    "email": "",
+    "photo": "panelist_photos/jesse_reyes.png",
+    "bio": "Hon. Jesse G. Reyes is a Justice of the Illinois Appellate Court, First District since 2012, with over 41 years of legal experience. He has served as Presiding Justice of multiple divisions, Chair of the Executive Committee, and Co-Chair of the Diversity and Inclusion Committee. Previously a Judge on the Circuit Court of Cook County from 1997 to 2012 in the Chancery, Domestic Violence, and Municipal divisions, his earlier career included Senior Supervising Attorney at the City of Chicago Corporation Counsel's Office and Assistant Attorney at the Chicago Board of Education. Reyes received a JD from John Marshall Law School (now UIC School of Law) and a BA from the University of Illinois at Chicago.\n",
+    "career": [
+      {
+        "role": "Justice",
+        "employer": "Illinois Appellate Court, First District",
+        "years": "2012–Present"
+      },
+      {
+        "role": "Judge",
+        "employer": "Circuit Court of Cook County",
+        "years": "1997–2012"
+      },
+      {
+        "role": "Senior Supervising Attorney",
+        "employer": "City of Chicago Corporation Counsel's Office",
+        "years": "1985–1995"
+      },
+      {
+        "role": "Assistant Attorney",
+        "employer": "Chicago Board of Education",
+        "years": "1995–1997"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "John Marshall Law School (now UIC School of Law)"
+      },
+      {
+        "degree": "BA",
+        "school": "University of Illinois at Chicago"
+      }
+    ]
+  },
+  {
+    "name": "Mark Shore",
+    "current_title": "Director and Economist",
+    "current_employer": "CME Group",
+    "panel": "1",
+    "role_on_panel": "Panelist",
+    "email": "mark.shore@cmegroup.com",
+    "photo": "panelist_photos/mark_shore.jpg",
+    "photo_source": "DePaul University faculty page",
+    "photo_dimensions": "255x300",
+    "bio": "Dr. Mark Shore is Director and Economist at CME Group, where he generates economic analysis on global financial markets, identifies emerging trends, and evaluates their impact on CME Group's asset classes. A recognized alternative investment expert with over 30 years of capital markets experience, he also serves as Adjunct Professor at DePaul University. Shore previously held roles as Executive Director of the Arditti Center for Risk Management at DePaul, COO of VK Capital (a Morgan Stanley CTA unit), and Head of Risk at Octane Research. He has authored over 80 articles and contributed chapters to Wiley & Sons publications on hedge funds and commodities. He holds a Series 3 license since 1992. Shore received a Doctor of Business Administration (DBA) from DePaul University, an MBA in Finance, Behavioral Science, and Econometrics from the University of Chicago, and a BS in Finance from DePaul University.\n",
+    "career": [
+      {
+        "role": "Director and Economist",
+        "employer": "CME Group",
+        "years": "Current"
+      },
+      {
+        "role": "Adjunct Professor",
+        "employer": "DePaul University",
+        "years": "Current"
+      },
+      {
+        "role": "Founder & Chief Research Officer",
+        "employer": "Shore Capital Research LLC",
+        "years": "2008–Present"
+      },
+      {
+        "role": "Executive Director, Arditti Center for Risk Management & Faculty",
+        "employer": "DePaul University",
+        "years": "2011–2024"
+      },
+      {
+        "role": "Director, Coquest Institute",
+        "employer": "Coquest Advisors",
+        "years": "Prior"
+      },
+      {
+        "role": "Chief Operating Officer",
+        "employer": "VK Capital (Morgan Stanley CTA)",
+        "years": "Prior"
+      },
+      {
+        "role": "Head of Risk",
+        "employer": "Octane Research",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "DBA (Doctor of Business Administration)",
+        "school": "DePaul University",
+        "year": "2024"
+      },
+      {
+        "degree": "MBA (Finance, Behavioral Science, Econometrics)",
+        "school": "University of Chicago",
+        "year": "1998"
+      },
+      {
+        "degree": "BS in Finance",
+        "school": "DePaul University",
+        "year": "1987"
+      }
+    ]
+  },
+  {
+    "name": "Benjamin Blum",
+    "current_title": "Managing Director",
+    "current_employer": "Flexpoint Ford",
+    "panel": "1",
+    "role_on_panel": "Panelist",
+    "email": "bblum@flexpointford.com",
+    "photo": "panelist_photos/benjamin_blum.jpg",
+    "photo_source": "Flexpoint Ford team page",
+    "photo_dimensions": "768x768",
+    "bio": "Benjamin Blum is a Managing Director at Flexpoint Ford, where he focuses on identifying, valuing, and executing investment opportunities in the Asset Opportunities strategy. Based in New York, he joined Flexpoint in 2016 as Vice President and was promoted to Managing Director in 2021. Prior to Flexpoint Ford, Blum spent nearly seven years at Morgan Stanley in the Fixed Income Division, progressing from Analyst to Vice President, with a focus on asset-based lending and securitized products. He has extensive experience evaluating, structuring, and managing term securitizations and warehouse credit lines across a broad range of asset classes. Blum received a BSBA in Finance, summa cum laude, from Washington University in St. Louis (Olin Business School).\n",
+    "career": [
+      {
+        "role": "Managing Director",
+        "employer": "Flexpoint Ford",
+        "years": "2021–Present"
+      },
+      {
+        "role": "Vice President",
+        "employer": "Flexpoint Ford",
+        "years": "2016–2021"
+      },
+      {
+        "role": "Vice President, Fixed Income Division",
+        "employer": "Morgan Stanley",
+        "years": "2015–2016"
+      },
+      {
+        "role": "Associate",
+        "employer": "Morgan Stanley",
+        "years": "2011–2015"
+      },
+      {
+        "role": "Analyst, Research",
+        "employer": "Morgan Stanley",
+        "years": "2009–2011"
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSBA in Finance, summa cum laude",
+        "school": "Washington University in St. Louis (Olin Business School)",
+        "year": "2009"
+      }
+    ]
+  },
+  {
     "name": "Michele Gambera",
     "current_title": "Head of Strategic Asset Allocation Modeling",
     "current_employer": "UBS Asset Management",
@@ -154,52 +494,6 @@
       {
         "degree": "JD (Fordham Law School Prize, Mary Daly Scholar)",
         "school": "Fordham University School of Law"
-      }
-    ]
-  },
-  {
-    "name": "Benjamin Blum",
-    "current_title": "Managing Director",
-    "current_employer": "Flexpoint Ford",
-    "panel": "1",
-    "role_on_panel": "Panelist",
-    "email": "bblum@flexpointford.com",
-    "photo": "panelist_photos/benjamin_blum.jpg",
-    "photo_source": "Flexpoint Ford team page",
-    "photo_dimensions": "768x768",
-    "bio": "Benjamin Blum is a Managing Director at Flexpoint Ford, where he focuses on identifying, valuing, and executing investment opportunities in the Asset Opportunities strategy. Based in New York, he joined Flexpoint in 2016 as Vice President and was promoted to Managing Director in 2021. Prior to Flexpoint Ford, Blum spent nearly seven years at Morgan Stanley in the Fixed Income Division, progressing from Analyst to Vice President, with a focus on asset-based lending and securitized products. He has extensive experience evaluating, structuring, and managing term securitizations and warehouse credit lines across a broad range of asset classes. Blum received a BSBA in Finance, summa cum laude, from Washington University in St. Louis (Olin Business School).\n",
-    "career": [
-      {
-        "role": "Managing Director",
-        "employer": "Flexpoint Ford",
-        "years": "2021–Present"
-      },
-      {
-        "role": "Vice President",
-        "employer": "Flexpoint Ford",
-        "years": "2016–2021"
-      },
-      {
-        "role": "Vice President, Fixed Income Division",
-        "employer": "Morgan Stanley",
-        "years": "2015–2016"
-      },
-      {
-        "role": "Associate",
-        "employer": "Morgan Stanley",
-        "years": "2011–2015"
-      },
-      {
-        "role": "Analyst, Research",
-        "employer": "Morgan Stanley",
-        "years": "2009–2011"
-      }
-    ],
-    "education": [
-      {
-        "degree": "BSBA in Finance, summa cum laude",
-        "school": "Washington University in St. Louis (Olin Business School)",
-        "year": "2009"
       }
     ]
   },
@@ -838,47 +1132,6 @@
     ]
   },
   {
-    "name": "Marvin Isgur",
-    "current_title": "U.S. Bankruptcy Judge",
-    "current_employer": "U.S. Bankruptcy Court, Southern District of Texas",
-    "panel": "4",
-    "role_on_panel": "Panelist",
-    "email": "marvin_isgur@txs.uscourts.gov",
-    "photo": "panelist_photos/marvin_isgur.jpg",
-    "bio": "Judge Marvin Isgur has served as a United States Bankruptcy Judge for the Southern District of Texas since 2004, reappointed in 2018 through 2032. He served as Chief Judge from 2009 to 2012 and was appointed by Chief Justice Roberts to the Judicial Conference Committee on Court Administration and Case Management—the sole bankruptcy judge on that committee. He has authored over 500 memorandum opinions. Before the bench, Isgur practiced representing debtors and trustees in Chapter 11, 7, and 9 cases and spent 12 years as an executive at a Houston real estate development company. He also serves as adjunct at the University of Houston Law Center. Isgur received a JD, with high honors, from the University of Houston Law Center, an MBA, with honors, from Stanford University, and a BS from the University of Houston.\n",
-    "career": [
-      {
-        "role": "U.S. Bankruptcy Judge",
-        "employer": "Southern District of Texas",
-        "years": "2004–Present"
-      },
-      {
-        "role": "Private bankruptcy practice",
-        "employer": "Various",
-        "years": "1990–2004"
-      },
-      {
-        "role": "Real estate executive",
-        "employer": "Houston development company",
-        "years": "1978–1990"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD, with high honors",
-        "school": "University of Houston Law Center"
-      },
-      {
-        "degree": "MBA, with honors",
-        "school": "Stanford University"
-      },
-      {
-        "degree": "BS",
-        "school": "University of Houston"
-      }
-    ]
-  },
-  {
     "name": "Sarah Jacobson",
     "current_title": "Investment Manager / Legal Counsel",
     "current_employer": "Omni Bridgeway",
@@ -1052,47 +1305,6 @@
       }
     ],
     "education": []
-  },
-  {
-    "name": "Virginia M. Kendall",
-    "current_title": "Chief Judge",
-    "current_employer": "U.S. District Court, Northern District of Illinois",
-    "panel": "5",
-    "role_on_panel": "Panelist",
-    "email": "",
-    "photo": "panelist_photos/virginia_kendall.jpg",
-    "bio": "Chief Judge Virginia M. Kendall has served on the U.S. District Court for the Northern District of Illinois since 2006, appointed by President George W. Bush, and became Chief Judge in 2024. Previously a federal prosecutor for over ten years, she served as Deputy Chief of the Criminal Division and Child Exploitation Coordinator. She teaches trial practice and federal litigation at the University of Chicago Law School, Northwestern, and Loyola, and is co-author of books on child exploitation and trafficking. Kendall lectures internationally in over 30 countries and serves on Judicial Conference committees. She received a JD from Loyola University Chicago School of Law, an MA from Northwestern University, and a BA from Northwestern University.\n",
-    "career": [
-      {
-        "role": "Chief Judge",
-        "employer": "U.S. District Court, Northern District of Illinois",
-        "years": "2024–Present"
-      },
-      {
-        "role": "U.S. District Judge",
-        "employer": "U.S. District Court, Northern District of Illinois",
-        "years": "2006–2024"
-      },
-      {
-        "role": "Federal Prosecutor",
-        "employer": "U.S. Attorney's Office, Northern District of Illinois",
-        "years": "Prior (10+ years)"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "Loyola University Chicago School of Law"
-      },
-      {
-        "degree": "MA",
-        "school": "Northwestern University"
-      },
-      {
-        "degree": "BA",
-        "school": "Northwestern University"
-      }
-    ]
   },
   {
     "name": "Paul Kong",
@@ -1473,58 +1685,6 @@
     ]
   },
   {
-    "name": "Bruce Markell",
-    "current_title": "Retired U.S. Bankruptcy Judge / Professor",
-    "current_employer": "Northwestern Pritzker School of Law",
-    "panel": "4",
-    "role_on_panel": "Panelist",
-    "email": "bmarkell@law.northwestern.edu",
-    "photo": "panelist_photos/bruce_markell.jpg",
-    "bio": "Hon. Bruce Markell is the Edward Avery Harriman Lecturer in Law and Professor of Bankruptcy Law and Practice at Northwestern Pritzker School of Law since 2015. He previously served as U.S. Bankruptcy Judge for the District of Nevada (2004–2013) and on the Bankruptcy Appellate Panel for the Ninth Circuit. Markell clerked for then-Judge Anthony M. Kennedy, was a partner at Sidley & Austin, and has held visiting professorships at Harvard Law School and Peking University. He served as primary drafter of Kosovo's bankruptcy law and is co-author of four law school casebooks. Markell received a JD from UC Davis School of Law, where he was editor-in-chief of the law review and received the School of Law Medal, and a BA from Pitzer College.\n",
-    "career": [
-      {
-        "role": "Professor",
-        "employer": "Northwestern Pritzker School of Law",
-        "years": "2015–Present"
-      },
-      {
-        "role": "U.S. Bankruptcy Judge",
-        "employer": "District of Nevada",
-        "years": "2004–2013"
-      },
-      {
-        "role": "Professor",
-        "employer": "Boyd School of Law / UNLV",
-        "years": "1999–2004"
-      },
-      {
-        "role": "Professor",
-        "employer": "Indiana University Law",
-        "years": "1990–1999"
-      },
-      {
-        "role": "Partner",
-        "employer": "Sidley & Austin",
-        "years": "1988–1990"
-      },
-      {
-        "role": "Law Clerk, Justice Anthony M. Kennedy",
-        "employer": "U.S. Court of Appeals for the Ninth Circuit",
-        "years": "1980–1981"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD (Editor-in-Chief, School of Law Medal)",
-        "school": "UC Davis School of Law"
-      },
-      {
-        "degree": "BA",
-        "school": "Pitzer College"
-      }
-    ]
-  },
-  {
     "name": "Will Marra",
     "current_title": "Director",
     "current_employer": "Certum Group",
@@ -1609,58 +1769,6 @@
       },
       {
         "degree": "BA, magna cum laude",
-        "school": "University of Notre Dame"
-      }
-    ]
-  },
-  {
-    "name": "Heather K. McShain",
-    "current_title": "U.S. Magistrate Judge",
-    "current_employer": "U.S. District Court, Northern District of Illinois",
-    "panel": "5",
-    "role_on_panel": "Panelist",
-    "email": "",
-    "photo": "panelist_photos/heather_mcshain.jpg",
-    "bio": "Hon. Heather K. McShain has served as a U.S. Magistrate Judge for the Northern District of Illinois since 2020. Previously, she served for ten years as an Assistant United States Attorney in the Northern District of Illinois, rising to Deputy Chief of the Financial Crimes Section and supervising the Health Care Fraud Unit. She also served as Deputy Chief of General Crimes and as a line AUSA in the General Crimes, Financial Crimes, and Public Corruption and Organized Crime Sections. From 2002 to 2010, McShain was an AUSA in the Civil Division of the U.S. Attorney's Office for the Southern District of New York. Earlier in her career, she was an associate at Jones Day in Washington, D.C., and clerked for Judge Robert Cowen of the U.S. Court of Appeals for the Third Circuit and Judge William Lee of the U.S. District Court for the Northern District of Indiana. McShain currently serves as Adjunct Professor of Law at Notre Dame Law School and presides over the Veterans Treatment Court. She received a JD from Notre Dame Law School and a BS in Mathematics from the University of Notre Dame.\n",
-    "career": [
-      {
-        "role": "U.S. Magistrate Judge",
-        "employer": "U.S. District Court, Northern District of Illinois",
-        "years": "2020–Present"
-      },
-      {
-        "role": "Assistant U.S. Attorney (Deputy Chief, Financial Crimes)",
-        "employer": "U.S. Attorney's Office, Northern District of Illinois",
-        "years": "2010–2020"
-      },
-      {
-        "role": "Assistant U.S. Attorney, Civil Division",
-        "employer": "U.S. Attorney's Office, Southern District of New York",
-        "years": "2002–2010"
-      },
-      {
-        "role": "Associate",
-        "employer": "Jones Day",
-        "years": "Prior"
-      },
-      {
-        "role": "Law Clerk, Judge Robert Cowen",
-        "employer": "U.S. Court of Appeals for the Third Circuit",
-        "years": "Prior"
-      },
-      {
-        "role": "Law Clerk, Judge William Lee",
-        "employer": "U.S. District Court, Northern District of Indiana",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "Notre Dame Law School"
-      },
-      {
-        "degree": "BS in Mathematics",
         "school": "University of Notre Dame"
       }
     ]
@@ -1816,48 +1924,6 @@
       {
         "degree": "MBA",
         "school": "Northwestern University, Kellogg School of Management"
-      }
-    ]
-  },
-  {
-    "name": "Jesse G. Reyes",
-    "current_title": "Justice",
-    "current_employer": "Illinois Appellate Court, First District",
-    "panel": "5",
-    "role_on_panel": "Panelist",
-    "email": "",
-    "photo": "panelist_photos/jesse_reyes.png",
-    "bio": "Hon. Jesse G. Reyes is a Justice of the Illinois Appellate Court, First District since 2012, with over 41 years of legal experience. He has served as Presiding Justice of multiple divisions, Chair of the Executive Committee, and Co-Chair of the Diversity and Inclusion Committee. Previously a Judge on the Circuit Court of Cook County from 1997 to 2012 in the Chancery, Domestic Violence, and Municipal divisions, his earlier career included Senior Supervising Attorney at the City of Chicago Corporation Counsel's Office and Assistant Attorney at the Chicago Board of Education. Reyes received a JD from John Marshall Law School (now UIC School of Law) and a BA from the University of Illinois at Chicago.\n",
-    "career": [
-      {
-        "role": "Justice",
-        "employer": "Illinois Appellate Court, First District",
-        "years": "2012–Present"
-      },
-      {
-        "role": "Judge",
-        "employer": "Circuit Court of Cook County",
-        "years": "1997–2012"
-      },
-      {
-        "role": "Senior Supervising Attorney",
-        "employer": "City of Chicago Corporation Counsel's Office",
-        "years": "1985–1995"
-      },
-      {
-        "role": "Assistant Attorney",
-        "employer": "Chicago Board of Education",
-        "years": "1995–1997"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "John Marshall Law School (now UIC School of Law)"
-      },
-      {
-        "degree": "BA",
-        "school": "University of Illinois at Chicago"
       }
     ]
   },
@@ -2106,72 +2172,6 @@
       {
         "degree": "Executive MBA (Candidate)",
         "school": "University of Chicago Booth School of Business"
-      }
-    ]
-  },
-  {
-    "name": "Mark Shore",
-    "current_title": "Director and Economist",
-    "current_employer": "CME Group",
-    "panel": "1",
-    "role_on_panel": "Panelist",
-    "email": "mark.shore@cmegroup.com",
-    "photo": "panelist_photos/mark_shore.jpg",
-    "photo_source": "DePaul University faculty page",
-    "photo_dimensions": "255x300",
-    "bio": "Dr. Mark Shore is Director and Economist at CME Group, where he generates economic analysis on global financial markets, identifies emerging trends, and evaluates their impact on CME Group's asset classes. A recognized alternative investment expert with over 30 years of capital markets experience, he also serves as Adjunct Professor at DePaul University. Shore previously held roles as Executive Director of the Arditti Center for Risk Management at DePaul, COO of VK Capital (a Morgan Stanley CTA unit), and Head of Risk at Octane Research. He has authored over 80 articles and contributed chapters to Wiley & Sons publications on hedge funds and commodities. He holds a Series 3 license since 1992. Shore received a Doctor of Business Administration (DBA) from DePaul University, an MBA in Finance, Behavioral Science, and Econometrics from the University of Chicago, and a BS in Finance from DePaul University.\n",
-    "career": [
-      {
-        "role": "Director and Economist",
-        "employer": "CME Group",
-        "years": "Current"
-      },
-      {
-        "role": "Adjunct Professor",
-        "employer": "DePaul University",
-        "years": "Current"
-      },
-      {
-        "role": "Founder & Chief Research Officer",
-        "employer": "Shore Capital Research LLC",
-        "years": "2008–Present"
-      },
-      {
-        "role": "Executive Director, Arditti Center for Risk Management & Faculty",
-        "employer": "DePaul University",
-        "years": "2011–2024"
-      },
-      {
-        "role": "Director, Coquest Institute",
-        "employer": "Coquest Advisors",
-        "years": "Prior"
-      },
-      {
-        "role": "Chief Operating Officer",
-        "employer": "VK Capital (Morgan Stanley CTA)",
-        "years": "Prior"
-      },
-      {
-        "role": "Head of Risk",
-        "employer": "Octane Research",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "DBA (Doctor of Business Administration)",
-        "school": "DePaul University",
-        "year": "2024"
-      },
-      {
-        "degree": "MBA (Finance, Behavioral Science, Econometrics)",
-        "school": "University of Chicago",
-        "year": "1998"
-      },
-      {
-        "degree": "BS in Finance",
-        "school": "DePaul University",
-        "year": "1987"
       }
     ]
   },
