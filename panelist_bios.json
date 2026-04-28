@@ -1,87 +1,5 @@
 [
   {
-    "name": "Marvin Isgur",
-    "current_title": "U.S. Bankruptcy Judge",
-    "current_employer": "U.S. Bankruptcy Court, Southern District of Texas",
-    "panel": "4",
-    "role_on_panel": "Panelist",
-    "email": "marvin_isgur@txs.uscourts.gov",
-    "photo": "panelist_photos/marvin_isgur.jpg",
-    "bio": "Judge Marvin Isgur has served as a United States Bankruptcy Judge for the Southern District of Texas since 2004, reappointed in 2018 through 2032. He served as Chief Judge from 2009 to 2012 and was appointed by Chief Justice Roberts to the Judicial Conference Committee on Court Administration and Case Management—the sole bankruptcy judge on that committee. He has authored over 500 memorandum opinions. Before the bench, Isgur practiced representing debtors and trustees in Chapter 11, 7, and 9 cases and spent 12 years as an executive at a Houston real estate development company. He also serves as adjunct at the University of Houston Law Center. Isgur received a JD, with high honors, from the University of Houston Law Center, an MBA, with honors, from Stanford University, and a BS from the University of Houston.\n",
-    "career": [
-      {
-        "role": "U.S. Bankruptcy Judge",
-        "employer": "Southern District of Texas",
-        "years": "2004–Present"
-      },
-      {
-        "role": "Private bankruptcy practice",
-        "employer": "Various",
-        "years": "1990–2004"
-      },
-      {
-        "role": "Real estate executive",
-        "employer": "Houston development company",
-        "years": "1978–1990"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD, with high honors",
-        "school": "University of Houston Law Center"
-      },
-      {
-        "degree": "MBA, with honors",
-        "school": "Stanford University"
-      },
-      {
-        "degree": "BS",
-        "school": "University of Houston"
-      }
-    ]
-  },
-  {
-    "name": "Virginia M. Kendall",
-    "current_title": "Chief Judge",
-    "current_employer": "U.S. District Court, Northern District of Illinois",
-    "panel": "5",
-    "role_on_panel": "Panelist",
-    "email": "",
-    "photo": "panelist_photos/virginia_kendall.jpg",
-    "bio": "Chief Judge Virginia M. Kendall has served on the U.S. District Court for the Northern District of Illinois since 2006, appointed by President George W. Bush, and became Chief Judge in 2024. Previously a federal prosecutor for over ten years, she served as Deputy Chief of the Criminal Division and Child Exploitation Coordinator. She teaches trial practice and federal litigation at the University of Chicago Law School, Northwestern, and Loyola, and is co-author of books on child exploitation and trafficking. Kendall lectures internationally in over 30 countries and serves on Judicial Conference committees. She received a JD from Loyola University Chicago School of Law, an MA from Northwestern University, and a BA from Northwestern University.\n",
-    "career": [
-      {
-        "role": "Chief Judge",
-        "employer": "U.S. District Court, Northern District of Illinois",
-        "years": "2024–Present"
-      },
-      {
-        "role": "U.S. District Judge",
-        "employer": "U.S. District Court, Northern District of Illinois",
-        "years": "2006–2024"
-      },
-      {
-        "role": "Federal Prosecutor",
-        "employer": "U.S. Attorney's Office, Northern District of Illinois",
-        "years": "Prior (10+ years)"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "Loyola University Chicago School of Law"
-      },
-      {
-        "degree": "MA",
-        "school": "Northwestern University"
-      },
-      {
-        "degree": "BA",
-        "school": "Northwestern University"
-      }
-    ]
-  },
-  {
     "name": "Bruce Markell",
     "current_title": "Retired U.S. Bankruptcy Judge / Professor",
     "current_employer": "Northwestern Pritzker School of Law",
@@ -134,6 +52,130 @@
     ]
   },
   {
+    "name": "Virginia M. Kendall",
+    "current_title": "Chief Judge",
+    "current_employer": "U.S. District Court, Northern District of Illinois",
+    "panel": "5",
+    "role_on_panel": "Panelist",
+    "email": "",
+    "photo": "panelist_photos/virginia_kendall.jpg",
+    "bio": "Chief Judge Virginia M. Kendall has served on the U.S. District Court for the Northern District of Illinois since 2006, appointed by President George W. Bush, and became Chief Judge in 2024. Previously a federal prosecutor for over ten years, she served as Deputy Chief of the Criminal Division and Child Exploitation Coordinator. She teaches trial practice and federal litigation at the University of Chicago Law School, Northwestern, and Loyola, and is co-author of books on child exploitation and trafficking. Kendall lectures internationally in over 30 countries and serves on Judicial Conference committees. She received a JD from Loyola University Chicago School of Law, an MA from Northwestern University, and a BA from Northwestern University.\n",
+    "career": [
+      {
+        "role": "Chief Judge",
+        "employer": "U.S. District Court, Northern District of Illinois",
+        "years": "2024–Present"
+      },
+      {
+        "role": "U.S. District Judge",
+        "employer": "U.S. District Court, Northern District of Illinois",
+        "years": "2006–2024"
+      },
+      {
+        "role": "Federal Prosecutor",
+        "employer": "U.S. Attorney's Office, Northern District of Illinois",
+        "years": "Prior (10+ years)"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "Loyola University Chicago School of Law"
+      },
+      {
+        "degree": "MA",
+        "school": "Northwestern University"
+      },
+      {
+        "degree": "BA",
+        "school": "Northwestern University"
+      }
+    ]
+  },
+  {
+    "name": "Jesse G. Reyes",
+    "current_title": "Justice",
+    "current_employer": "Illinois Appellate Court, First District",
+    "panel": "5",
+    "role_on_panel": "Panelist",
+    "email": "",
+    "photo": "panelist_photos/jesse_reyes.png",
+    "bio": "Hon. Jesse G. Reyes is a Justice of the Illinois Appellate Court, First District since 2012, with over 41 years of legal experience. He has served as Presiding Justice of multiple divisions, Chair of the Executive Committee, and Co-Chair of the Diversity and Inclusion Committee. Previously a Judge on the Circuit Court of Cook County from 1997 to 2012 in the Chancery, Domestic Violence, and Municipal divisions, his earlier career included Senior Supervising Attorney at the City of Chicago Corporation Counsel's Office and Assistant Attorney at the Chicago Board of Education. Reyes received a JD from John Marshall Law School (now UIC School of Law) and a BA from the University of Illinois at Chicago.\n",
+    "career": [
+      {
+        "role": "Justice",
+        "employer": "Illinois Appellate Court, First District",
+        "years": "2012–Present"
+      },
+      {
+        "role": "Judge",
+        "employer": "Circuit Court of Cook County",
+        "years": "1997–2012"
+      },
+      {
+        "role": "Senior Supervising Attorney",
+        "employer": "City of Chicago Corporation Counsel's Office",
+        "years": "1985–1995"
+      },
+      {
+        "role": "Assistant Attorney",
+        "employer": "Chicago Board of Education",
+        "years": "1995–1997"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "John Marshall Law School (now UIC School of Law)"
+      },
+      {
+        "degree": "BA",
+        "school": "University of Illinois at Chicago"
+      }
+    ]
+  },
+  {
+    "name": "Marvin Isgur",
+    "current_title": "U.S. Bankruptcy Judge",
+    "current_employer": "U.S. Bankruptcy Court, Southern District of Texas",
+    "panel": "4",
+    "role_on_panel": "Panelist",
+    "email": "marvin_isgur@txs.uscourts.gov",
+    "photo": "panelist_photos/marvin_isgur.jpg",
+    "bio": "Judge Marvin Isgur has served as a United States Bankruptcy Judge for the Southern District of Texas since 2004, reappointed in 2018 through 2032. He served as Chief Judge from 2009 to 2012 and was appointed by Chief Justice Roberts to the Judicial Conference Committee on Court Administration and Case Management—the sole bankruptcy judge on that committee. He has authored over 500 memorandum opinions. Before the bench, Isgur practiced representing debtors and trustees in Chapter 11, 7, and 9 cases and spent 12 years as an executive at a Houston real estate development company. He also serves as adjunct at the University of Houston Law Center. Isgur received a JD, with high honors, from the University of Houston Law Center, an MBA, with honors, from Stanford University, and a BS from the University of Houston.\n",
+    "career": [
+      {
+        "role": "U.S. Bankruptcy Judge",
+        "employer": "Southern District of Texas",
+        "years": "2004–Present"
+      },
+      {
+        "role": "Private bankruptcy practice",
+        "employer": "Various",
+        "years": "1990–2004"
+      },
+      {
+        "role": "Real estate executive",
+        "employer": "Houston development company",
+        "years": "1978–1990"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD, with high honors",
+        "school": "University of Houston Law Center"
+      },
+      {
+        "degree": "MBA, with honors",
+        "school": "Stanford University"
+      },
+      {
+        "degree": "BS",
+        "school": "University of Houston"
+      }
+    ]
+  },
+  {
     "name": "Heather K. McShain",
     "current_title": "U.S. Magistrate Judge",
     "current_employer": "U.S. District Court, Northern District of Illinois",
@@ -182,48 +224,6 @@
       {
         "degree": "BS in Mathematics",
         "school": "University of Notre Dame"
-      }
-    ]
-  },
-  {
-    "name": "Jesse G. Reyes",
-    "current_title": "Justice",
-    "current_employer": "Illinois Appellate Court, First District",
-    "panel": "5",
-    "role_on_panel": "Panelist",
-    "email": "",
-    "photo": "panelist_photos/jesse_reyes.png",
-    "bio": "Hon. Jesse G. Reyes is a Justice of the Illinois Appellate Court, First District since 2012, with over 41 years of legal experience. He has served as Presiding Justice of multiple divisions, Chair of the Executive Committee, and Co-Chair of the Diversity and Inclusion Committee. Previously a Judge on the Circuit Court of Cook County from 1997 to 2012 in the Chancery, Domestic Violence, and Municipal divisions, his earlier career included Senior Supervising Attorney at the City of Chicago Corporation Counsel's Office and Assistant Attorney at the Chicago Board of Education. Reyes received a JD from John Marshall Law School (now UIC School of Law) and a BA from the University of Illinois at Chicago.\n",
-    "career": [
-      {
-        "role": "Justice",
-        "employer": "Illinois Appellate Court, First District",
-        "years": "2012–Present"
-      },
-      {
-        "role": "Judge",
-        "employer": "Circuit Court of Cook County",
-        "years": "1997–2012"
-      },
-      {
-        "role": "Senior Supervising Attorney",
-        "employer": "City of Chicago Corporation Counsel's Office",
-        "years": "1985–1995"
-      },
-      {
-        "role": "Assistant Attorney",
-        "employer": "Chicago Board of Education",
-        "years": "1995–1997"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD",
-        "school": "John Marshall Law School (now UIC School of Law)"
-      },
-      {
-        "degree": "BA",
-        "school": "University of Illinois at Chicago"
       }
     ]
   },
