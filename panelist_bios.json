@@ -2417,5 +2417,38 @@
       }
     ],
     "education": []
+  },
+  {
+    "name": "Chris Dore",
+    "current_title": "Chief Strategy Officer",
+    "current_employer": "Bridge Legal",
+    "panel": "",
+    "role_on_panel": "Panelist",
+    "email": "",
+    "photo": "panelist_photos/chris_dore.jpg",
+    "bio": "Chris Dore is Chief Strategy Officer at Bridge Legal, an AI-enabled legal fintech platform headquartered in Chicago that delivers end-to-end workflow infrastructure for law firms and litigation funders across the full case lifecycle. Elevated to CSO in January 2026 after joining as Managing Director of Strategic Opportunities in September 2024, Dore leads enterprise-wide strategy, investment initiatives, and portfolio management as Bridge Legal continues to scale its capital markets presence in high-volume consumer litigation.\n\nDore brings more than fifteen years of combined experience as a plaintiff's litigator and litigation finance professional. He was a Partner at Edelson PC, one of the nation's premier mass tort and class action firms, where he built deep expertise in complex multi-district litigation. He subsequently served as a Director at Burford Capital, the world's largest litigation funder, where he oversaw mass tort and single-event investments.\n\nAt Bridge Legal, Dore has been instrumental in sharpening the company's strategic focus, strengthening relationships across the funder and law firm ecosystem, and positioning the platform—anchored by its AI-driven Bridgify software—for its next phase of intentional, disciplined growth. His rare vantage point spanning the plaintiff's bar, institutional litigation finance, and legal technology makes him a distinctive voice on the convergence of capital, AI, and legal practice.",
+    "career": [
+      {
+        "role": "Chief Strategy Officer",
+        "employer": "Bridge Legal",
+        "years": "2026–Present"
+      },
+      {
+        "role": "Managing Director, Strategic Opportunities",
+        "employer": "Bridge Legal",
+        "years": "2024–2026"
+      },
+      {
+        "role": "Director, Mass Tort & Single Event Investments",
+        "employer": "Burford Capital",
+        "years": "Prior to 2024"
+      },
+      {
+        "role": "Partner",
+        "employer": "Edelson PC",
+        "years": "Prior"
+      }
+    ],
+    "education": []
   }
 ]
