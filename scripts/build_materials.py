@@ -81,9 +81,12 @@ def scan():
         if not os.path.isdir(full):
             continue
         short, label = parse_folder_name(entry)
+
+        # files: every regular file in the folder (skip dotfiles + _links.json)
         files = []
+        links = []
         for f in sorted(os.listdir(full)):
-            if f.startswith('.'):
+            if f.startswith('.') or f.startswith('_'):
                 continue
             fpath = os.path.join(full, f)
             if not os.path.isfile(fpath):
@@ -94,6 +97,23 @@ def scan():
                 'path': f'materials/{entry}/{f}',
                 'size_kb': size_kb,
             })
+
+        # links: load _links.json if present
+        links_path = os.path.join(full, '_links.json')
+        if os.path.isfile(links_path):
+            try:
+                with open(links_path) as f:
+                    raw = json.load(f)
+                for entry_l in raw:
+                    if entry_l.get('name') and entry_l.get('url'):
+                        links.append({
+                            'name': entry_l['name'],
+                            'url':  entry_l['url'],
+                            'kind': entry_l.get('kind', 'page'),
+                        })
+            except Exception as e:
+                print(f'  WARN: could not parse {links_path}: {e}')
+
         panels.append({
             'panel_short': short,
             'panel_label': label,
@@ -101,6 +121,7 @@ def scan():
             'speakers':    speakers_by_panel.get(short, []),
             'folder':      entry,
             'files':       files,
+            'links':       links,
         })
 
     panels.sort(key=lambda p: panel_sort_key(p['panel_short']))
@@ -119,4 +140,4 @@ if __name__ == '__main__':
     print(f'Wrote {OUT_PATH}\n')
 
     for p in data:
-        print(f"  {p['panel_short']:14s} | speakers={len(p['speakers']):2d} | files={len(p['files']):2d}  | {p['folder']}")
+        print(f"  {p['panel_short']:14s} | speakers={len(p['speakers']):2d} | files={len(p['files']):2d} | links={len(p['links']):2d} | {p['folder']}")

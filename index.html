@@ -1955,6 +1955,19 @@
             letter-spacing: 0.05em;
             color: var(--gold-muted);
         }
+        .mat-icon-link {
+            border-color: #b9b3a3;
+            color: #7a7363;
+            font-size: 0.5rem;
+        }
+        .mat-icon-video {
+            border-color: #c08a5e;
+            color: #b86a30;
+        }
+        .mat-link .mat-size {
+            color: var(--gray-mid);
+            font-style: italic;
+        }
         .mat-name {
             flex: 1; min-width: 0;
             font-size: 0.88rem;
@@ -3035,18 +3048,30 @@
                                 return '<span class="mat-spk">' + escapeHtml(s.name) + '</span>';
                             }).join('') + '</div>'
                         : '';
-                    var filesHtml = p.files.length
-                        ? p.files.map(function (f) {
-                            var sizeStr = f.size_kb >= 1024
-                                ? (f.size_kb / 1024).toFixed(1) + ' MB'
-                                : f.size_kb + ' KB';
-                            return ''
-                                + '<a class="mat-file" href="' + encodeURI(f.path) + '" target="_blank" rel="noopener">'
-                                +   '<span class="mat-icon">PDF</span>'
-                                +   '<span class="mat-name">' + escapeHtml(f.name) + '</span>'
-                                +   '<span class="mat-size">' + sizeStr + '</span>'
-                                + '</a>';
-                          }).join('')
+                    var KIND_LABEL = { page: 'WEB', video: 'VIDEO' };
+                    var filesHtml = p.files.map(function (f) {
+                        var sizeStr = f.size_kb >= 1024
+                            ? (f.size_kb / 1024).toFixed(1) + ' MB'
+                            : f.size_kb + ' KB';
+                        return ''
+                            + '<a class="mat-file" href="' + encodeURI(f.path) + '" target="_blank" rel="noopener">'
+                            +   '<span class="mat-icon">PDF</span>'
+                            +   '<span class="mat-name">' + escapeHtml(f.name) + '</span>'
+                            +   '<span class="mat-size">' + sizeStr + '</span>'
+                            + '</a>';
+                    }).join('');
+                    var linksHtml = (p.links || []).map(function (lk) {
+                        var label = KIND_LABEL[lk.kind] || 'WEB';
+                        var iconClass = 'mat-icon mat-icon-link mat-icon-' + (lk.kind || 'page');
+                        return ''
+                            + '<a class="mat-file mat-link" href="' + lk.url + '" target="_blank" rel="noopener noreferrer">'
+                            +   '<span class="' + iconClass + '">' + label + '</span>'
+                            +   '<span class="mat-name">' + escapeHtml(lk.name) + '</span>'
+                            +   '<span class="mat-size">External</span>'
+                            + '</a>';
+                    }).join('');
+                    var bodyHtml = (filesHtml || linksHtml)
+                        ? (filesHtml + linksHtml)
                         : '<div class="mat-empty">Materials coming soon &mdash; check back closer to the conference.</div>';
                     return ''
                         + '<div class="mat-panel">'
@@ -3057,7 +3082,7 @@
                         +     '</div>'
                         +     speakersHtml
                         +   '</div>'
-                        +   '<div class="mat-files">' + filesHtml + '</div>'
+                        +   '<div class="mat-files">' + bodyHtml + '</div>'
                         + '</div>';
                 }).join('');
             })
