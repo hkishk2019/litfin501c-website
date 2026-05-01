@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chicago Litigation Finance Conference 2026</title>
+    <script>
+        // Land directly on the Agenda section on first load
+        // (skip when the visitor explicitly requested another anchor, e.g. /#materials)
+        (function () {
+            if (window.location.hash) return;
+            if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+            history.replaceState(null, '', '#agenda');
+            document.addEventListener('DOMContentLoaded', function () {
+                var el = document.getElementById('agenda');
+                if (el) el.scrollIntoView({ block: 'start' });
+            });
+        })();
+    </script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
