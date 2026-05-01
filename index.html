@@ -11,10 +11,28 @@
             if (window.location.hash) return;
             if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
             history.replaceState(null, '', '#agenda');
-            document.addEventListener('DOMContentLoaded', function () {
+
+            // Keep the agenda pinned during async reflow (image loads, fetches, etc.).
+            // Bail out as soon as the user scrolls away from our setpoint.
+            var lastSetY = -1;
+            function pin() {
                 var el = document.getElementById('agenda');
-                if (el) el.scrollIntoView({ block: 'start' });
-            });
+                if (!el) return false;
+                if (lastSetY >= 0 && Math.abs(window.scrollY - lastSetY) > 60) {
+                    return false;
+                }
+                el.scrollIntoView({ block: 'start' });
+                lastSetY = window.scrollY;
+                return true;
+            }
+
+            document.addEventListener('DOMContentLoaded', pin);
+            window.addEventListener('load', pin);
+
+            var n = 0;
+            var iv = setInterval(function () {
+                if (!pin() || ++n >= 12) clearInterval(iv);
+            }, 200);
         })();
     </script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
