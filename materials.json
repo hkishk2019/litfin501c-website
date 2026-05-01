@@ -1,0 +1,466 @@
+[
+  {
+    "panel_short": "Opening Panel",
+    "panel_label": "Opening Panel — A Snapshot of Today’s World Economy",
+    "bio_panel": "Opening Panel",
+    "speakers": [
+      {
+        "name": "Benjamin Blum"
+      },
+      {
+        "name": "Michele Gambera"
+      },
+      {
+        "name": "Mitchell Green"
+      },
+      {
+        "name": "Mark Shore"
+      }
+    ],
+    "folder": "Opening Panel - A Snapshot of Today’s World Economy",
+    "files": []
+  },
+  {
+    "panel_short": "Panel 1",
+    "panel_label": "Panel 1 — Antitrust & Complex Litigation",
+    "bio_panel": "Panel 1",
+    "speakers": [
+      {
+        "name": "Jason Levine"
+      },
+      {
+        "name": "Will Marra"
+      },
+      {
+        "name": "Steven Nachtwey"
+      },
+      {
+        "name": "Andrew Stulce"
+      }
+    ],
+    "folder": "Panel 1 - Antitrust & Complex Litigation",
+    "files": [
+      {
+        "name": "Baker Lit Funders and Settlement Rights.pdf",
+        "path": "materials/Panel 1 - Antitrust & Complex Litigation/Baker Lit Funders and Settlement Rights.pdf",
+        "size_kb": 365
+      },
+      {
+        "name": "Bedi and Marra, The Shadows of Litigation Finance.pdf",
+        "path": "materials/Panel 1 - Antitrust & Complex Litigation/Bedi and Marra, The Shadows of Litigation Finance.pdf",
+        "size_kb": 591
+      },
+      {
+        "name": "Connolly Standing Order.pdf",
+        "path": "materials/Panel 1 - Antitrust & Complex Litigation/Connolly Standing Order.pdf",
+        "size_kb": 212
+      },
+      {
+        "name": "Fitzpatrick Marra Agency Costs.pdf",
+        "path": "materials/Panel 1 - Antitrust & Complex Litigation/Fitzpatrick Marra Agency Costs.pdf",
+        "size_kb": 349
+      },
+      {
+        "name": "Litigation Finance and Antitrust.pdf",
+        "path": "materials/Panel 1 - Antitrust & Complex Litigation/Litigation Finance and Antitrust.pdf",
+        "size_kb": 1566
+      },
+      {
+        "name": "Litigation Finance and Black Swans.pdf",
+        "path": "materials/Panel 1 - Antitrust & Complex Litigation/Litigation Finance and Black Swans.pdf",
+        "size_kb": 1101
+      }
+    ]
+  },
+  {
+    "panel_short": "Panel 2",
+    "panel_label": "Panel 2 — The Matchmakers",
+    "bio_panel": "Panel 2",
+    "speakers": [
+      {
+        "name": "Charles Agee"
+      },
+      {
+        "name": "Sarah Jacobson"
+      },
+      {
+        "name": "Michael Kelley"
+      },
+      {
+        "name": "Matt Leland"
+      }
+    ],
+    "folder": "Panel 2 - The Matchmakers",
+    "files": [
+      {
+        "name": "Westfleet Advisors - Law Firm Best Practices Guide - First Edition 2025.pdf",
+        "path": "materials/Panel 2 - The Matchmakers/Westfleet Advisors - Law Firm Best Practices Guide - First Edition 2025.pdf",
+        "size_kb": 14825
+      },
+      {
+        "name": "Westfleet Insider 2025.pdf",
+        "path": "materials/Panel 2 - The Matchmakers/Westfleet Insider 2025.pdf",
+        "size_kb": 3509
+      },
+      {
+        "name": "Westfleet Litigation Funding Confidentiality (February 2026).pdf",
+        "path": "materials/Panel 2 - The Matchmakers/Westfleet Litigation Funding Confidentiality (February 2026).pdf",
+        "size_kb": 1454
+      }
+    ]
+  },
+  {
+    "panel_short": "Panel 3",
+    "panel_label": "Panel 3 — From the Bench (Judicial)",
+    "bio_panel": "Panel 3",
+    "speakers": [
+      {
+        "name": "Virginia M. Kendall"
+      },
+      {
+        "name": "Heather K. McShain"
+      },
+      {
+        "name": "Jesse G. Reyes"
+      },
+      {
+        "name": "J. Samuel Tenenbaum"
+      }
+    ],
+    "folder": "Panel 3 - From the Bench (Judicial)",
+    "files": []
+  },
+  {
+    "panel_short": "Panel 4",
+    "panel_label": "Panel 4 — Capital in Crisis",
+    "bio_panel": "Panel 4",
+    "speakers": [
+      {
+        "name": "Marc Carmel"
+      },
+      {
+        "name": "Ken Epstein"
+      },
+      {
+        "name": "Marvin Isgur"
+      },
+      {
+        "name": "Jeffery Lula"
+      },
+      {
+        "name": "Bruce Markell"
+      }
+    ],
+    "folder": "Panel 4 - Capital in Crisis",
+    "files": [
+      {
+        "name": "Appendix A - MLCJR (Cox Oil) - Motion to Approve Sale Process (filed 05-22-23)(38123654.1).pdf",
+        "path": "materials/Panel 4 - Capital in Crisis/Appendix A - MLCJR (Cox Oil) - Motion to Approve Sale Process (filed 05-22-23)(38123654.1).pdf",
+        "size_kb": 2171
+      }
+    ]
+  },
+  {
+    "panel_short": "Panel 5",
+    "panel_label": "Panel 5 — Patent to Payout (IP)",
+    "bio_panel": "Panel 5",
+    "speakers": [
+      {
+        "name": "Eric Carlson"
+      },
+      {
+        "name": "Josh Gammon"
+      },
+      {
+        "name": "Joel Merkin"
+      },
+      {
+        "name": "Ryan N. Phelan"
+      },
+      {
+        "name": "Mark York"
+      }
+    ],
+    "folder": "Panel 5 - Patent to Payout (IP)",
+    "files": []
+  },
+  {
+    "panel_short": "Panel 6",
+    "panel_label": "Panel 6 — Beyond Funding & MSOs",
+    "bio_panel": "Panel 6",
+    "speakers": [
+      {
+        "name": "Leonard Brahin"
+      },
+      {
+        "name": "Marc Carmel"
+      },
+      {
+        "name": "Seth Deutsch"
+      },
+      {
+        "name": "Ed Gehres"
+      },
+      {
+        "name": "William Henderson"
+      }
+    ],
+    "folder": "Panel 6 - Beyond Funding & MSOs",
+    "files": [
+      {
+        "name": "Breydo Yale Law Journal Forthcoming.pdf",
+        "path": "materials/Panel 6 - Beyond Funding & MSOs/Breydo Yale Law Journal Forthcoming.pdf",
+        "size_kb": 550
+      },
+      {
+        "name": "Everything Old Is New Again.pdf",
+        "path": "materials/Panel 6 - Beyond Funding & MSOs/Everything Old Is New Again.pdf",
+        "size_kb": 2557
+      },
+      {
+        "name": "How to buy a law firm if you’re not allowed to buy a law firm.pdf",
+        "path": "materials/Panel 6 - Beyond Funding & MSOs/How to buy a law firm if you’re not allowed to buy a law firm.pdf",
+        "size_kb": 0
+      },
+      {
+        "name": "Innovation Diffusion in the Legal Industry.pdf",
+        "path": "materials/Panel 6 - Beyond Funding & MSOs/Innovation Diffusion in the Legal Industry.pdf",
+        "size_kb": 5183
+      },
+      {
+        "name": "PELA Personal Injury White Paper 1-26.pdf",
+        "path": "materials/Panel 6 - Beyond Funding & MSOs/PELA Personal Injury White Paper 1-26.pdf",
+        "size_kb": 4146
+      },
+      {
+        "name": "Private Equity MSO Deals Heating Up - Law360.pdf",
+        "path": "materials/Panel 6 - Beyond Funding & MSOs/Private Equity MSO Deals Heating Up - Law360.pdf",
+        "size_kb": 231
+      },
+      {
+        "name": "Restructuring Law Firms Through Management Service Organizations.pdf",
+        "path": "materials/Panel 6 - Beyond Funding & MSOs/Restructuring Law Firms Through Management Service Organizations.pdf",
+        "size_kb": 1380
+      },
+      {
+        "name": "State-Bar-Study-of-Online-Delivery-of-Legal-Services-July-2018.pdf",
+        "path": "materials/Panel 6 - Beyond Funding & MSOs/State-Bar-Study-of-Online-Delivery-of-Legal-Services-July-2018.pdf",
+        "size_kb": 1648
+      },
+      {
+        "name": "The 2026 ‘burning issues’ confronting firm leaders (355) _ Legal Evolution.pdf",
+        "path": "materials/Panel 6 - Beyond Funding & MSOs/The 2026 ‘burning issues’ confronting firm leaders (355) _ Legal Evolution.pdf",
+        "size_kb": 255
+      },
+      {
+        "name": "US MSO PE Article.pdf",
+        "path": "materials/Panel 6 - Beyond Funding & MSOs/US MSO PE Article.pdf",
+        "size_kb": 2784
+      }
+    ]
+  },
+  {
+    "panel_short": "Policy Panel",
+    "panel_label": "Policy Panel — Rules of the Game",
+    "bio_panel": "Policy Panel",
+    "speakers": [
+      {
+        "name": "Albert Chang"
+      },
+      {
+        "name": "Jack Kelly"
+      },
+      {
+        "name": "Paul Kong"
+      },
+      {
+        "name": "Eric Schuller"
+      }
+    ],
+    "folder": "Policy Panel - Rules of the Game",
+    "files": []
+  },
+  {
+    "panel_short": "Panel A",
+    "panel_label": "Panel A — When Code Meets Claims (AI & LegalTech)",
+    "bio_panel": "Panel A",
+    "speakers": [
+      {
+        "name": "Ed Gehres"
+      },
+      {
+        "name": "David Jang"
+      },
+      {
+        "name": "Daniel Linna"
+      },
+      {
+        "name": "Alex Sha"
+      },
+      {
+        "name": "Daniel Wolfe"
+      }
+    ],
+    "folder": "Panel A - When Code Meets Claims (AI & LegalTech)",
+    "files": [
+      {
+        "name": "Artificial_Intelligence_in_Federal_Courts_preprint_0.pdf",
+        "path": "materials/Panel A - When Code Meets Claims (AI & LegalTech)/Artificial_Intelligence_in_Federal_Courts_preprint_0.pdf",
+        "size_kb": 1907
+      }
+    ]
+  },
+  {
+    "panel_short": "Panel B",
+    "panel_label": "Panel B — The Risk Transfer Layer",
+    "bio_panel": "Panel B",
+    "speakers": [
+      {
+        "name": "Max Bernstein"
+      },
+      {
+        "name": "Matthew Blumenstein"
+      },
+      {
+        "name": "Daniel Bond"
+      },
+      {
+        "name": "Jackson Schaap"
+      }
+    ],
+    "folder": "Panel B - The Risk Transfer Layer",
+    "files": []
+  },
+  {
+    "panel_short": "Panel C",
+    "panel_label": "Panel C — Global Playbook (Cross-border)",
+    "bio_panel": "Panel C",
+    "speakers": [
+      {
+        "name": "Michael Kelley"
+      },
+      {
+        "name": "Erika Levin"
+      },
+      {
+        "name": "Matt Oxman"
+      },
+      {
+        "name": "Victoria Sahani"
+      }
+    ],
+    "folder": "Panel C - Global Playbook (Cross-border)",
+    "files": []
+  },
+  {
+    "panel_short": "Panel D",
+    "panel_label": "Panel D — The Research Frontier (Academic)",
+    "bio_panel": "Panel D",
+    "speakers": [
+      {
+        "name": "Suneal Bedi"
+      },
+      {
+        "name": "Maria Glover"
+      },
+      {
+        "name": "Will Marra"
+      },
+      {
+        "name": "Victoria Sahani"
+      },
+      {
+        "name": "Anthony Sebok"
+      }
+    ],
+    "folder": "Panel D - The Research Frontier (Academic)",
+    "files": [
+      {
+        "name": "Bedi and Marra, Litigation Finance in the Market Square.pdf",
+        "path": "materials/Panel D - The Research Frontier (Academic)/Bedi and Marra, Litigation Finance in the Market Square.pdf",
+        "size_kb": 931
+      },
+      {
+        "name": "Glover, The Civil Justice Business.pdf",
+        "path": "materials/Panel D - The Research Frontier (Academic)/Glover, The Civil Justice Business.pdf",
+        "size_kb": 4320
+      },
+      {
+        "name": "Sahani, Keep to the Code - A Global Code of Conduct for Third-Party Funders.pdf",
+        "path": "materials/Panel D - The Research Frontier (Academic)/Sahani, Keep to the Code - A Global Code of Conduct for Third-Party Funders.pdf",
+        "size_kb": 947
+      },
+      {
+        "name": "Sebok, Some Realism About Litigation Finance.pdf",
+        "path": "materials/Panel D - The Research Frontier (Academic)/Sebok, Some Realism About Litigation Finance.pdf",
+        "size_kb": 855
+      },
+      {
+        "name": "Sebok, The Rules of Professional Responsibility and Legal Finance.pdf",
+        "path": "materials/Panel D - The Research Frontier (Academic)/Sebok, The Rules of Professional Responsibility and Legal Finance.pdf",
+        "size_kb": 691
+      }
+    ]
+  },
+  {
+    "panel_short": "Panel E",
+    "panel_label": "Panel E — Private Credit Meets Legal Risk",
+    "bio_panel": "Panel E",
+    "speakers": [
+      {
+        "name": "Patrick Dempsey"
+      },
+      {
+        "name": "Joshua Libling"
+      },
+      {
+        "name": "Justin Maleson"
+      },
+      {
+        "name": "Ryan Schultz"
+      }
+    ],
+    "folder": "Panel E - Private Credit Meets Legal Risk",
+    "files": []
+  },
+  {
+    "panel_short": "Panel F",
+    "panel_label": "Panel F — The Secondary Market",
+    "bio_panel": "Panel F",
+    "speakers": [
+      {
+        "name": "Timothy Bennett"
+      },
+      {
+        "name": "Kelly Daley"
+      },
+      {
+        "name": "Chris Dore"
+      },
+      {
+        "name": "Michael Kelley"
+      },
+      {
+        "name": "Adam Levitt"
+      }
+    ],
+    "folder": "Panel F - The Secondary Market",
+    "files": [
+      {
+        "name": "Parabellum’s New $754 Million Litigation Fund Is Among Largest.pdf",
+        "path": "materials/Panel F - The Secondary Market/Parabellum’s New $754 Million Litigation Fund Is Among Largest.pdf",
+        "size_kb": 115
+      },
+      {
+        "name": "‘Secondary’ Investing in Litigation Finance (Part 2 of 2) — Slingshot Capital.pdf",
+        "path": "materials/Panel F - The Secondary Market/‘Secondary’ Investing in Litigation Finance (Part 2 of 2) — Slingshot Capital.pdf",
+        "size_kb": 829
+      },
+      {
+        "name": "‘Secondary’ Investing in Litigation Finance — Slingshot Capital.pdf",
+        "path": "materials/Panel F - The Secondary Market/‘Secondary’ Investing in Litigation Finance — Slingshot Capital.pdf",
+        "size_kb": 1012
+      }
+    ]
+  }
+]

@@ -1754,6 +1754,11 @@
         .ia-pnum { font-family: 'Playfair Display', serif; font-weight: 700; color: #1a1a2e; }
         .ia-pnum-crown { color: #a08530; }
         .ia-adjusted { font-size: 10.5px; font-weight: 600; color: #888; margin-top: 4px; }
+        .ia-speakers {
+            font-size: 11px; color: #777; line-height: 1.55;
+            margin-top: 6px; font-weight: 400;
+        }
+        .ia-speakers:empty { display: none; }
         .ia-cta-row {
             display: flex; align-items: center; justify-content: space-between;
             margin-top: 20px; flex-wrap: wrap; gap: 10px;
@@ -1837,6 +1842,113 @@
             .sponsor-wall { padding: 60px 24px; }
             .sponsor-wall-item { font-size: 1rem; padding: 14px 0; letter-spacing: 0.1em; }
         }
+
+        /* ===== MATERIALS / RESOURCES ===== */
+        .materials {
+            padding: 120px 60px;
+            background: var(--bg-warm);
+        }
+        .materials-inner { max-width: 1080px; margin: 0 auto; }
+        .materials-header { text-align: center; margin-bottom: 60px; }
+        .materials-intro {
+            max-width: 640px; margin: 18px auto 0;
+            font-size: 0.92rem; color: var(--gray-mid);
+            line-height: 1.7;
+        }
+        .materials-list { display: flex; flex-direction: column; gap: 28px; }
+        .mat-panel {
+            background: #fff;
+            border: 1px solid var(--gray-light);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .mat-panel-header {
+            padding: 18px 24px;
+            background: var(--bg-warm-alt);
+            border-bottom: 1px solid var(--gray-light);
+            display: flex; flex-direction: column; gap: 10px;
+        }
+        .mat-panel-headline {
+            display: flex; align-items: baseline; gap: 14px;
+            flex-wrap: wrap;
+        }
+        .mat-panel-tag {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.05rem; font-weight: 700;
+            color: var(--text-heading);
+            white-space: nowrap;
+        }
+        .mat-panel-title {
+            font-size: 0.92rem; color: var(--gray-dark);
+            font-weight: 500; line-height: 1.45;
+            flex: 1; min-width: 0;
+        }
+        .mat-speakers {
+            font-size: 0.78rem; line-height: 1.6;
+            color: var(--gray-mid);
+            display: flex; flex-wrap: wrap;
+            gap: 4px 14px;
+        }
+        .mat-spk { white-space: nowrap; }
+        .mat-spk + .mat-spk::before {
+            content: '·';
+            margin-right: 14px;
+            color: #c9c5b8;
+        }
+        .mat-spk-mod {
+            color: var(--gold-muted);
+            font-weight: 600;
+        }
+        .mat-files {
+            display: flex; flex-direction: column;
+        }
+        .mat-file {
+            display: flex; align-items: center; gap: 14px;
+            padding: 12px 24px;
+            border-bottom: 1px solid #f0eee8;
+            text-decoration: none;
+            transition: background 0.15s ease;
+            color: var(--text-body);
+        }
+        .mat-file:last-child { border-bottom: none; }
+        .mat-file:hover { background: var(--gold-tint); }
+        .mat-icon {
+            flex-shrink: 0;
+            width: 32px; height: 38px;
+            display: flex; align-items: center; justify-content: center;
+            background: #fff;
+            border: 1px solid var(--gold);
+            border-radius: 2px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.55rem; font-weight: 700;
+            letter-spacing: 0.05em;
+            color: var(--gold-muted);
+        }
+        .mat-name {
+            flex: 1; min-width: 0;
+            font-size: 0.88rem;
+            line-height: 1.4;
+            word-break: break-word;
+        }
+        .mat-size {
+            flex-shrink: 0;
+            font-size: 0.72rem;
+            color: var(--gray-mid);
+            font-variant-numeric: tabular-nums;
+            white-space: nowrap;
+        }
+        .mat-empty {
+            padding: 18px 24px;
+            font-size: 0.82rem;
+            color: var(--gray-mid);
+            font-style: italic;
+        }
+        @media (max-width: 700px) {
+            .materials { padding: 80px 20px; }
+            .mat-panel-header { padding: 14px 16px; }
+            .mat-file { padding: 12px 16px; }
+            .mat-name { font-size: 0.82rem; }
+        }
     </style>
 </head>
 <body>
@@ -1879,6 +1991,7 @@
             <li><a href="#speakers-section">Speakers</a></li>
             <li><a href="#venue">Venue</a></li>
             <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#materials">Materials</a></li>
             <li><a href="https://www.eventbrite.com/e/1984716483429?aff=oddtdtcreator" target="_blank" class="nav-cta">Register</a></li>
         </ul>
     </nav>
@@ -2223,21 +2336,24 @@
 
                 <div class="ia-block ia-full">
                     <div class="ia-time">8:40 &ndash; 9:20</div>
-                    <div class="ia-session ia-panel">
+                    <div class="ia-session ia-panel" data-panel="Opening Panel">
                         <div class="ia-label">Theater &bull; 1st Floor</div>
                         <div class="ia-title"><span class="ia-pnum">Opening Panel:</span> A Snapshot of Today&rsquo;s World Economy: Perspectives from Macro, Private Equity, Venture Capital, and Secondary Markets</div>
+                        <div class="ia-speakers" data-panel="Opening Panel"></div>
                     </div>
                 </div>
 
                 <div class="ia-block ia-dual">
                     <div class="ia-time">9:25 &ndash; 10:10</div>
-                    <div class="ia-session ia-panel">
+                    <div class="ia-session ia-panel" data-panel="Panel 1">
                         <div class="ia-label">Theater &bull; 1st Floor</div>
                         <div class="ia-title"><span class="ia-pnum">Panel 1:</span> Antitrust &amp; Complex Litigation: High-Stakes Disputes and the Role of Third-Party Funding</div>
+                        <div class="ia-speakers" data-panel="Panel 1"></div>
                     </div>
-                    <div class="ia-session ia-panel ia-crown">
+                    <div class="ia-session ia-panel ia-crown" data-panel="Panel A">
                         <div class="ia-label" style="color:#a08530;">Crown Room &bull; 3rd Floor</div>
                         <div class="ia-title"><span class="ia-pnum ia-pnum-crown">Panel A:</span> When Code Meets Claims: AI, LegalTech, and the Next Generation of Funded Litigation</div>
+                        <div class="ia-speakers" data-panel="Panel A"></div>
                         <div class="ia-adjusted">&#9201; Adjusted time: 9:30 &ndash; 10:15 (incl. transition time)</div>
                     </div>
                 </div>
@@ -2251,25 +2367,29 @@
 
                 <div class="ia-block ia-dual">
                     <div class="ia-time">10:30 &ndash; 11:15</div>
-                    <div class="ia-session ia-panel">
+                    <div class="ia-session ia-panel" data-panel="Panel 2">
                         <div class="ia-label">Theater &bull; 1st Floor</div>
                         <div class="ia-title"><span class="ia-pnum">Panel 2:</span> The Matchmakers: How Advisors and Intermediaries Shape Deal Flow and Pricing</div>
+                        <div class="ia-speakers" data-panel="Panel 2"></div>
                     </div>
-                    <div class="ia-session ia-panel ia-crown">
+                    <div class="ia-session ia-panel ia-crown" data-panel="Panel B">
                         <div class="ia-label" style="color:#a08530;">Crown Room &bull; 3rd Floor</div>
                         <div class="ia-title"><span class="ia-pnum ia-pnum-crown">Panel B:</span> The Risk Transfer Layer: Litigation Insurance, Judgment Preservation, and Portfolio Protection</div>
+                        <div class="ia-speakers" data-panel="Panel B"></div>
                     </div>
                 </div>
 
                 <div class="ia-block ia-dual">
                     <div class="ia-time">11:20 &ndash; 12:10</div>
-                    <div class="ia-session ia-panel">
+                    <div class="ia-session ia-panel" data-panel="Panel 3">
                         <div class="ia-label">Theater &bull; 1st Floor</div>
                         <div class="ia-title"><span class="ia-pnum">Panel 3:</span> From the Bench: Judicial Gatekeeping in Third-Party Funded Litigation</div>
+                        <div class="ia-speakers" data-panel="Panel 3"></div>
                     </div>
-                    <div class="ia-session ia-panel ia-crown">
+                    <div class="ia-session ia-panel ia-crown" data-panel="Panel C">
                         <div class="ia-label" style="color:#a08530;">Crown Room &bull; 3rd Floor</div>
                         <div class="ia-title"><span class="ia-pnum ia-pnum-crown">Panel C:</span> Global Playbook: International Litigation, Arbitration, and Cross-border Enforcement</div>
+                        <div class="ia-speakers" data-panel="Panel C"></div>
                         <div class="ia-adjusted">&#9201; Adjusted time: 11:20 &ndash; 12:05 (incl. transition time)</div>
                     </div>
                 </div>
@@ -2286,21 +2406,24 @@
 
                 <div class="ia-block ia-full">
                     <div class="ia-time">13:30 &ndash; 14:10</div>
-                    <div class="ia-session ia-panel">
+                    <div class="ia-session ia-panel" data-panel="Policy Panel">
                         <div class="ia-label">Theater &bull; 1st Floor</div>
                         <div class="ia-title"><span class="ia-pnum">Policy Panel:</span> Rules of the Game: Disclosure, Regulation, and the Political Future of Legal Funding</div>
+                        <div class="ia-speakers" data-panel="Policy Panel"></div>
                     </div>
                 </div>
 
                 <div class="ia-block ia-dual">
                     <div class="ia-time">14:15 &ndash; 15:00</div>
-                    <div class="ia-session ia-panel">
+                    <div class="ia-session ia-panel" data-panel="Panel 4">
                         <div class="ia-label">Theater &bull; 1st Floor</div>
                         <div class="ia-title"><span class="ia-pnum">Panel 4:</span> Capital in Crisis: Litigation Funding in Bankruptcy and Post-Confirmation Disputes</div>
+                        <div class="ia-speakers" data-panel="Panel 4"></div>
                     </div>
-                    <div class="ia-session ia-panel ia-crown">
+                    <div class="ia-session ia-panel ia-crown" data-panel="Panel D">
                         <div class="ia-label" style="color:#a08530;">Crown Room &bull; 3rd Floor</div>
                         <div class="ia-title"><span class="ia-pnum ia-pnum-crown">Panel D:</span> The Research Frontier: What Scholars Are Finding About Litigation Finance</div>
+                        <div class="ia-speakers" data-panel="Panel D"></div>
                         <div class="ia-adjusted">&#9201; Adjusted time: 14:20 &ndash; 15:05 (incl. transition time)</div>
                     </div>
                 </div>
@@ -2314,25 +2437,29 @@
 
                 <div class="ia-block ia-dual">
                     <div class="ia-time">15:20 &ndash; 16:10</div>
-                    <div class="ia-session ia-panel">
+                    <div class="ia-session ia-panel" data-panel="Panel 5">
                         <div class="ia-label">Theater &bull; 1st Floor</div>
                         <div class="ia-title"><span class="ia-pnum">Panel 5:</span> Patent to Payout: IP Monetization Through Third-Party Capital</div>
+                        <div class="ia-speakers" data-panel="Panel 5"></div>
                     </div>
-                    <div class="ia-session ia-panel ia-crown">
+                    <div class="ia-session ia-panel ia-crown" data-panel="Panel E">
                         <div class="ia-label" style="color:#a08530;">Crown Room &bull; 3rd Floor</div>
                         <div class="ia-title"><span class="ia-pnum ia-pnum-crown">Panel E:</span> Private Credit Meets Legal Risk: Asset-Backed Lending and Law Firm Finance</div>
+                        <div class="ia-speakers" data-panel="Panel E"></div>
                     </div>
                 </div>
 
                 <div class="ia-block ia-dual">
                     <div class="ia-time">16:15 &ndash; 17:05</div>
-                    <div class="ia-session ia-panel">
+                    <div class="ia-session ia-panel" data-panel="Panel 6">
                         <div class="ia-label">Theater &bull; 1st Floor</div>
                         <div class="ia-title"><span class="ia-pnum">Panel 6:</span> Beyond Funding: Current Landscape and Future Trends of Legal Assets Investment and MSOs</div>
+                        <div class="ia-speakers" data-panel="Panel 6"></div>
                     </div>
-                    <div class="ia-session ia-panel ia-crown">
+                    <div class="ia-session ia-panel ia-crown" data-panel="Panel F">
                         <div class="ia-label" style="color:#a08530;">Crown Room &bull; 3rd Floor</div>
                         <div class="ia-title"><span class="ia-pnum ia-pnum-crown">Panel F:</span> The Secondary Market: Liquidity, Continuation Funds, and Price Discovery in Legal Assets</div>
+                        <div class="ia-speakers" data-panel="Panel F"></div>
                         <div class="ia-adjusted">&#9201; Adjusted time: 16:20 &ndash; 17:10 (incl. transition time)</div>
                     </div>
                 </div>
@@ -2352,6 +2479,24 @@
         </div>
     </section>
 
+
+
+    <!-- ===== MATERIALS ===== -->
+    <section class="materials" id="materials">
+        <div class="materials-inner">
+            <div class="materials-header">
+                <div class="section-label">Conference Materials</div>
+                <h2 class="section-title">Pre-Reads & Reference Documents</h2>
+                <p class="materials-intro">
+                    Briefing papers, articles, judicial opinions, and presentations curated by panel moderators &amp; Northwestern University Kellogg School of Management Investment Management Club (E&amp;W).
+                    Click any file to open or download.
+                </p>
+            </div>
+            <div class="materials-list" id="materials-list">
+                <!-- Populated by JS from materials.json -->
+            </div>
+        </div>
+    </section>
 
     <section class="why-attend">
         <div class="why-attend-inner">
@@ -2619,6 +2764,11 @@
         (function() {
             var announce = document.getElementById('announce-overlay');
             if (!announce) return;
+            // --- DISABLED: hide both popups, skip all triggers ---
+            var _disable = document.getElementById('sponsor-reel');
+            announce.style.display = 'none';
+            if (_disable) _disable.style.display = 'none';
+            return;
             var closeBtn = document.getElementById('announce-close');
             var continueBtn = document.getElementById('announce-continue');
             var progressBar = document.getElementById('announce-progress-bar');
@@ -2789,6 +2939,107 @@
             window.addEventListener('resize', onScroll, { passive: true });
             update();
         })();
+    })();
+    </script>
+
+
+    <script>
+    /* ── Inline agenda speaker list (fetched from panelist_bios.json) ─────── */
+    (function () {
+        fetch('panelist_bios.json', { cache: 'no-cache' })
+            .then(function (r) { return r.json(); })
+            .then(function (panelists) {
+                // group by panel label
+                var byPanel = {};
+                panelists.forEach(function (p) {
+                    var labels = Array.isArray(p.panel) ? p.panel : (p.panel ? [p.panel] : []);
+                    labels.forEach(function (lbl) {
+                        if (!lbl) return;
+                        if (!byPanel[lbl]) byPanel[lbl] = [];
+                        byPanel[lbl].push({ name: p.name });
+                    });
+                });
+                // sort alphabetical by last name (no moderator distinction)
+                Object.keys(byPanel).forEach(function (lbl) {
+                    byPanel[lbl].sort(function (a, b) {
+                        var la = a.name.split(' ').pop().toUpperCase();
+                        var lb = b.name.split(' ').pop().toUpperCase();
+                        return la < lb ? -1 : la > lb ? 1 : 0;
+                    });
+                });
+                // inject into placeholders
+                document.querySelectorAll('.ia-speakers[data-panel]').forEach(function (el) {
+                    var lbl = el.getAttribute('data-panel');
+                    var arr = byPanel[lbl] || [];
+                    if (!arr.length) return;
+                    el.innerHTML = arr.map(function (s) { return s.name; })
+                                       .join(' &middot; ');
+                });
+            })
+            .catch(function (e) { console.warn('agenda speakers fetch failed:', e); });
+    })();
+    </script>
+
+
+    <script>
+    /* ── Materials section: fetch materials.json and render panels ────────── */
+    (function () {
+        var listEl = document.getElementById('materials-list');
+        if (!listEl) return;
+        fetch('materials.json', { cache: 'no-cache' })
+            .then(function (r) { return r.json(); })
+            .then(function (panels) {
+                listEl.innerHTML = panels.map(function (p) {
+                    var titleParts = p.panel_label.split(' — ');
+                    var titleAfter = titleParts.length > 1 ? titleParts.slice(1).join(' — ') : '';
+                    var speakersHtml = (p.speakers && p.speakers.length)
+                        ? '<div class="mat-speakers">' + p.speakers
+                            .slice()
+                            .sort(function (a, b) {
+                                var la = a.name.split(' ').pop().toUpperCase();
+                                var lb = b.name.split(' ').pop().toUpperCase();
+                                return la < lb ? -1 : la > lb ? 1 : 0;
+                            })
+                            .map(function (s) {
+                                return '<span class="mat-spk">' + escapeHtml(s.name) + '</span>';
+                            }).join('') + '</div>'
+                        : '';
+                    var filesHtml = p.files.length
+                        ? p.files.map(function (f) {
+                            var sizeStr = f.size_kb >= 1024
+                                ? (f.size_kb / 1024).toFixed(1) + ' MB'
+                                : f.size_kb + ' KB';
+                            return ''
+                                + '<a class="mat-file" href="' + encodeURI(f.path) + '" target="_blank" rel="noopener">'
+                                +   '<span class="mat-icon">PDF</span>'
+                                +   '<span class="mat-name">' + escapeHtml(f.name) + '</span>'
+                                +   '<span class="mat-size">' + sizeStr + '</span>'
+                                + '</a>';
+                          }).join('')
+                        : '<div class="mat-empty">Materials coming soon &mdash; check back closer to the conference.</div>';
+                    return ''
+                        + '<div class="mat-panel">'
+                        +   '<div class="mat-panel-header">'
+                        +     '<div class="mat-panel-headline">'
+                        +       '<span class="mat-panel-tag">' + escapeHtml(p.panel_short) + '</span>'
+                        +       '<span class="mat-panel-title">' + escapeHtml(titleAfter) + '</span>'
+                        +     '</div>'
+                        +     speakersHtml
+                        +   '</div>'
+                        +   '<div class="mat-files">' + filesHtml + '</div>'
+                        + '</div>';
+                }).join('');
+            })
+            .catch(function (e) {
+                listEl.innerHTML = '<div class="mat-empty">Unable to load materials. Please try again later.</div>';
+                console.warn('materials fetch failed:', e);
+            });
+
+        function escapeHtml(s) {
+            return String(s).replace(/[&<>"']/g, function (c) {
+                return { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c];
+            });
+        }
     })();
     </script>
 

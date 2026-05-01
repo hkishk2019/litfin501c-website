@@ -3,7 +3,9 @@
     "name": "Bruce Markell",
     "current_title": "Retired U.S. Bankruptcy Judge / Professor",
     "current_employer": "Northwestern Pritzker School of Law",
-    "panel": "4",
+    "panel": [
+      "Panel 4"
+    ],
     "role_on_panel": "Panelist",
     "email": "bmarkell@law.northwestern.edu",
     "photo": "panelist_photos/bruce_markell.jpg",
@@ -55,7 +57,9 @@
     "name": "Virginia M. Kendall",
     "current_title": "Chief Judge",
     "current_employer": "U.S. District Court, Northern District of Illinois",
-    "panel": "5",
+    "panel": [
+      "Panel 3"
+    ],
     "role_on_panel": "Panelist",
     "email": "",
     "photo": "panelist_photos/virginia_kendall.jpg",
@@ -96,7 +100,9 @@
     "name": "Jesse G. Reyes",
     "current_title": "Justice",
     "current_employer": "Illinois Appellate Court, First District",
-    "panel": "5",
+    "panel": [
+      "Panel 3"
+    ],
     "role_on_panel": "Panelist",
     "email": "",
     "photo": "panelist_photos/jesse_reyes.png",
@@ -138,7 +144,9 @@
     "name": "Marvin Isgur",
     "current_title": "U.S. Bankruptcy Judge",
     "current_employer": "U.S. Bankruptcy Court, Southern District of Texas",
-    "panel": "4",
+    "panel": [
+      "Panel 4"
+    ],
     "role_on_panel": "Panelist",
     "email": "marvin_isgur@txs.uscourts.gov",
     "photo": "panelist_photos/marvin_isgur.jpg",
@@ -179,7 +187,9 @@
     "name": "Heather K. McShain",
     "current_title": "U.S. Magistrate Judge",
     "current_employer": "U.S. District Court, Northern District of Illinois",
-    "panel": "5",
+    "panel": [
+      "Panel 3"
+    ],
     "role_on_panel": "Panelist",
     "email": "",
     "photo": "panelist_photos/heather_mcshain.jpg",
@@ -231,7 +241,9 @@
     "name": "Mark Shore",
     "current_title": "Director and Economist",
     "current_employer": "CME Group",
-    "panel": "1",
+    "panel": [
+      "Opening Panel"
+    ],
     "role_on_panel": "Panelist",
     "email": "mark.shore@cmegroup.com",
     "photo": "panelist_photos/mark_shore.jpg",
@@ -297,7 +309,9 @@
     "name": "Benjamin Blum",
     "current_title": "Managing Director",
     "current_employer": "Flexpoint Ford",
-    "panel": "1",
+    "panel": [
+      "Opening Panel"
+    ],
     "role_on_panel": "Panelist",
     "email": "bblum@flexpointford.com",
     "photo": "panelist_photos/benjamin_blum.jpg",
@@ -343,7 +357,9 @@
     "name": "Michele Gambera",
     "current_title": "Private Investor (ex-Head of Strategic Asset Allocation, UBS Asset Management)",
     "current_employer": "",
-    "panel": "1",
+    "panel": [
+      "Opening Panel"
+    ],
     "role_on_panel": "Panelist",
     "email": "",
     "photo": "panelist_photos/michele_gambera.jpg",
@@ -380,7 +396,9 @@
     "name": "Charles Agee",
     "current_title": "CEO",
     "current_employer": "Westfleet Advisors",
-    "panel": "10",
+    "panel": [
+      "Panel 2"
+    ],
     "role_on_panel": "Panelist",
     "email": "cagee@westfleetadvisors.com",
     "photo": "panelist_photos/charles_agee.jpg",
@@ -408,7 +426,9 @@
     "name": "Suneal Bedi",
     "current_title": "Associate Professor",
     "current_employer": "Indiana University Kelley School of Business",
-    "panel": "11",
+    "panel": [
+      "Panel D"
+    ],
     "role_on_panel": "Moderator",
     "email": "sbedi@iu.edu",
     "photo": "panelist_photos/suneal_bedi.jpg",
@@ -450,10 +470,55 @@
     ]
   },
   {
+    "name": "Timothy Bennett",
+    "current_title": "General Counsel",
+    "current_employer": "Fulcrum Capital",
+    "panel": [
+      "Panel F"
+    ],
+    "role_on_panel": "Panelist",
+    "email": "",
+    "photo": "panelist_photos/timothy_bennett.jpg",
+    "bio": "Timothy C. Bennett is an attorney with over twenty years of experience in sophisticated international corporate, finance, and bankruptcy-related transactions. He joined Fulcrum Capital as General Counsel in 2017, where he manages the firm's day-to-day transactional, litigation, and regulatory/compliance affairs globally and serves as risk manager for Fulcrum's Investment Committee. Before Fulcrum, Mr. Bennett was Senior Counsel at Seyfarth Shaw and the leader of that firm's Global Distressed, Illiquid, and Special Situations Trading group. Prior to that, he was an associate in the banking and finance group at Clifford Chance in New York. His recent experience spans transactions involving distressed loans, bankruptcy claims, litigation finance, receivables factoring, sovereign debt, and cryptocurrency. Mr. Bennett is admitted to practice in New York and Massachusetts.",
+    "career": [
+      {
+        "role": "General Counsel",
+        "employer": "Fulcrum Capital",
+        "years": "2017–Present"
+      },
+      {
+        "role": "Senior Counsel; Leader, Global Distressed, Illiquid & Special Situations Trading",
+        "employer": "Seyfarth Shaw",
+        "years": "Prior"
+      },
+      {
+        "role": "Associate, Banking & Finance",
+        "employer": "Clifford Chance (New York)",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD",
+        "school": "Seton Hall University School of Law"
+      },
+      {
+        "degree": "MBA (Finance)",
+        "school": "Seton Hall University"
+      },
+      {
+        "degree": "BA (History)",
+        "school": "College of the Holy Cross"
+      }
+    ]
+  },
+  {
     "name": "Max Bernstein",
     "current_title": "Senior Vice President",
     "current_employer": "CAC Group",
-    "panel": "12",
+    "panel": [
+      "Panel B"
+    ],
     "role_on_panel": "Moderator",
     "email": "Max.Bernstein@cacgroup.com",
     "photo": "panelist_photos/max_bernstein.jpg",
@@ -501,7 +566,9 @@
     "name": "Matthew Blumenstein",
     "current_title": "Head of Underwriting",
     "current_employer": "Statera Capital",
-    "panel": "12",
+    "panel": [
+      "Panel B"
+    ],
     "role_on_panel": "Panelist",
     "email": "mhb@stateracap.com",
     "photo": "panelist_photos/matthew_blumenstein.jpg",
@@ -538,7 +605,9 @@
     "name": "Daniel Bond",
     "current_title": "Managing Director, North America",
     "current_employer": "Litica",
-    "panel": "12",
+    "panel": [
+      "Panel B"
+    ],
     "role_on_panel": "Panelist",
     "email": "shai.silverman@litica.us",
     "photo": "panelist_photos/daniel_bond.jpg",
@@ -581,7 +650,9 @@
     "name": "Leonard Brahin",
     "current_title": "Associate",
     "current_employer": "Holland & Knight LLP",
-    "panel": "3",
+    "panel": [
+      "Panel 6"
+    ],
     "role_on_panel": "Panelist",
     "email": "Leonard.Brahin@hklaw.com",
     "photo": "panelist_photos/leonard_brahin.jpg",
@@ -614,7 +685,9 @@
     "name": "Eric Carlson",
     "current_title": "Managing Director, Global Patent",
     "current_employer": "Burford Capital",
-    "panel": "7",
+    "panel": [
+      "Panel 5"
+    ],
     "role_on_panel": "Panelist",
     "email": "ecarlson@burfordcapital.com",
     "photo": "panelist_photos/eric_carlson.jpg",
@@ -666,7 +739,10 @@
     "name": "Marc Carmel",
     "current_title": "Managing Member",
     "current_employer": "McDonald Hopkins LLC",
-    "panel": "3, 4",
+    "panel": [
+      "Panel 6",
+      "Panel 4"
+    ],
     "role_on_panel": "Panelist (Panel 3) / Moderator (Panel 4)",
     "email": "mcarmel@mcdonaldhopkins.com",
     "photo": "panelist_photos/marc_carmel.jpg",
@@ -717,7 +793,9 @@
     "name": "Albert Chang",
     "current_title": "Adjunct Professor / Senior Director",
     "current_employer": "Northwestern Pritzker School of Law / Fannie Mae",
-    "panel": "9",
+    "panel": [
+      "Policy Panel"
+    ],
     "role_on_panel": "Moderator",
     "email": "albert.chang1@law.northwestern.edu",
     "photo": "panelist_photos/albert_chang.jpg",
@@ -764,7 +842,9 @@
     "name": "Kelly Daley",
     "current_title": "Founder",
     "current_employer": "Celsia Capital",
-    "panel": "13",
+    "panel": [
+      "Panel F"
+    ],
     "role_on_panel": "Panelist",
     "email": "KMD@gerchen.com",
     "photo": "panelist_photos/kelly_daley.jpg",
@@ -821,7 +901,9 @@
     "name": "Patrick Dempsey",
     "current_title": "Director of Commercial Litigation Strategy",
     "current_employer": "Certum Group",
-    "panel": "8",
+    "panel": [
+      "Panel E"
+    ],
     "role_on_panel": "Moderator",
     "email": "pdempsey@certumgroup.com",
     "photo": "panelist_photos/patrick_dempsey.jpg",
@@ -868,7 +950,9 @@
     "name": "Seth Deutsch",
     "current_title": "Co-Founder",
     "current_employer": "Samson Partners Group",
-    "panel": "3",
+    "panel": [
+      "Panel 6"
+    ],
     "role_on_panel": "Panelist",
     "email": "seth@samsonpartnersgroup.com",
     "photo": "panelist_photos/seth_deutsch.jpg",
@@ -910,7 +994,9 @@
     "name": "Chris Dore",
     "current_title": "Chief Strategy Officer",
     "current_employer": "Bridge Legal",
-    "panel": "",
+    "panel": [
+      "Panel F"
+    ],
     "role_on_panel": "Panelist",
     "email": "",
     "photo": "panelist_photos/chris_dore.jpg",
@@ -943,7 +1029,9 @@
     "name": "Ken Epstein",
     "current_title": "Co-Founder & Principal",
     "current_employer": "Backlit Capital",
-    "panel": "4",
+    "panel": [
+      "Panel 4"
+    ],
     "role_on_panel": "Panelist",
     "email": "ken@backlitcapital.com",
     "photo": "panelist_photos/ken_epstein.jpg",
@@ -990,7 +1078,9 @@
     "name": "Josh Gammon",
     "current_title": "Founder / Instructor",
     "current_employer": "WealthDocket / Northwestern Pritzker School of Law",
-    "panel": "7",
+    "panel": [
+      "Panel 5"
+    ],
     "role_on_panel": "Panelist",
     "email": "jgammon@wealthdocket.com",
     "photo": "panelist_photos/josh_gammon.jpg",
@@ -1032,7 +1122,10 @@
     "name": "Ed Gehres",
     "current_title": "Managing Partner",
     "current_employer": "Invenio LLP",
-    "panel": "3",
+    "panel": [
+      "Panel 6",
+      "Panel A"
+    ],
     "role_on_panel": "Moderator",
     "email": "edg@inveniolaw.com",
     "photo": "panelist_photos/ed_gehres.jpg",
@@ -1085,10 +1178,100 @@
     ]
   },
   {
+    "name": "Maria Glover",
+    "current_title": "Carmack Waterhouse Professor of Law",
+    "current_employer": "Georgetown University Law Center",
+    "panel": [
+      "Panel D"
+    ],
+    "role_on_panel": "Panelist",
+    "email": "",
+    "photo": "panelist_photos/maria_glover.jpg",
+    "bio": "J. Maria Glover is the Carmack Waterhouse Professor of Law at Georgetown University Law Center, where she is a leading expert in civil procedure and civil justice, complex litigation, and private litigation and dispute resolution. Her scholarship has appeared in the Stanford Law Review, the Yale Law Journal, the N.Y.U. Law Review, and the University of Pennsylvania Law Review, and her work has been quoted by numerous courts including the U.S. Supreme Court. In 2023, her article “Mass Arbitration” (Stanford L. Rev.) received Berkeley Law's Civil Justice Research Initiative Best Article Prize, and she was elected to the American Law Institute. Her recent work “Asking the Right Questions About Legal Finance in United States Aggregate Dispute Resolution” (Theoretical Inquiries in Law, 2025) directly engages the role of third-party litigation finance in U.S. aggregate litigation. She is co-author of a leading Civil Procedure casebook (Aspen, 2d ed. 2023) and a forthcoming casebook on Aggregate Litigation and Dispute Resolution. Before Georgetown, Professor Glover was a Climenko Fellow and Lecturer at Harvard Law School, a member of Mayer Brown LLP's Supreme Court & Appellate Practice, and a clerk to Judge J. Harvie Wilkinson III of the U.S. Court of Appeals for the Fourth Circuit. She has testified before Congressional committees on class actions, MDL, and procedural justice reform, and is a frequent media commentator (Washington Post, LA Times, Slate, Reuters).",
+    "career": [
+      {
+        "role": "Carmack Waterhouse Professor of Law",
+        "employer": "Georgetown University Law Center",
+        "years": "2012–Present"
+      },
+      {
+        "role": "Climenko Fellow & Lecturer in Law",
+        "employer": "Harvard Law School",
+        "years": "Prior"
+      },
+      {
+        "role": "Member, Supreme Court & Appellate Practice",
+        "employer": "Mayer Brown LLP",
+        "years": "Prior"
+      },
+      {
+        "role": "Law Clerk",
+        "employer": "Judge J. Harvie Wilkinson III, U.S. Court of Appeals for the Fourth Circuit",
+        "years": "Prior"
+      }
+    ],
+    "education": [
+      {
+        "degree": "JD (Senior Articles Editor, Vanderbilt Law Review; Cecil D. Branstetter Award)",
+        "school": "Vanderbilt University Law School"
+      },
+      {
+        "degree": "BA (Summa Cum Laude, Phi Beta Kappa)",
+        "school": "University of Tennessee, Knoxville"
+      }
+    ]
+  },
+  {
+    "name": "Mitchell Green",
+    "current_title": "Founder & Managing Partner",
+    "current_employer": "Lead Edge Capital",
+    "panel": [
+      "Opening Panel"
+    ],
+    "role_on_panel": "Panelist",
+    "email": "",
+    "photo": "panelist_photos/mitchell_green.jpg",
+    "bio": "Mitchell Green is the Founder and Managing Partner of Lead Edge Capital, a growth equity firm with approximately $5 billion in assets investing in software, internet, and tech-enabled services businesses globally. He oversees all of the Firm's activities and serves on its Investment, Disposition, and Management Committees. Mitchell has led or co-led investments in companies including Alibaba Group, Asana, Benchling, ByteDance, Bumble, Duo Security, FIGS, Grafana, Mindbody, Spotify, Toast, Uber, and Wise. Prior to founding Lead Edge, he was on the investment team at Eastern Advisors, a Tiger Management-backed hedge fund, and an Analyst at Bessemer Venture Partners. He began his career as an investment banker at UBS and Barrington Associates. Mitchell is a former nationally ranked alpine ski racer and serves on the boards of the U.S. Ski & Snowboard Foundation and the Santa Barbara Museum of Art. He is also a World Economic Forum Partner. He holds a B.A. in Economics from Williams College and an M.B.A. in Marketing from The Wharton School at the University of Pennsylvania.",
+    "career": [
+      {
+        "role": "Founder & Managing Partner",
+        "employer": "Lead Edge Capital",
+        "years": "2011–Present"
+      },
+      {
+        "role": "Investment Team",
+        "employer": "Eastern Advisors (Tiger Management)",
+        "years": "Prior"
+      },
+      {
+        "role": "Analyst",
+        "employer": "Bessemer Venture Partners",
+        "years": "Prior"
+      },
+      {
+        "role": "Investment Banker",
+        "employer": "UBS / Barrington Associates",
+        "years": "Early career"
+      }
+    ],
+    "education": [
+      {
+        "degree": "MBA in Marketing",
+        "school": "The Wharton School, University of Pennsylvania"
+      },
+      {
+        "degree": "BA in Economics",
+        "school": "Williams College"
+      }
+    ]
+  },
+  {
     "name": "William Henderson",
     "current_title": "Professor",
     "current_employer": "Indiana University Maurer School of Law",
-    "panel": "3",
+    "panel": [
+      "Panel 6"
+    ],
     "role_on_panel": "Panelist",
     "email": "wihender@iu.edu",
     "photo": "panelist_photos/william_henderson.jpg",
@@ -1135,7 +1318,9 @@
     "name": "Sarah Jacobson",
     "current_title": "Investment Manager / Legal Counsel",
     "current_employer": "Omni Bridgeway",
-    "panel": "10",
+    "panel": [
+      "Panel 2"
+    ],
     "role_on_panel": "Panelist",
     "email": "sjacobson@omnibridgeway.com",
     "photo": "panelist_photos/sarah_jacobson.jpg",
@@ -1177,7 +1362,9 @@
     "name": "David Jang",
     "current_title": "Portfolio Manager",
     "current_employer": "Legalist",
-    "panel": "14",
+    "panel": [
+      "Panel A"
+    ],
     "role_on_panel": "Panelist",
     "email": "david@legalist.com",
     "photo": "panelist_photos/david_jang.jpg",
@@ -1234,7 +1421,11 @@
     "name": "Michael Kelley",
     "current_title": "Partner",
     "current_employer": "Parker Poe Adams & Bernstein LLP",
-    "panel": "10, 13",
+    "panel": [
+      "Panel 2",
+      "Panel F",
+      "Panel C"
+    ],
     "role_on_panel": "Panelist",
     "email": "michaelkelley@parkerpoe.com",
     "photo": "panelist_photos/michael_kelley.jpg",
@@ -1267,7 +1458,9 @@
     "name": "Jack Kelly",
     "current_title": "Managing Director",
     "current_employer": "American Legal Finance Association (ALFA)",
-    "panel": "9",
+    "panel": [
+      "Policy Panel"
+    ],
     "role_on_panel": "Panelist",
     "email": "jkelly@mcphersongroup.us",
     "photo": "panelist_photos/jack_kelly.jpg",
@@ -1310,7 +1503,9 @@
     "name": "Paul Kong",
     "current_title": "Executive Director & President",
     "current_employer": "International Legal Finance Association (ILFA)",
-    "panel": "9",
+    "panel": [
+      "Policy Panel"
+    ],
     "role_on_panel": "Panelist",
     "email": "pkong@ilfa.com",
     "photo": "panelist_photos/paul_kong.jpg",
@@ -1328,7 +1523,9 @@
     "name": "Matt Leland",
     "current_title": "Principal & Co-Founder",
     "current_employer": "Backlit Capital",
-    "panel": "10",
+    "panel": [
+      "Panel 2"
+    ],
     "role_on_panel": "Panelist",
     "email": "matt@backlitcapital.com",
     "photo": "panelist_photos/matt_leland.jpg",
@@ -1375,7 +1572,9 @@
     "name": "Erika Levin",
     "current_title": "Partner",
     "current_employer": "Fox Rothschild LLP",
-    "panel": "6",
+    "panel": [
+      "Panel C"
+    ],
     "role_on_panel": "Moderator",
     "email": "ELevin@foxrothschild.com",
     "photo": "panelist_photos/erika_levin.jpg",
@@ -1432,7 +1631,9 @@
     "name": "Jason Levine",
     "current_title": "Partner",
     "current_employer": "Foley & Lardner LLP",
-    "panel": "2",
+    "panel": [
+      "Panel 1"
+    ],
     "role_on_panel": "Panelist",
     "email": "jason.levine@foley.com",
     "photo": "panelist_photos/jason_levine.jpg",
@@ -1484,7 +1685,9 @@
     "name": "Adam Levitt",
     "current_title": "Founding Partner",
     "current_employer": "DiCello Levitt LLP",
-    "panel": "13",
+    "panel": [
+      "Panel F"
+    ],
     "role_on_panel": "Panelist",
     "email": "alevitt@dicellolevitt.com",
     "photo": "panelist_photos/adam_levitt.jpg",
@@ -1521,7 +1724,9 @@
     "name": "Joshua Libling",
     "current_title": "Founder & Managing Director",
     "current_employer": "Arcadia Finance",
-    "panel": "8",
+    "panel": [
+      "Panel E"
+    ],
     "role_on_panel": "Panelist",
     "email": "joshua@arcadiafin.com",
     "photo": "panelist_photos/joshua_libling.jpg",
@@ -1568,7 +1773,9 @@
     "name": "Daniel Linna",
     "current_title": "Senior Lecturer & Director of Law and Technology Initiatives",
     "current_employer": "Northwestern Pritzker School of Law",
-    "panel": "14",
+    "panel": [
+      "Panel A"
+    ],
     "role_on_panel": "Moderator",
     "email": "daniel.linna@law.northwestern.edu",
     "photo": "panelist_photos/daniel_linna.jpg",
@@ -1619,7 +1826,9 @@
     "name": "Jeffery Lula",
     "current_title": "Managing Director",
     "current_employer": "GLS Capital",
-    "panel": "4",
+    "panel": [
+      "Panel 4"
+    ],
     "role_on_panel": "Panelist",
     "email": "jlula@glscap.com",
     "photo": "panelist_photos/jeffery_lula.jpg",
@@ -1651,7 +1860,9 @@
     "name": "Justin Maleson",
     "current_title": "Managing Director & Assistant General Counsel",
     "current_employer": "Victory Park Capital",
-    "panel": "8",
+    "panel": [
+      "Panel E"
+    ],
     "role_on_panel": "Panelist",
     "email": "jmaleson@victoryparkcapital.com",
     "photo": "panelist_photos/justin_maleson.jpg",
@@ -1688,7 +1899,10 @@
     "name": "Will Marra",
     "current_title": "Director",
     "current_employer": "Certum Group",
-    "panel": "2, 11",
+    "panel": [
+      "Panel 1",
+      "Panel D"
+    ],
     "role_on_panel": "Moderator (Panel 2) / Panelist (Panel 11)",
     "email": "wmarra@certumgroup.com",
     "photo": "panelist_photos/will_marra.jpg",
@@ -1740,7 +1954,9 @@
     "name": "Craig Martin",
     "current_title": "Chairman of the Americas",
     "current_employer": "Willkie Farr & Gallagher LLP",
-    "panel": "Opening",
+    "panel": [
+      "Lunch Fireside Chat"
+    ],
     "role_on_panel": "Fireside Chat",
     "email": "CMartin@willkie.com",
     "photo": "panelist_photos/craig_martin.jpg",
@@ -1777,7 +1993,9 @@
     "name": "Joel Merkin",
     "current_title": "Managing Director",
     "current_employer": "GLS Capital",
-    "panel": "7",
+    "panel": [
+      "Panel 5"
+    ],
     "role_on_panel": "Panelist",
     "email": "jmerkin@glscap.com",
     "photo": "panelist_photos/joel_merkin.jpg",
@@ -1819,7 +2037,9 @@
     "name": "Steven Nachtwey",
     "current_title": "Partner",
     "current_employer": "Bartlit Beck LLP",
-    "panel": "2",
+    "panel": [
+      "Panel 1"
+    ],
     "role_on_panel": "Panelist",
     "email": "steven.nachtwey@bartlitbeck.com",
     "photo": "panelist_photos/steven_nachtwey.jpg",
@@ -1848,7 +2068,9 @@
     "name": "Matt Oxman",
     "current_title": "Vice President of Underwriting",
     "current_employer": "Bench Walk Advisors",
-    "panel": "6",
+    "panel": [
+      "Panel C"
+    ],
     "role_on_panel": "Panelist",
     "email": "matt@benchwalk.com",
     "photo": "panelist_photos/matt_oxman.jpg",
@@ -1894,7 +2116,9 @@
     "name": "Ryan N. Phelan",
     "current_title": "Partner",
     "current_employer": "Marshall, Gerstein & Borun LLP",
-    "panel": "7",
+    "panel": [
+      "Panel 5"
+    ],
     "role_on_panel": "Moderator",
     "email": "rphelan@marshallip.com",
     "photo": "panelist_photos/ryan_phelan.jpg",
@@ -1931,7 +2155,10 @@
     "name": "Victoria Sahani",
     "current_title": "Professor",
     "current_employer": "Boston University School of Law",
-    "panel": "6, 11",
+    "panel": [
+      "Panel C",
+      "Panel D"
+    ],
     "role_on_panel": "Panelist",
     "email": "sahani@bu.edu",
     "photo": "panelist_photos/victoria_sahani.jpg",
@@ -1973,7 +2200,9 @@
     "name": "Jackson Schaap",
     "current_title": "Vice President & Partner",
     "current_employer": "Signal Peak Partners",
-    "panel": "12",
+    "panel": [
+      "Panel B"
+    ],
     "role_on_panel": "Panelist",
     "email": "jackson@signalpeakllc.com",
     "photo": "panelist_photos/jackson_schaap.jpg",
@@ -2006,7 +2235,9 @@
     "name": "Eric Schuller",
     "current_title": "President",
     "current_employer": "Alliance for Responsible Consumer Legal Funding (ARC)",
-    "panel": "9",
+    "panel": [
+      "Policy Panel"
+    ],
     "role_on_panel": "Panelist",
     "email": "eschuller@arclegalfunding.org",
     "photo": "panelist_photos/eric_schuller.jpg",
@@ -2044,7 +2275,9 @@
     "name": "Ryan Schultz",
     "current_title": "Head of Business Development",
     "current_employer": "Pine Valley Capital Partners",
-    "panel": "8",
+    "panel": [
+      "Panel E"
+    ],
     "role_on_panel": "Panelist",
     "email": "Ryan.Schultz@pvcapitalpartners.com",
     "photo": "panelist_photos/ryan_schultz.jpg",
@@ -2082,7 +2315,9 @@
     "name": "Anthony Sebok",
     "current_title": "Professor",
     "current_employer": "Benjamin N. Cardozo School of Law / NYU",
-    "panel": "11",
+    "panel": [
+      "Panel D"
+    ],
     "role_on_panel": "Panelist",
     "email": "sebok@yu.edu",
     "photo": "panelist_photos/anthony_sebok.jpg",
@@ -2142,7 +2377,9 @@
     "name": "Alex Sha",
     "current_title": "Co-Founder",
     "current_employer": "Bridge Legal",
-    "panel": "14",
+    "panel": [
+      "Panel A"
+    ],
     "role_on_panel": "Panelist",
     "email": "alex@bridgelegal.com",
     "photo": "panelist_photos/alex_sha.jpg",
@@ -2179,7 +2416,9 @@
     "name": "Andrew Stulce",
     "current_title": "Director",
     "current_employer": "Longford Capital",
-    "panel": "2",
+    "panel": [
+      "Panel 1"
+    ],
     "role_on_panel": "Panelist",
     "email": "astulce@longfordcapital.com",
     "photo": "panelist_photos/andrew_stulce.jpg",
@@ -2231,7 +2470,9 @@
     "name": "J. Samuel Tenenbaum",
     "current_title": "Clinical Professor",
     "current_employer": "Northwestern Pritzker School of Law",
-    "panel": "5",
+    "panel": [
+      "Panel 3"
+    ],
     "role_on_panel": "Moderator",
     "email": "s-tenenbaum@law.northwestern.edu",
     "photo": "panelist_photos/j_samuel_tenenbaum.jpg",
@@ -2270,51 +2511,12 @@
     ]
   },
   {
-    "name": "Ben Whiting",
-    "current_title": "Senior Partner",
-    "current_employer": "Keller Postman LLC",
-    "panel": "2",
-    "role_on_panel": "Panelist",
-    "email": "ben.whiting@kellerpostman.com",
-    "photo": "panelist_photos/ben_whiting.jpg",
-    "bio": "Ben Whiting is a Senior Partner at Keller Postman specializing in complex litigation including consumer protection, labor and employment, and product liability in class action and mass tort contexts. Previously a partner at Bartlit Beck LLP for a decade, he led a $60 million jury verdict against infant formula manufacturers in 2024 and developed Keller Postman's mass arbitration strategy. Named a 2022 Plaintiffs' Lawyers Trailblazer by the National Law Journal. Before law school, Whiting taught philosophy and logic at multiple universities. He received a JD, with High Honors, from the University of Chicago Law School, an MA in Philosophy from the University of Wyoming, and a BS in Finance and Philosophy from Trinity University.\n",
-    "career": [
-      {
-        "role": "Senior Partner",
-        "employer": "Keller Postman LLC",
-        "years": "2020–Present"
-      },
-      {
-        "role": "Partner",
-        "employer": "Bartlit Beck LLP",
-        "years": "Prior (approx. decade)"
-      },
-      {
-        "role": "Philosophy Instructor",
-        "employer": "Multiple universities",
-        "years": "Prior"
-      }
-    ],
-    "education": [
-      {
-        "degree": "JD, with High Honors",
-        "school": "University of Chicago Law School"
-      },
-      {
-        "degree": "MA in Philosophy",
-        "school": "University of Wyoming"
-      },
-      {
-        "degree": "BS in Finance & Philosophy",
-        "school": "Trinity University"
-      }
-    ]
-  },
-  {
     "name": "Daniel Wolfe",
     "current_title": "Managing Director",
     "current_employer": "Magna Legal Services",
-    "panel": "14",
+    "panel": [
+      "Panel A"
+    ],
     "role_on_panel": "Panelist",
     "email": "dwolfe@magnals.com",
     "photo": "panelist_photos/daniel_wolfe.jpg",
@@ -2369,7 +2571,7 @@
     "name": "Kacey Wolmer",
     "current_title": "Chief Operating Officer",
     "current_employer": "Contingency Capital LLC",
-    "panel": "TBD",
+    "panel": [],
     "role_on_panel": "Panelist (added 4/18)",
     "email": "",
     "photo": "panelist_photos/kacey_wolmer.jpg",
@@ -2422,7 +2624,9 @@
     "name": "Mark York",
     "current_title": "Editor in Chief",
     "current_employer": "LegalCast",
-    "panel": "7",
+    "panel": [
+      "Panel 5"
+    ],
     "role_on_panel": "Panelist",
     "email": "mark@ipsecuretech.com",
     "photo": "panelist_photos/mark_york.jpg",
