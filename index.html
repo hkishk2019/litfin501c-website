@@ -2035,7 +2035,8 @@
             <li><a href="#speakers-section">Speakers</a></li>
             <li><a href="#venue">Venue</a></li>
             <li><a href="#agenda">Agenda</a></li>
-            <li><a href="#materials">Materials</a></li>
+            <!-- Materials nav hidden post-conference (CLE/reading materials no longer publicly displayed). To restore: uncomment this line and the <section class="materials"> block below. -->
+            <!-- <li><a href="#materials">Materials</a></li> -->
             <li><a href="https://www.eventbrite.com/e/1984716483429?aff=oddtdtcreator" target="_blank" class="nav-cta">Register</a></li>
         </ul>
     </nav>
@@ -2526,6 +2527,13 @@
 
 
     <!-- ===== MATERIALS ===== -->
+    <!--
+        ===== MATERIALS SECTION (HIDDEN POST-CONFERENCE) =====
+        The conference is over; CLE/reading materials are no longer publicly
+        displayed. PDFs remain in /materials/ and the manifest in materials.json
+        is unchanged so this section can be restored at any time by:
+          1. Removing the surrounding HTML comment markers, AND
+          2. Uncommenting the nav link entry above (search "#materials").
     <section class="materials" id="materials">
         <div class="materials-inner">
             <div class="materials-header">
@@ -2536,11 +2544,11 @@
                     Click any file to open or download.
                 </p>
             </div>
-            <div class="materials-list" id="materials-list">
-                <!-- Populated by JS from materials.json -->
-            </div>
+            <div class="materials-list" id="materials-list"></div>
         </div>
     </section>
+    -->
+    <!-- ===== END MATERIALS SECTION ===== -->
 
     <section class="why-attend">
         <div class="why-attend-inner">
