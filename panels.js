@@ -347,14 +347,11 @@ window.PANELS_BY_ROOM = [
                 title: "When Code Meets Claims",
                 subtitle:
                     "Algorithms now sit at the funder's table. Diligence learns to read itself, and the next generation of funded litigation begins to take shape.",
-                hero: "photos/ai/mj6a7605-hero.jpg",
+                hero: "photos/ai/mj6a7599-hero.jpg",
                 heroAlt: "AI panel — full stage at the Crown Room",
                 secondaries: [
                     {
-                        photo: {
-                            src: "photos/ai/mj6a7572-thumb.jpg",
-                            alt: "Daniel Linna at the microphone",
-                        },
+                        photo: null,
                         card: {
                             eyebrow: "ON THE PANEL",
                             list: [
