@@ -79,7 +79,7 @@ window.PANELS_BY_ROOM = [
                         card: {
                             eyebrow: "ON THE PANEL",
                             list: [
-                                { name: "Mitchell Green", role: "Moderator · ex-Senior Portfolio Officer, Illinois Firefighters' Pension Fund" },
+                                { name: "Mitchell Green", role: "ex-Senior Portfolio Officer, Illinois Firefighters' Pension Fund" },
                                 { name: "Mark Shore", role: "Director and Economist · CME Group" },
                                 { name: "Benjamin Blum", role: "Managing Director · Flexpoint Ford" },
                                 { name: "Michele Gambera", role: "Private Investor (ex-Head of Strategic Asset Allocation, UBS Asset Management)" },
@@ -102,7 +102,7 @@ window.PANELS_BY_ROOM = [
                         card: {
                             eyebrow: "ON THE PANEL",
                             list: [
-                                { name: "Will Marra", role: "Moderator · Director, Certum Group" },
+                                { name: "Will Marra", role: "Director, Certum Group" },
                                 { name: "Jason Levine", role: "Partner · Foley & Lardner LLP" },
                                 { name: "Steven Nachtwey", role: "Partner · Bartlit Beck LLP" },
                                 { name: "Andrew Stulce", role: "Director · Longford Capital" },
@@ -125,7 +125,7 @@ window.PANELS_BY_ROOM = [
                         card: {
                             eyebrow: "ON THE PANEL",
                             list: [
-                                { name: "Michael Kelley", role: "Moderator · Parker Poe / University of Chicago Law School" },
+                                { name: "Michael Kelley", role: "Parker Poe / University of Chicago Law School" },
                                 { name: "Charles Agee", role: "CEO · Westfleet Advisors" },
                                 { name: "Sarah Jacobson", role: "Investment Manager / Legal Counsel · Omni Bridgeway" },
                                 { name: "Matt Leland", role: "Co-Founder & Principal · Backlit Capital" },
@@ -150,7 +150,6 @@ window.PANELS_BY_ROOM = [
                             list: [
                                 { name: "Virginia M. Kendall", role: "Chief Judge · U.S. District Court, Northern District of Illinois" },
                                 { name: "Heather K. McShain", role: "U.S. Magistrate Judge · U.S. District Court, Northern District of Illinois" },
-                                { name: "Jesse G. Reyes", role: "Justice · Illinois Appellate Court, First District" },
                                 { name: "J. Samuel Tenenbaum", role: "Clinical Professor · Northwestern Pritzker School of Law" },
                             ],
                         },
@@ -202,7 +201,7 @@ window.PANELS_BY_ROOM = [
                         card: {
                             eyebrow: "ON THE PANEL",
                             list: [
-                                { name: "Albert Chang", role: "Moderator · Adjunct Professor / Senior Director · Northwestern Pritzker School of Law / Fannie Mae" },
+                                { name: "Albert Chang", role: "Adjunct Professor / Senior Director · Northwestern Pritzker School of Law / Fannie Mae" },
                                 { name: "Jack Kelly", role: "Managing Director · American Legal Finance Association (ALFA)" },
                                 { name: "Paul Kong", role: "Executive Director & President · International Legal Finance Association (ILFA)" },
                                 { name: "Eric Schuller", role: "President · Alliance for Responsible Consumer Legal Funding (ARC)" },
@@ -226,7 +225,7 @@ window.PANELS_BY_ROOM = [
                         card: {
                             eyebrow: "ON THE PANEL",
                             list: [
-                                { name: "Marc Carmel", role: "Moderator · Managing Member, McDonald Hopkins LLC" },
+                                { name: "Marc Carmel", role: "Managing Member, McDonald Hopkins LLC" },
                                 { name: "Marvin Isgur", role: "U.S. Bankruptcy Judge · S.D. Texas" },
                                 { name: "Bruce Markell", role: "Retired U.S. Bankruptcy Judge / Professor · Northwestern Pritzker School of Law" },
                                 { name: "Ken Epstein", role: "Co-Founder & Principal · Backlit Capital" },
@@ -250,7 +249,7 @@ window.PANELS_BY_ROOM = [
                         card: {
                             eyebrow: "ON THE PANEL",
                             list: [
-                                { name: "Ryan N. Phelan", role: "Moderator · Partner, Marshall, Gerstein & Borun LLP" },
+                                { name: "Ryan N. Phelan", role: "Partner, Marshall, Gerstein & Borun LLP" },
                                 { name: "Eric Carlson", role: "Managing Director, Global Patent · Burford Capital" },
                                 { name: "Josh Gammon", role: "Founder / Instructor · WealthDocket / Northwestern Pritzker School of Law" },
                                 { name: "Joel Merkin", role: "Managing Director · GLS Capital" },
@@ -274,7 +273,7 @@ window.PANELS_BY_ROOM = [
                         card: {
                             eyebrow: "ON THE PANEL",
                             list: [
-                                { name: "Ed Gehres", role: "Moderator · Managing Partner, Invenio LLP" },
+                                { name: "Ed Gehres", role: "Managing Partner, Invenio LLP" },
                                 { name: "Marc Carmel", role: "Managing Member · McDonald Hopkins LLC" },
                                 { name: "Seth Deutsch", role: "Co-Founder · Samson Partners Group" },
                                 { name: "William Henderson", role: "Professor · Indiana University Maurer School of Law" },
@@ -359,7 +358,7 @@ window.PANELS_BY_ROOM = [
                         card: {
                             eyebrow: "ON THE PANEL",
                             list: [
-                                { name: "Daniel Linna", role: "Moderator · Senior Lecturer & Director of Law and Technology Initiatives, Northwestern Pritzker School of Law" },
+                                { name: "Daniel Linna", role: "Senior Lecturer & Director of Law and Technology Initiatives, Northwestern Pritzker School of Law" },
                                 { name: "Ed Gehres", role: "Managing Partner · Invenio LLP" },
                                 { name: "David Jang", role: "Portfolio Manager · Legalist" },
                                 { name: "Alex Sha", role: "Co-Founder · Bridge Legal" },
@@ -381,12 +380,12 @@ window.PANELS_BY_ROOM = [
                     {
                         photo: {
                             src: "photos/insurance/mj6a7704-thumb.jpg",
-                            alt: "Moderator Max Bernstein laughing with the panel",
+                            alt: "Max Bernstein laughing with the panel",
                         },
                         card: {
                             eyebrow: "ON THE PANEL",
                             list: [
-                                { name: "Max Bernstein", role: "Moderator · Senior Vice President, CAC Group" },
+                                { name: "Max Bernstein", role: "Senior Vice President, CAC Group" },
                                 { name: "Matthew Blumenstein", role: "Head of Underwriting · Statera Capital" },
                                 { name: "Daniel Bond", role: "Managing Director, North America · Litica" },
                                 { name: "Jackson Schaap", role: "Vice President & Partner · Signal Peak Partners" },
@@ -412,7 +411,7 @@ window.PANELS_BY_ROOM = [
                         card: {
                             eyebrow: "ON THE PANEL",
                             list: [
-                                { name: "Michael Kelley", role: "Moderator · Parker Poe / University of Chicago Law School" },
+                                { name: "Michael Kelley", role: "Parker Poe / University of Chicago Law School" },
                                 { name: "Erika Levin", role: "Partner · Fox Rothschild LLP" },
                                 { name: "Matt Oxman", role: "Vice President of Underwriting · Bench Walk Advisors" },
                                 { name: "Victoria Sahani", role: "Professor · Boston University School of Law" },
@@ -467,7 +466,7 @@ window.PANELS_BY_ROOM = [
                         card: {
                             eyebrow: "ON THE PANEL",
                             list: [
-                                { name: "Patrick Dempsey", role: "Moderator · Director of Commercial Litigation Strategy, Certum Group" },
+                                { name: "Patrick Dempsey", role: "Director of Commercial Litigation Strategy, Certum Group" },
                                 { name: "Joshua Libling", role: "Founder & Managing Director · Arcadia Finance" },
                                 { name: "Justin Maleson", role: "Managing Director & Assistant General Counsel · Victory Park Capital" },
                                 { name: "Ryan Schultz", role: "Head of Business Development · Pine Valley Capital Partners" },
@@ -493,7 +492,7 @@ window.PANELS_BY_ROOM = [
                         card: {
                             eyebrow: "ON THE PANEL",
                             list: [
-                                { name: "Michael Kelley", role: "Moderator · Parker Poe / University of Chicago Law School" },
+                                { name: "Michael Kelley", role: "Parker Poe / University of Chicago Law School" },
                                 { name: "Timothy Bennett", role: "General Counsel · Fulcrum" },
                                 { name: "Kelly Daley", role: "Founder · Celsia Capital" },
                                 { name: "Chris Dore", role: "Chief Strategy Officer · Bridge Legal" },
