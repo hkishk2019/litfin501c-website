@@ -351,7 +351,10 @@ window.PANELS_BY_ROOM = [
                 heroAlt: "AI panel — full stage at the Crown Room",
                 secondaries: [
                     {
-                        photo: null,
+                        photo: {
+                            src: "photos/ai/mj6a7572-thumb.jpg",
+                            alt: "Daniel Linna speaking at the AI panel, Crown Room",
+                        },
                         card: {
                             eyebrow: "ON THE PANEL",
                             list: [
