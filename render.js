@@ -156,7 +156,7 @@
         const note = document.createElement("textarea");
         note.className = "pg-download-textarea";
         note.placeholder = "with admiration";
-        note.maxLength = 120;
+        note.maxLength = 180;
         note.rows = 2;
         body.appendChild(note);
         body.appendChild(el("p", "pg-download-hint",
@@ -441,24 +441,62 @@
                 const cleanSig  = (signature || "").trim();
 
                 if (cleanNote || cleanSig) {
-                    const fontSize = Math.round(pW * 0.042);
-                    const lineH    = Math.round(fontSize * 1.55);
+                    const textX    = sideB + Math.round(pW * 0.04);
+                    // Available width: left margin to just before the gold bar
+                    const maxTextW = confLeft - textX - Math.round(pW * 0.03);
+                    const availH   = Math.round(bottomB * 0.76);
+                    const MAX_NOTE_LINES = 3;
+
+                    // Word-wrap helper — measures with whatever ctx.font is currently set
+                    const wrapWords = (text, maxW, maxL) => {
+                        const words = text.split(/\s+/).filter(Boolean);
+                        const out = [];
+                        let cur = "";
+                        for (const w of words) {
+                            const test = cur ? cur + " " + w : w;
+                            if (ctx.measureText(test).width > maxW && cur) {
+                                out.push(cur);
+                                if (out.length >= maxL) break;
+                                cur = w;
+                            } else {
+                                cur = test;
+                            }
+                        }
+                        if (cur && out.length < maxL) out.push(cur);
+                        return out;
+                    };
+
+                    // Measure line count at base size, then scale down if needed
+                    let fontSize = Math.round(pW * 0.042);
+                    ctx.font = `${fontSize}px "Pinyon Script", "Playfair Display", serif`;
+                    const noteLines = cleanNote ? wrapWords(cleanNote, maxTextW, MAX_NOTE_LINES) : [];
+                    const totalLines = noteLines.length + (cleanSig ? 1 : 0);
+
+                    // Shrink font so all lines fit vertically inside the strip
+                    if (totalLines > 1) {
+                        const maxByHeight = Math.floor(availH / (totalLines * 1.55));
+                        fontSize = Math.min(fontSize, maxByHeight);
+                    }
+
+                    const finalFont = `${fontSize}px "Pinyon Script", "Playfair Display", serif`;
+                    ctx.font = finalFont;
+                    // Re-wrap at final (possibly smaller) size
+                    const finalNoteLines = cleanNote ? wrapWords(cleanNote, maxTextW, MAX_NOTE_LINES) : [];
+                    const allLines = [...finalNoteLines, ...(cleanSig ? [cleanSig] : [])];
+                    const lineH = Math.round(fontSize * 1.55);
 
                     ctx.textAlign    = "left";
                     ctx.textBaseline = "middle";
-                    ctx.font         = `${fontSize}px "Pinyon Script", "Playfair Display", serif`;
                     ctx.fillStyle    = "#2c2a26";
                     ctx.shadowColor  = "rgba(0,0,0,0.06)";
                     ctx.shadowBlur   = 3;
                     setLetterSpacing(ctx, "0em");
 
-                    const textX = sideB + Math.round(pW * 0.04);
-                    const lines = [cleanNote, cleanSig].filter(Boolean);
-                    if (lines.length === 1) {
-                        ctx.fillText(lines[0], textX, stripMidY);
-                    } else {
-                        ctx.fillText(lines[0], textX, stripMidY - Math.round(lineH / 2));
-                        ctx.fillText(lines[1], textX, stripMidY + Math.round(lineH / 2));
+                    // Centre the block vertically in the strip
+                    let ty = stripMidY - Math.round((allLines.length * lineH) / 2) + Math.round(lineH / 2);
+                    for (const line of allLines) {
+                        ctx.fillText(line, textX, ty);
+                        ty += lineH;
                     }
                     ctx.shadowBlur = 0;
                 }
